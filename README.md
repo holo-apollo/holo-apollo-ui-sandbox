@@ -13,7 +13,9 @@ For API project see https://github.com/holo-apollo/holo-apollo-api.
   ```
   yarn
   ```
-  
+
+- To not forget to build and commit bundles, set up pre-commit git hook
+
 #### Internationalization (i18n)
 
 - Mark all user-facing strings in React code using [react-intl](https://github.com/yahoo/react-intl/wiki#getting-started) means
