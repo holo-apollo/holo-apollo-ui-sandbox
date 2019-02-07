@@ -13,6 +13,7 @@
     "start": "babel-node server -r scripts/dotenvConfig.js",
     "watch": "webpack --progress -w --config webpack.config.js",
     "build": "webpack --config webpack.prod.config.js",
+    "build:dev": "webpack --config webpack.config.js",
     "storybook": "start-storybook -p 9001 -c storybook/config",
     "storybook:build": "build-storybook -c storybook/config -o storybook/static",
     "eslint": "eslint src -f tap",
