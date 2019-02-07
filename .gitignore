@@ -1,0 +1,9 @@
+.env
+.idea
+.DS_Store
+*.log
+node_modules
+build
+i18n/messages
+coverage
+storybook/static

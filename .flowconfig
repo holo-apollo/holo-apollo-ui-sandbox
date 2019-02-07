@@ -1,0 +1,13 @@
+[ignore]
+
+[include]
+src
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^\(apps\|common\|helpers\)\/\(.*\)$' -> '<PROJECT_ROOT>/src/\1/\2'
+
+[strict]
