@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const BundleTracker = require('webpack-bundle-tracker');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 let definePlugin = new webpack.DefinePlugin({
@@ -10,18 +9,12 @@ let definePlugin = new webpack.DefinePlugin({
 });
 
 module.exports = {
-  // entry: {
-  //   landing: './src/apps/landing/roots/subscription.js',
-  //   application_form: './src/apps/stores/roots/application_form.js',
-  // },
-  // output: {
-  //   path: __dirname + '/build/webpack_bundles/',
-  //   filename: '[name]-bundle.[hash].js',
-  // },
-  plugins: [
-    definePlugin,
-    new BundleTracker({ filename: './webpack-stats-prod.json' }),
-  ],
+  entry: './src/app.js',
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: '[name].bundle.js',
+  },
+  plugins: [definePlugin],
   optimization: {
     splitChunks: {
       chunks: 'all',
