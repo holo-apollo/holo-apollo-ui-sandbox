@@ -1,6 +1,8 @@
 {
   "assetsByChunkName": {
-    "commons": "commons.09f9f473599d39e025d9.bundle-prod.js",
-    "main": "main.09f9f473599d39e025d9.bundle-prod.js"
+    "application": "application.1aa00d7f9e41aaf8481d.bundle-prod.js",
+    "commons": "commons.1aa00d7f9e41aaf8481d.bundle-prod.js",
+    "home-page": "home-page.1aa00d7f9e41aaf8481d.bundle-prod.js",
+    "main": "main.1aa00d7f9e41aaf8481d.bundle-prod.js"
   }
 }

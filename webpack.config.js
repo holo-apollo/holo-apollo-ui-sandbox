@@ -1,5 +1,6 @@
 const path = require('path');
 const { StatsWriterPlugin } = require('webpack-stats-plugin');
+const { ReactLoadablePlugin } = require('react-loadable/webpack');
 
 module.exports = {
   devtool: 'eval',
@@ -7,8 +8,14 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'static/bundles'),
     filename: '[name].[hash].bundle-dev.js',
+    publicPath: '/bundles/',
   },
-  plugins: [new StatsWriterPlugin({ filename: 'webpack-stats-dev.json' })],
+  plugins: [
+    new StatsWriterPlugin({ filename: 'webpack-stats-dev.json' }),
+    new ReactLoadablePlugin({
+      filename: './static/bundles/react-loadable-stats-dev.json',
+    }),
+  ],
   optimization: {
     splitChunks: {
       chunks: 'all',

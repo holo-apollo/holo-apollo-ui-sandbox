@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{66:function(n,e,t){"use strict";t.r(e);var o=t(0),c=t.n(o);e.default=function(){return c.a.createElement("h1",null,"Welcome to HOME PAGE")}}}]);

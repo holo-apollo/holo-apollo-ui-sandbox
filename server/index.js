@@ -3,6 +3,8 @@ import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
+import { preloadAll, Capture } from 'react-loadable';
+import { getBundles } from 'react-loadable/webpack';
 
 import App from 'containers/App';
 
@@ -11,48 +13,73 @@ const app = express();
 const STATIC_DIR_NAME = 'static';
 const BUNDLES_DIR_NAME = 'bundles';
 const isProd = process.env.NODE_ENV === 'production';
-const webpackStats = require(`../${STATIC_DIR_NAME}/${BUNDLES_DIR_NAME}/webpack-stats-${
-  isProd ? 'prod' : 'dev'
-}.json`);
+const suffix = isProd ? 'prod' : 'dev';
+const webpackStats = require(`../${STATIC_DIR_NAME}/${BUNDLES_DIR_NAME}/webpack-stats-${suffix}.json`);
+const reactLoadableStats = require(`../${STATIC_DIR_NAME}/${BUNDLES_DIR_NAME}/react-loadable-stats-${suffix}.json`);
 
 const staticDir = path.resolve(__dirname, `../${STATIC_DIR_NAME}`);
 
 function getBundlePath(bundleName) {
   const bundleFileName = webpackStats.assetsByChunkName[bundleName];
-  return `./${BUNDLES_DIR_NAME}/${bundleFileName}`;
+  return `/${BUNDLES_DIR_NAME}/${bundleFileName}`;
 }
 
 app.use(express.static(staticDir));
 
 app.get('/*', (req, res) => {
   const context = {};
+  const modules = [];
   const jsx = (
-    <StaticRouter context={context} location={req.url}>
-      <App />
-    </StaticRouter>
+    <Capture report={moduleName => modules.push(moduleName)}>
+      <StaticRouter context={context} location={req.url}>
+        <App />
+      </StaticRouter>
+    </Capture>
   );
+
+  if (context.url) {
+    res.redirect(context.url);
+    return;
+  }
 
   const reactDom = renderToString(jsx);
 
+  const bundles = getBundles(reactLoadableStats, modules);
+  const bundlesString = bundles
+    .map(bundle => {
+      return `<script src="${bundle.publicPath}"></script>`;
+    })
+    .join('\\n');
+
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.end(htmlTemplate(reactDom));
+  res.end(htmlTemplate(reactDom, bundlesString));
 });
 
-app.listen(process.env.PORT);
-// eslint-disable-next-line no-console
-console.log('Server has started');
+preloadAll()
+  .then(() => {
+    app.listen(process.env.PORT, () => {
+      // eslint-disable-next-line no-console
+      console.log('Server has started');
+    });
+  })
+  .catch(error => {
+    // eslint-disable-next-line no-console
+    console.log(error);
+  });
 
-function htmlTemplate(reactDom) {
+function htmlTemplate(reactDom, bundlesString) {
   return `
     <!DOCTYPE html>
     <html>
     <head>
       <meta charset="utf-8">
       <title>Holo-Apollo</title>
+      <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" />
     </head>
         
     <body>
       <div id="app">${reactDom}</div>
+      ${bundlesString}
       <script src="${getBundlePath('main')}"></script>
       <script src="${getBundlePath('commons')}"></script>
     </body>

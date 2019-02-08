@@ -1,5 +1,12 @@
-import React from 'react';
+import Loadable from 'react-loadable';
 
-const HomePage = () => <h1>Welcome to HOME PAGE</h1>;
+import DoubleBounceSpinner from 'common/components/spinners/DoubleBounceSpinner';
+
+// eslint-disable-next-line new-cap
+const HomePage = Loadable({
+  loader: () =>
+    import(/* webpackChunkName: 'home-page' */ './NotLoadableHomePage'),
+  loading: DoubleBounceSpinner,
+});
 
 export default HomePage;

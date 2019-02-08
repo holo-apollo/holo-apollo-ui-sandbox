@@ -48,6 +48,7 @@
                 "root": ["./src"],
                 "extensions": [".js", ".jsx"]
             }
-        ]
+        ],
+        "react-loadable/babel"
     ]
 }

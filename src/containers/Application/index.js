@@ -1,5 +1,12 @@
-import React from 'react';
+import Loadable from 'react-loadable';
 
-const Application = () => <h1>Participant application</h1>;
+import DoubleBounceSpinner from 'common/components/spinners/DoubleBounceSpinner';
+
+// eslint-disable-next-line new-cap
+const Application = Loadable({
+  loader: () =>
+    import(/* webpackChunkName: 'application' */ './NotLoadableApplication'),
+  loading: DoubleBounceSpinner,
+});
 
 export default Application;

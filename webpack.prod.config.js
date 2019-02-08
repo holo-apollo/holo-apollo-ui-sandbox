@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const { StatsWriterPlugin } = require('webpack-stats-plugin');
+const { ReactLoadablePlugin } = require('react-loadable/webpack');
 
 const definePlugin = new webpack.DefinePlugin({
   'process.env': {
@@ -14,10 +15,14 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'static/bundles'),
     filename: '[name].[hash].bundle-prod.js',
+    publicPath: '/bundles/',
   },
   plugins: [
     definePlugin,
     new StatsWriterPlugin({ filename: 'webpack-stats-prod.json' }),
+    new ReactLoadablePlugin({
+      filename: './static/bundles/react-loadable-stats-prod.json',
+    }),
   ],
   optimization: {
     splitChunks: {

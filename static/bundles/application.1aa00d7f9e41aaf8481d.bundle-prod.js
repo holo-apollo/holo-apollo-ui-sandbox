@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{65:function(n,t,a){"use strict";a.r(t);var e=a(0),i=a.n(e);t.default=function(){return i.a.createElement("h1",null,"Participant application")}}}]);
