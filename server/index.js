@@ -8,8 +8,6 @@ import { getBundles } from 'react-loadable/webpack';
 
 import App from 'containers/App';
 
-const app = express();
-
 const STATIC_DIR_NAME = 'static';
 const BUNDLES_DIR_NAME = 'bundles';
 const isProd = process.env.NODE_ENV === 'production';
@@ -23,6 +21,10 @@ function getBundlePath(bundleName) {
   const bundleFileName = webpackStats.assetsByChunkName[bundleName];
   return `/${BUNDLES_DIR_NAME}/${bundleFileName}`;
 }
+
+const app = express();
+
+app.set('view engine', 'ejs');
 
 app.use(express.static(staticDir));
 
@@ -45,14 +47,13 @@ app.get('/*', (req, res) => {
   const reactDom = renderToString(jsx);
 
   const bundles = getBundles(reactLoadableStats, modules);
-  const bundlesString = bundles
-    .map(bundle => {
-      return `<script src="${bundle.publicPath}"></script>`;
-    })
-    .join('\\n');
+  const bundlePaths = [
+    ...bundles.map(bundle => bundle.publicPath),
+    getBundlePath('main'),
+    getBundlePath('commons'),
+  ];
 
-  res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.end(htmlTemplate(reactDom, bundlesString));
+  res.render('index', { reactDom, bundlePaths });
 });
 
 preloadAll()
@@ -66,23 +67,3 @@ preloadAll()
     // eslint-disable-next-line no-console
     console.log(error);
   });
-
-function htmlTemplate(reactDom, bundlesString) {
-  return `
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Holo-Apollo</title>
-      <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" />
-    </head>
-        
-    <body>
-      <div id="app">${reactDom}</div>
-      ${bundlesString}
-      <script src="${getBundlePath('main')}"></script>
-      <script src="${getBundlePath('commons')}"></script>
-    </body>
-    </html>
-  `;
-}

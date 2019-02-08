@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Holo-Apollo</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
+</head>
+
+<body>
+<div id="app"><%- reactDom -%></div>
+
+<% bundlePaths.forEach(function(bundle) { %>
+    <script src="<%= bundle %>"></script>
+<% }); %>
+
+</body>
+</html>
