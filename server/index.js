@@ -8,10 +8,21 @@ import App from 'containers/App';
 
 const app = express();
 
-const bundleDir =
-  process.env.NODE_ENV === 'production' ? '../build' : '../dist';
+const STATIC_DIR_NAME = 'static';
+const BUNDLES_DIR_NAME = 'bundles';
+const isProd = process.env.NODE_ENV === 'production';
+const webpackStats = require(`../${STATIC_DIR_NAME}/${BUNDLES_DIR_NAME}/webpack-stats-${
+  isProd ? 'prod' : 'dev'
+}.json`);
 
-app.use(express.static(path.resolve(__dirname, bundleDir)));
+const staticDir = path.resolve(__dirname, `../${STATIC_DIR_NAME}`);
+
+function getBundlePath(bundleName) {
+  const bundleFileName = webpackStats.assetsByChunkName[bundleName];
+  return `./${BUNDLES_DIR_NAME}/${bundleFileName}`;
+}
+
+app.use(express.static(staticDir));
 
 app.get('/*', (req, res) => {
   const context = {};
@@ -37,13 +48,13 @@ function htmlTemplate(reactDom) {
     <html>
     <head>
       <meta charset="utf-8">
-      <title>React SSR</title>
+      <title>Holo-Apollo</title>
     </head>
         
     <body>
       <div id="app">${reactDom}</div>
-      <script src="./main.bundle.js"></script>
-      <script src="./commons.bundle.js"></script>
+      <script src="${getBundlePath('main')}"></script>
+      <script src="${getBundlePath('commons')}"></script>
     </body>
     </html>
   `;

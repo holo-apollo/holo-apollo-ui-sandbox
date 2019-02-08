@@ -1,12 +1,14 @@
 const path = require('path');
+const { StatsWriterPlugin } = require('webpack-stats-plugin');
 
 module.exports = {
   devtool: 'eval',
   entry: './src/app.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'static/bundles'),
+    filename: '[name].[hash].bundle-dev.js',
   },
+  plugins: [new StatsWriterPlugin({ filename: 'webpack-stats-dev.json' })],
   optimization: {
     splitChunks: {
       chunks: 'all',

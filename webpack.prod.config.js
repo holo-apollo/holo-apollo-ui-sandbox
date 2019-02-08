@@ -1,8 +1,9 @@
 const path = require('path');
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const { StatsWriterPlugin } = require('webpack-stats-plugin');
 
-let definePlugin = new webpack.DefinePlugin({
+const definePlugin = new webpack.DefinePlugin({
   'process.env': {
     NODE_ENV: JSON.stringify('production'),
   },
@@ -11,10 +12,13 @@ let definePlugin = new webpack.DefinePlugin({
 module.exports = {
   entry: './src/app.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'static/bundles'),
+    filename: '[name].[hash].bundle-prod.js',
   },
-  plugins: [definePlugin],
+  plugins: [
+    definePlugin,
+    new StatsWriterPlugin({ filename: 'webpack-stats-prod.json' }),
+  ],
   optimization: {
     splitChunks: {
       chunks: 'all',
