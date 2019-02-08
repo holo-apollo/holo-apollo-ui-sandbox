@@ -41,6 +41,13 @@
             {
                 "messagesDir": "./i18n/messages/"
             }
+        ],
+        [
+            "module-resolver",
+            {
+                "root": ["./src"],
+                "extensions": [".js", ".jsx"]
+            }
         ]
     ]
 }

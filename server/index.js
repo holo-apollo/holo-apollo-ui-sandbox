@@ -4,7 +4,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 
-import App from '../src/containers/App';
+import App from 'containers/App';
 
 const app = express();
 

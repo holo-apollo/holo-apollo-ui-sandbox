@@ -2,8 +2,8 @@ import React from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
-import Application from '../Application';
-import HomePage from '../HomePage';
+import Application from 'containers/Application';
+import HomePage from 'containers/HomePage';
 
 const Cont = styled.div``;
 
