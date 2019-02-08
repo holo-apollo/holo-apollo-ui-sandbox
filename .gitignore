@@ -3,7 +3,6 @@
 .DS_Store
 *.log
 node_modules
-!src/node_modules
 i18n/messages
 coverage
 storybook/static
