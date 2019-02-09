@@ -23,7 +23,7 @@ export const ButtonCont = styled.div`
 const LoadingPage = ({ error, timedOut, pastDelay, retry }) => {
   const button = (
     <ButtonCont>
-      <Button onClick={retry} width={250}>
+      <Button onClick={retry}>
         <FormattedMessage {...messages.retry} />
       </Button>
     </ButtonCont>

@@ -49,16 +49,17 @@ app.get('/*', (req, res) => {
   const bundlePaths = [
     ...bundles.map(bundle => bundle.publicPath),
     getBundlePath('main'),
-    getBundlePath('commons'),
   ];
   const staticRoot = process.env.STATIC_ROOT || '';
+  const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
 
-  res.render('index', { reactDom, bundlePaths, staticRoot, isProd });
+  res.render('index', { reactDom, bundlePaths, staticRoot, isProd, lang });
 });
 
 preloadAll()
   .then(() => {
     app.listen(process.env.PORT, () => {
+      // TODO: use logging middleware
       // eslint-disable-next-line no-console
       console.log('Server has started');
     });

@@ -76,6 +76,7 @@ Button.defaultProps = {
   color: palette.darkGrey,
   hoverColor: palette.blue,
   height: 35,
+  width: 250,
   fontSize: 14,
   fontWeight: '500',
 };

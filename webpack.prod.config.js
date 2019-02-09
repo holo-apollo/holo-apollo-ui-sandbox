@@ -25,10 +25,6 @@ module.exports = {
     }),
   ],
   optimization: {
-    splitChunks: {
-      chunks: 'all',
-      name: 'commons',
-    },
     minimizer: [new UglifyJsPlugin()],
   },
   resolve: {

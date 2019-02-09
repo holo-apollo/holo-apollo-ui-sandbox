@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= lang %>">
 <head>
     <%# TODO: add GTM tag in production #%>
     <title>Holo Apollo Art</title>
@@ -8,15 +8,14 @@
     <%# TODO: add description via Helmet #%>
     <meta name="keywords" content="holo apollo, holoapollo, холо аполло, дизайнерские вещи, декор, купить дизайнерские вещи Украина">
 
-    <%# TODO: add it via helmet %>
-    <link rel="shortcut icon" type="image/x-icon" href="<% staticRoot %>/img/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="<%= staticRoot %>/img/favicon.png" />
 </head>
 
 <body>
-<div id="app"><%- reactDom -%></div>
+<div id="app"><%- reactDom %></div>
 
 <% bundlePaths.forEach(function(bundle) { %>
-    <script src="<% staticRoot %><%= bundle %>"></script>
+    <script src="<%= staticRoot %><%= bundle %>"></script>
 <% }); %>
 
 </body>

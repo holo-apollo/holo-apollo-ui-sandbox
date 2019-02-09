@@ -16,12 +16,6 @@ module.exports = {
       filename: './react-loadable-stats-dev.json',
     }),
   ],
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-      name: 'commons',
-    },
-  },
   resolve: {
     modules: [path.resolve('./src'), path.resolve('./node_modules')],
   },
