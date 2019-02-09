@@ -19,9 +19,9 @@ module.exports = {
   },
   plugins: [
     definePlugin,
-    new StatsWriterPlugin({ filename: 'webpack-stats-prod.json' }),
+    new StatsWriterPlugin({ filename: '../../webpack-stats-prod.json' }),
     new ReactLoadablePlugin({
-      filename: './static/bundles/react-loadable-stats-prod.json',
+      filename: './react-loadable-stats-prod.json',
     }),
   ],
   optimization: {

@@ -8,25 +8,24 @@ import { getBundles } from 'react-loadable/webpack';
 
 import App from 'containers/App';
 
-const STATIC_DIR_NAME = 'static';
-const BUNDLES_DIR_NAME = 'bundles';
 const isProd = process.env.NODE_ENV === 'production';
 const suffix = isProd ? 'prod' : 'dev';
-const webpackStats = require(`../${STATIC_DIR_NAME}/${BUNDLES_DIR_NAME}/webpack-stats-${suffix}.json`);
-const reactLoadableStats = require(`../${STATIC_DIR_NAME}/${BUNDLES_DIR_NAME}/react-loadable-stats-${suffix}.json`);
-
-const staticDir = path.resolve(__dirname, `../${STATIC_DIR_NAME}`);
+const webpackStats = require(`../webpack-stats-${suffix}.json`);
+const reactLoadableStats = require(`../react-loadable-stats-${suffix}.json`);
 
 function getBundlePath(bundleName) {
   const bundleFileName = webpackStats.assetsByChunkName[bundleName];
-  return `/${BUNDLES_DIR_NAME}/${bundleFileName}`;
+  return `/bundles/${bundleFileName}`;
 }
 
 const app = express();
 
 app.set('view engine', 'ejs');
 
-app.use(express.static(staticDir));
+if (process.env.NODE_ENV === 'development') {
+  const staticDir = path.resolve(__dirname, `../static`);
+  app.use(express.static(staticDir));
+}
 
 app.get('/*', (req, res) => {
   const context = {};
@@ -52,8 +51,9 @@ app.get('/*', (req, res) => {
     getBundlePath('main'),
     getBundlePath('commons'),
   ];
+  const staticRoot = process.env.STATIC_ROOT || '';
 
-  res.render('index', { reactDom, bundlePaths });
+  res.render('index', { reactDom, bundlePaths, staticRoot });
 });
 
 preloadAll()

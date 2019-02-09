@@ -11,9 +11,9 @@ module.exports = {
     publicPath: '/bundles/',
   },
   plugins: [
-    new StatsWriterPlugin({ filename: 'webpack-stats-dev.json' }),
+    new StatsWriterPlugin({ filename: '../../webpack-stats-dev.json' }),
     new ReactLoadablePlugin({
-      filename: './static/bundles/react-loadable-stats-dev.json',
+      filename: './react-loadable-stats-dev.json',
     }),
   ],
   optimization: {
