@@ -53,7 +53,7 @@ app.get('/*', (req, res) => {
   ];
   const staticRoot = process.env.STATIC_ROOT || '';
 
-  res.render('index', { reactDom, bundlePaths, staticRoot });
+  res.render('index', { reactDom, bundlePaths, staticRoot, isProd });
 });
 
 preloadAll()

@@ -1,882 +1,3890 @@
 {
+  "undefined": [
+    {
+      "id": 3,
+      "name": null,
+      "file": "0.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/0.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "1.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/1.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "2.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/2.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": 0,
+      "name": null,
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": 1,
+      "name": null,
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": 2,
+      "name": null,
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/react-intl/locale-data lazy recursive ^\\.\\/.*$",
+      "name": "./node_modules/react-intl/locale-data lazy recursive ^\\.\\/.*$",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
   "./NotLoadableApplication": [
     {
       "id": "./src/containers/Application/NotLoadableApplication.js",
       "name": "./src/containers/Application/NotLoadableApplication.js",
-      "file": "application.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/application.6d3aae228551c645e442.bundle-dev.js"
+      "file": "application.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/application.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./assertThisInitialized": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/classCallCheck": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/createClass": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/defineProperty": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+      "name": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/extends": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/extends.js",
+      "name": "./node_modules/@babel/runtime/helpers/extends.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/getPrototypeOf": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/inherits": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/interopRequireDefault": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/interopRequireWildcard": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "name": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/objectWithoutProperties": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "name": "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./objectWithoutPropertiesLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@babel/runtime/helpers/possibleConstructorReturn": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./setPrototypeOf": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../helpers/typeof": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "@emotion/is-prop-valid": [
     {
       "id": "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js",
       "name": "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "@emotion/memoize": [
     {
       "id": "./node_modules/@emotion/memoize/dist/memoize.esm.js",
       "name": "./node_modules/@emotion/memoize/dist/memoize.esm.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "@emotion/unitless": [
     {
       "id": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
       "name": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../colors/common": [
+    {
+      "id": "./node_modules/@material-ui/core/colors/common.js",
+      "name": "./node_modules/@material-ui/core/colors/common.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../colors/grey": [
+    {
+      "id": "./node_modules/@material-ui/core/colors/grey.js",
+      "name": "./node_modules/@material-ui/core/colors/grey.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../colors/indigo": [
+    {
+      "id": "./node_modules/@material-ui/core/colors/indigo.js",
+      "name": "./node_modules/@material-ui/core/colors/indigo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../colors/pink": [
+    {
+      "id": "./node_modules/@material-ui/core/colors/pink.js",
+      "name": "./node_modules/@material-ui/core/colors/pink.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../colors/red": [
+    {
+      "id": "./node_modules/@material-ui/core/colors/red.js",
+      "name": "./node_modules/@material-ui/core/colors/red.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@material-ui/core/styles/MuiThemeProvider": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/MuiThemeProvider.js",
+      "name": "./node_modules/@material-ui/core/styles/MuiThemeProvider.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./colorManipulator": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/colorManipulator.js",
+      "name": "./node_modules/@material-ui/core/styles/colorManipulator.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createBreakpoints": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createBreakpoints.js",
+      "name": "./node_modules/@material-ui/core/styles/createBreakpoints.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createGenerateClassName": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createGenerateClassName.js",
+      "name": "./node_modules/@material-ui/core/styles/createGenerateClassName.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createMixins": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createMixins.js",
+      "name": "./node_modules/@material-ui/core/styles/createMixins.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createMuiTheme": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createMuiTheme.js",
+      "name": "./node_modules/@material-ui/core/styles/createMuiTheme.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createPalette": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createPalette.js",
+      "name": "./node_modules/@material-ui/core/styles/createPalette.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createStyles": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createStyles.js",
+      "name": "./node_modules/@material-ui/core/styles/createStyles.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./createTypography": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/createTypography.js",
+      "name": "./node_modules/@material-ui/core/styles/createTypography.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./getStylesCreator": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/getStylesCreator.js",
+      "name": "./node_modules/@material-ui/core/styles/getStylesCreator.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./getThemeProps": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/getThemeProps.js",
+      "name": "./node_modules/@material-ui/core/styles/getThemeProps.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@material-ui/core/styles": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/index.js",
+      "name": "./node_modules/@material-ui/core/styles/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./jssPreset": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/jssPreset.js",
+      "name": "./node_modules/@material-ui/core/styles/jssPreset.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mergeClasses": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/mergeClasses.js",
+      "name": "./node_modules/@material-ui/core/styles/mergeClasses.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./multiKeyStore": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/multiKeyStore.js",
+      "name": "./node_modules/@material-ui/core/styles/multiKeyStore.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./reactJssContext": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/reactJssContext.js",
+      "name": "./node_modules/@material-ui/core/styles/reactJssContext.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./shadows": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/shadows.js",
+      "name": "./node_modules/@material-ui/core/styles/shadows.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./shape": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/shape.js",
+      "name": "./node_modules/@material-ui/core/styles/shape.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./spacing": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/spacing.js",
+      "name": "./node_modules/@material-ui/core/styles/spacing.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./themeListener": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/themeListener.js",
+      "name": "./node_modules/@material-ui/core/styles/themeListener.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./transitions": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/transitions.js",
+      "name": "./node_modules/@material-ui/core/styles/transitions.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./withStyles": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/withStyles.js",
+      "name": "./node_modules/@material-ui/core/styles/withStyles.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./withTheme": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/withTheme.js",
+      "name": "./node_modules/@material-ui/core/styles/withTheme.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./zIndex": [
+    {
+      "id": "./node_modules/@material-ui/core/styles/zIndex.js",
+      "name": "./node_modules/@material-ui/core/styles/zIndex.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./chainPropTypes": [
+    {
+      "id": "./node_modules/@material-ui/utils/chainPropTypes.js",
+      "name": "./node_modules/@material-ui/utils/chainPropTypes.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./componentPropType": [
+    {
+      "id": "./node_modules/@material-ui/utils/componentPropType.js",
+      "name": "./node_modules/@material-ui/utils/componentPropType.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./exactProp": [
+    {
+      "id": "./node_modules/@material-ui/utils/exactProp.js",
+      "name": "./node_modules/@material-ui/utils/exactProp.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./getDisplayName": [
+    {
+      "id": "./node_modules/@material-ui/utils/getDisplayName.js",
+      "name": "./node_modules/@material-ui/utils/getDisplayName.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "@material-ui/utils": [
+    {
+      "id": "./node_modules/@material-ui/utils/index.es.js",
+      "name": "./node_modules/@material-ui/utils/index.es.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ponyfillGlobal": [
+    {
+      "id": "./node_modules/@material-ui/utils/ponyfillGlobal.js",
+      "name": "./node_modules/@material-ui/utils/ponyfillGlobal.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "brcast": [
+    {
+      "id": "./node_modules/brcast/dist/brcast.es.js",
+      "name": "./node_modules/brcast/dist/brcast.es.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_a-function": [
     {
       "id": "./node_modules/core-js/modules/_a-function.js",
       "name": "./node_modules/core-js/modules/_a-function.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_an-object": [
     {
       "id": "./node_modules/core-js/modules/_an-object.js",
       "name": "./node_modules/core-js/modules/_an-object.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_array-includes": [
     {
       "id": "./node_modules/core-js/modules/_array-includes.js",
       "name": "./node_modules/core-js/modules/_array-includes.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_cof": [
     {
       "id": "./node_modules/core-js/modules/_cof.js",
       "name": "./node_modules/core-js/modules/_cof.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_core": [
     {
       "id": "./node_modules/core-js/modules/_core.js",
       "name": "./node_modules/core-js/modules/_core.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_ctx": [
     {
       "id": "./node_modules/core-js/modules/_ctx.js",
       "name": "./node_modules/core-js/modules/_ctx.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_defined": [
     {
       "id": "./node_modules/core-js/modules/_defined.js",
       "name": "./node_modules/core-js/modules/_defined.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_descriptors": [
     {
       "id": "./node_modules/core-js/modules/_descriptors.js",
       "name": "./node_modules/core-js/modules/_descriptors.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_dom-create": [
     {
       "id": "./node_modules/core-js/modules/_dom-create.js",
       "name": "./node_modules/core-js/modules/_dom-create.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_enum-bug-keys": [
     {
       "id": "./node_modules/core-js/modules/_enum-bug-keys.js",
       "name": "./node_modules/core-js/modules/_enum-bug-keys.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_export": [
     {
       "id": "./node_modules/core-js/modules/_export.js",
       "name": "./node_modules/core-js/modules/_export.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_fails": [
     {
       "id": "./node_modules/core-js/modules/_fails.js",
       "name": "./node_modules/core-js/modules/_fails.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_global": [
     {
       "id": "./node_modules/core-js/modules/_global.js",
       "name": "./node_modules/core-js/modules/_global.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_has": [
     {
       "id": "./node_modules/core-js/modules/_has.js",
       "name": "./node_modules/core-js/modules/_has.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_hide": [
     {
       "id": "./node_modules/core-js/modules/_hide.js",
       "name": "./node_modules/core-js/modules/_hide.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_ie8-dom-define": [
     {
       "id": "./node_modules/core-js/modules/_ie8-dom-define.js",
       "name": "./node_modules/core-js/modules/_ie8-dom-define.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_iobject": [
     {
       "id": "./node_modules/core-js/modules/_iobject.js",
       "name": "./node_modules/core-js/modules/_iobject.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_is-object": [
     {
       "id": "./node_modules/core-js/modules/_is-object.js",
       "name": "./node_modules/core-js/modules/_is-object.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_library": [
     {
       "id": "./node_modules/core-js/modules/_library.js",
       "name": "./node_modules/core-js/modules/_library.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_meta": [
     {
       "id": "./node_modules/core-js/modules/_meta.js",
       "name": "./node_modules/core-js/modules/_meta.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_object-dp": [
     {
       "id": "./node_modules/core-js/modules/_object-dp.js",
       "name": "./node_modules/core-js/modules/_object-dp.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_object-dps": [
     {
       "id": "./node_modules/core-js/modules/_object-dps.js",
       "name": "./node_modules/core-js/modules/_object-dps.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_object-keys-internal": [
     {
       "id": "./node_modules/core-js/modules/_object-keys-internal.js",
       "name": "./node_modules/core-js/modules/_object-keys-internal.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_object-keys": [
     {
       "id": "./node_modules/core-js/modules/_object-keys.js",
       "name": "./node_modules/core-js/modules/_object-keys.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_object-sap": [
     {
       "id": "./node_modules/core-js/modules/_object-sap.js",
       "name": "./node_modules/core-js/modules/_object-sap.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_property-desc": [
     {
       "id": "./node_modules/core-js/modules/_property-desc.js",
       "name": "./node_modules/core-js/modules/_property-desc.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_redefine": [
     {
       "id": "./node_modules/core-js/modules/_redefine.js",
       "name": "./node_modules/core-js/modules/_redefine.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_shared-key": [
     {
       "id": "./node_modules/core-js/modules/_shared-key.js",
       "name": "./node_modules/core-js/modules/_shared-key.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_shared": [
     {
       "id": "./node_modules/core-js/modules/_shared.js",
       "name": "./node_modules/core-js/modules/_shared.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_to-absolute-index": [
     {
       "id": "./node_modules/core-js/modules/_to-absolute-index.js",
       "name": "./node_modules/core-js/modules/_to-absolute-index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_to-integer": [
     {
       "id": "./node_modules/core-js/modules/_to-integer.js",
       "name": "./node_modules/core-js/modules/_to-integer.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_to-iobject": [
     {
       "id": "./node_modules/core-js/modules/_to-iobject.js",
       "name": "./node_modules/core-js/modules/_to-iobject.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_to-length": [
     {
       "id": "./node_modules/core-js/modules/_to-length.js",
       "name": "./node_modules/core-js/modules/_to-length.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_to-primitive": [
     {
       "id": "./node_modules/core-js/modules/_to-primitive.js",
       "name": "./node_modules/core-js/modules/_to-primitive.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./_uid": [
     {
       "id": "./node_modules/core-js/modules/_uid.js",
       "name": "./node_modules/core-js/modules/_uid.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "core-js/modules/es6.object.define-properties": [
     {
       "id": "./node_modules/core-js/modules/es6.object.define-properties.js",
       "name": "./node_modules/core-js/modules/es6.object.define-properties.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "core-js/modules/es6.object.freeze": [
     {
       "id": "./node_modules/core-js/modules/es6.object.freeze.js",
       "name": "./node_modules/core-js/modules/es6.object.freeze.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./camelize": [
+    {
+      "id": "./node_modules/css-vendor/lib/camelize.js",
+      "name": "./node_modules/css-vendor/lib/camelize.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "css-vendor": [
+    {
+      "id": "./node_modules/css-vendor/lib/index.js",
+      "name": "./node_modules/css-vendor/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./prefix": [
+    {
+      "id": "./node_modules/css-vendor/lib/prefix.js",
+      "name": "./node_modules/css-vendor/lib/prefix.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./supported-property": [
+    {
+      "id": "./node_modules/css-vendor/lib/supported-property.js",
+      "name": "./node_modules/css-vendor/lib/supported-property.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./supported-value": [
+    {
+      "id": "./node_modules/css-vendor/lib/supported-value.js",
+      "name": "./node_modules/css-vendor/lib/supported-value.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "deepmerge": [
+    {
+      "id": "./node_modules/deepmerge/dist/umd.js",
+      "name": "./node_modules/deepmerge/dist/umd.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./DOMUtils": [
     {
       "id": "./node_modules/history/es/DOMUtils.js",
       "name": "./node_modules/history/es/DOMUtils.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./LocationUtils": [
     {
       "id": "./node_modules/history/es/LocationUtils.js",
       "name": "./node_modules/history/es/LocationUtils.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./PathUtils": [
     {
       "id": "./node_modules/history/es/PathUtils.js",
       "name": "./node_modules/history/es/PathUtils.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./createBrowserHistory": [
     {
       "id": "./node_modules/history/es/createBrowserHistory.js",
       "name": "./node_modules/history/es/createBrowserHistory.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./createHashHistory": [
     {
       "id": "./node_modules/history/es/createHashHistory.js",
       "name": "./node_modules/history/es/createHashHistory.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./createMemoryHistory": [
     {
       "id": "./node_modules/history/es/createMemoryHistory.js",
       "name": "./node_modules/history/es/createMemoryHistory.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./createTransitionManager": [
     {
       "id": "./node_modules/history/es/createTransitionManager.js",
       "name": "./node_modules/history/es/createTransitionManager.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "history": [
     {
       "id": "./node_modules/history/es/index.js",
       "name": "./node_modules/history/es/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "hoist-non-react-statics": [
     {
       "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "hyphenate-style-name": [
+    {
+      "id": "./node_modules/hyphenate-style-name/index.js",
+      "name": "./node_modules/hyphenate-style-name/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "intl-format-cache": [
+    {
+      "id": "./node_modules/intl-format-cache/index.js",
+      "name": "./node_modules/intl-format-cache/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./es5": [
+    {
+      "id": "./node_modules/intl-format-cache/lib/es5.js",
+      "name": "./node_modules/intl-format-cache/lib/es5.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/intl-messageformat/lib/es5.js",
+      "name": "./node_modules/intl-messageformat/lib/es5.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/intl-relativeformat/lib/es5.js",
+      "name": "./node_modules/intl-relativeformat/lib/es5.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lib/memoizer": [
+    {
+      "id": "./node_modules/intl-format-cache/lib/memoizer.js",
+      "name": "./node_modules/intl-format-cache/lib/memoizer.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "intl-messageformat-parser": [
+    {
+      "id": "./node_modules/intl-messageformat-parser/index.js",
+      "name": "./node_modules/intl-messageformat-parser/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lib/parser": [
+    {
+      "id": "./node_modules/intl-messageformat-parser/lib/parser.js",
+      "name": "./node_modules/intl-messageformat-parser/lib/parser.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "intl-messageformat": [
+    {
+      "id": "./node_modules/intl-messageformat/index.js",
+      "name": "./node_modules/intl-messageformat/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./compiler": [
+    {
+      "id": "./node_modules/intl-messageformat/lib/compiler.js",
+      "name": "./node_modules/intl-messageformat/lib/compiler.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./core": [
+    {
+      "id": "./node_modules/intl-messageformat/lib/core.js",
+      "name": "./node_modules/intl-messageformat/lib/core.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/intl-relativeformat/lib/core.js",
+      "name": "./node_modules/intl-relativeformat/lib/core.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./en": [
+    {
+      "id": "./node_modules/intl-messageformat/lib/en.js",
+      "name": "./node_modules/intl-messageformat/lib/en.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/intl-relativeformat/lib/en.js",
+      "name": "./node_modules/intl-relativeformat/lib/en.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lib/main": [
+    {
+      "id": "./node_modules/intl-messageformat/lib/main.js",
+      "name": "./node_modules/intl-messageformat/lib/main.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/intl-relativeformat/lib/main.js",
+      "name": "./node_modules/intl-relativeformat/lib/main.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils": [
+    {
+      "id": "./node_modules/intl-messageformat/lib/utils.js",
+      "name": "./node_modules/intl-messageformat/lib/utils.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "intl-relativeformat": [
+    {
+      "id": "./node_modules/intl-relativeformat/index.js",
+      "name": "./node_modules/intl-relativeformat/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./diff": [
+    {
+      "id": "./node_modules/intl-relativeformat/lib/diff.js",
+      "name": "./node_modules/intl-relativeformat/lib/diff.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "invariant": [
     {
       "id": "./node_modules/invariant/browser.js",
       "name": "./node_modules/invariant/browser.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "is-in-browser": [
+    {
+      "id": "./node_modules/is-in-browser/dist/module.js",
+      "name": "./node_modules/is-in-browser/dist/module.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "is-plain-object": [
+    {
+      "id": "./node_modules/is-plain-object/index.js",
+      "name": "./node_modules/is-plain-object/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "isobject": [
+    {
+      "id": "./node_modules/isobject/index.js",
+      "name": "./node_modules/isobject/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss-camel-case": [
+    {
+      "id": "./node_modules/jss-camel-case/lib/index.js",
+      "name": "./node_modules/jss-camel-case/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./defaultUnits": [
+    {
+      "id": "./node_modules/jss-default-unit/lib/defaultUnits.js",
+      "name": "./node_modules/jss-default-unit/lib/defaultUnits.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss-default-unit": [
+    {
+      "id": "./node_modules/jss-default-unit/lib/index.js",
+      "name": "./node_modules/jss-default-unit/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss-global": [
+    {
+      "id": "./node_modules/jss-global/lib/index.js",
+      "name": "./node_modules/jss-global/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss-nested": [
+    {
+      "id": "./node_modules/jss-nested/lib/index.js",
+      "name": "./node_modules/jss-nested/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss-props-sort": [
+    {
+      "id": "./node_modules/jss-props-sort/lib/index.js",
+      "name": "./node_modules/jss-props-sort/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss-vendor-prefixer": [
+    {
+      "id": "./node_modules/jss-vendor-prefixer/lib/index.js",
+      "name": "./node_modules/jss-vendor-prefixer/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./Jss": [
+    {
+      "id": "./node_modules/jss/lib/Jss.js",
+      "name": "./node_modules/jss/lib/Jss.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./PluginsRegistry": [
+    {
+      "id": "./node_modules/jss/lib/PluginsRegistry.js",
+      "name": "./node_modules/jss/lib/PluginsRegistry.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./RuleList": [
+    {
+      "id": "./node_modules/jss/lib/RuleList.js",
+      "name": "./node_modules/jss/lib/RuleList.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./SheetsManager": [
+    {
+      "id": "./node_modules/jss/lib/SheetsManager.js",
+      "name": "./node_modules/jss/lib/SheetsManager.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./SheetsRegistry": [
+    {
+      "id": "./node_modules/jss/lib/SheetsRegistry.js",
+      "name": "./node_modules/jss/lib/SheetsRegistry.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./StyleSheet": [
+    {
+      "id": "./node_modules/jss/lib/StyleSheet.js",
+      "name": "./node_modules/jss/lib/StyleSheet.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "jss": [
+    {
+      "id": "./node_modules/jss/lib/index.js",
+      "name": "./node_modules/jss/lib/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./plugins/functions": [
+    {
+      "id": "./node_modules/jss/lib/plugins/functions.js",
+      "name": "./node_modules/jss/lib/plugins/functions.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./plugins/observables": [
+    {
+      "id": "./node_modules/jss/lib/plugins/observables.js",
+      "name": "./node_modules/jss/lib/plugins/observables.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./plugins/rules": [
+    {
+      "id": "./node_modules/jss/lib/plugins/rules.js",
+      "name": "./node_modules/jss/lib/plugins/rules.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./renderers/DomRenderer": [
+    {
+      "id": "./node_modules/jss/lib/renderers/DomRenderer.js",
+      "name": "./node_modules/jss/lib/renderers/DomRenderer.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./renderers/VirtualRenderer": [
+    {
+      "id": "./node_modules/jss/lib/renderers/VirtualRenderer.js",
+      "name": "./node_modules/jss/lib/renderers/VirtualRenderer.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../rules/ConditionalRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/ConditionalRule.js",
+      "name": "./node_modules/jss/lib/rules/ConditionalRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../rules/FontFaceRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/FontFaceRule.js",
+      "name": "./node_modules/jss/lib/rules/FontFaceRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../rules/KeyframesRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/KeyframesRule.js",
+      "name": "./node_modules/jss/lib/rules/KeyframesRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../rules/SimpleRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/SimpleRule.js",
+      "name": "./node_modules/jss/lib/rules/SimpleRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./rules/StyleRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/StyleRule.js",
+      "name": "./node_modules/jss/lib/rules/StyleRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../rules/ViewportRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/ViewportRule.js",
+      "name": "./node_modules/jss/lib/rules/ViewportRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sheets": [
+    {
+      "id": "./node_modules/jss/lib/sheets.js",
+      "name": "./node_modules/jss/lib/sheets.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../utils/cloneStyle": [
+    {
+      "id": "./node_modules/jss/lib/utils/cloneStyle.js",
+      "name": "./node_modules/jss/lib/utils/cloneStyle.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils/createGenerateClassName": [
+    {
+      "id": "./node_modules/jss/lib/utils/createGenerateClassName.js",
+      "name": "./node_modules/jss/lib/utils/createGenerateClassName.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils/createRule": [
+    {
+      "id": "./node_modules/jss/lib/utils/createRule.js",
+      "name": "./node_modules/jss/lib/utils/createRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils/escape": [
+    {
+      "id": "./node_modules/jss/lib/utils/escape.js",
+      "name": "./node_modules/jss/lib/utils/escape.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils/getDynamicStyles": [
+    {
+      "id": "./node_modules/jss/lib/utils/getDynamicStyles.js",
+      "name": "./node_modules/jss/lib/utils/getDynamicStyles.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../utils/isObservable": [
+    {
+      "id": "./node_modules/jss/lib/utils/isObservable.js",
+      "name": "./node_modules/jss/lib/utils/isObservable.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils/linkRule": [
+    {
+      "id": "./node_modules/jss/lib/utils/linkRule.js",
+      "name": "./node_modules/jss/lib/utils/linkRule.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./moduleId": [
+    {
+      "id": "./node_modules/jss/lib/utils/moduleId.js",
+      "name": "./node_modules/jss/lib/utils/moduleId.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../utils/toCss": [
+    {
+      "id": "./node_modules/jss/lib/utils/toCss.js",
+      "name": "./node_modules/jss/lib/utils/toCss.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./utils/toCssValue": [
+    {
+      "id": "./node_modules/jss/lib/utils/toCssValue.js",
+      "name": "./node_modules/jss/lib/utils/toCssValue.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "memoize-one": [
     {
       "id": "./node_modules/memoize-one/dist/memoize-one.esm.js",
       "name": "./node_modules/memoize-one/dist/memoize-one.esm.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "object-assign": [
     {
       "id": "./node_modules/object-assign/index.js",
       "name": "./node_modules/object-assign/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "path-to-regexp": [
     {
       "id": "./node_modules/path-to-regexp/index.js",
       "name": "./node_modules/path-to-regexp/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./../../process/browser.js": [
     {
       "id": "./node_modules/process/browser.js",
       "name": "./node_modules/process/browser.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "prop-types/checkPropTypes": [
     {
       "id": "./node_modules/prop-types/checkPropTypes.js",
       "name": "./node_modules/prop-types/checkPropTypes.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./factoryWithTypeCheckers": [
     {
       "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
       "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "prop-types": [
     {
       "id": "./node_modules/prop-types/index.js",
       "name": "./node_modules/prop-types/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./lib/ReactPropTypesSecret": [
     {
       "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./Case": [
+    {
+      "id": "./node_modules/react-case-when/es/Case.js",
+      "name": "./node_modules/react-case-when/es/Case.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./Switch": [
+    {
+      "id": "./node_modules/react-case-when/es/Switch.js",
+      "name": "./node_modules/react-case-when/es/Switch.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/Switch.js",
+      "name": "./node_modules/react-router-dom/es/Switch.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "react-case-when": [
+    {
+      "id": "./node_modules/react-case-when/es/index.js",
+      "name": "./node_modules/react-case-when/es/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./match": [
+    {
+      "id": "./node_modules/react-case-when/es/match.js",
+      "name": "./node_modules/react-case-when/es/match.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./cjs/react-dom.development.js": [
     {
       "id": "./node_modules/react-dom/cjs/react-dom.development.js",
       "name": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-dom": [
     {
       "id": "./node_modules/react-dom/index.js",
       "name": "./node_modules/react-dom/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "react-intl": [
+    {
+      "id": "./node_modules/react-intl/lib/index.es.js",
+      "name": "./node_modules/react-intl/lib/index.es.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./af.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/af.js",
+      "name": "./node_modules/react-intl/locale-data/af.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./agq.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/agq.js",
+      "name": "./node_modules/react-intl/locale-data/agq.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ak.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ak.js",
+      "name": "./node_modules/react-intl/locale-data/ak.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./am.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/am.js",
+      "name": "./node_modules/react-intl/locale-data/am.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ar.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ar.js",
+      "name": "./node_modules/react-intl/locale-data/ar.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ars.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ars.js",
+      "name": "./node_modules/react-intl/locale-data/ars.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./as.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/as.js",
+      "name": "./node_modules/react-intl/locale-data/as.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./asa.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/asa.js",
+      "name": "./node_modules/react-intl/locale-data/asa.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ast.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ast.js",
+      "name": "./node_modules/react-intl/locale-data/ast.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./az.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/az.js",
+      "name": "./node_modules/react-intl/locale-data/az.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bas.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bas.js",
+      "name": "./node_modules/react-intl/locale-data/bas.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./be.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/be.js",
+      "name": "./node_modules/react-intl/locale-data/be.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bem.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bem.js",
+      "name": "./node_modules/react-intl/locale-data/bem.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bez.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bez.js",
+      "name": "./node_modules/react-intl/locale-data/bez.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bg.js",
+      "name": "./node_modules/react-intl/locale-data/bg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bh.js",
+      "name": "./node_modules/react-intl/locale-data/bh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bm.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bm.js",
+      "name": "./node_modules/react-intl/locale-data/bm.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bn.js",
+      "name": "./node_modules/react-intl/locale-data/bn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bo.js",
+      "name": "./node_modules/react-intl/locale-data/bo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./br.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/br.js",
+      "name": "./node_modules/react-intl/locale-data/br.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./brx.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/brx.js",
+      "name": "./node_modules/react-intl/locale-data/brx.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./bs.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/bs.js",
+      "name": "./node_modules/react-intl/locale-data/bs.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ca.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ca.js",
+      "name": "./node_modules/react-intl/locale-data/ca.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ccp.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ccp.js",
+      "name": "./node_modules/react-intl/locale-data/ccp.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ce.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ce.js",
+      "name": "./node_modules/react-intl/locale-data/ce.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./cgg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/cgg.js",
+      "name": "./node_modules/react-intl/locale-data/cgg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./chr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/chr.js",
+      "name": "./node_modules/react-intl/locale-data/chr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ckb.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ckb.js",
+      "name": "./node_modules/react-intl/locale-data/ckb.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./cs.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/cs.js",
+      "name": "./node_modules/react-intl/locale-data/cs.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./cu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/cu.js",
+      "name": "./node_modules/react-intl/locale-data/cu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./cy.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/cy.js",
+      "name": "./node_modules/react-intl/locale-data/cy.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./da.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/da.js",
+      "name": "./node_modules/react-intl/locale-data/da.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dav.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dav.js",
+      "name": "./node_modules/react-intl/locale-data/dav.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./de.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/de.js",
+      "name": "./node_modules/react-intl/locale-data/de.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dje.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dje.js",
+      "name": "./node_modules/react-intl/locale-data/dje.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dsb.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dsb.js",
+      "name": "./node_modules/react-intl/locale-data/dsb.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dua.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dua.js",
+      "name": "./node_modules/react-intl/locale-data/dua.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dv.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dv.js",
+      "name": "./node_modules/react-intl/locale-data/dv.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dyo": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dyo.js",
+      "name": "./node_modules/react-intl/locale-data/dyo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./dz.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/dz.js",
+      "name": "./node_modules/react-intl/locale-data/dz.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ebu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ebu.js",
+      "name": "./node_modules/react-intl/locale-data/ebu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ee.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ee.js",
+      "name": "./node_modules/react-intl/locale-data/ee.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./el.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/el.js",
+      "name": "./node_modules/react-intl/locale-data/el.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./en.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/en.js",
+      "name": "./node_modules/react-intl/locale-data/en.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./eo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/eo.js",
+      "name": "./node_modules/react-intl/locale-data/eo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./es.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/es.js",
+      "name": "./node_modules/react-intl/locale-data/es.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./et.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/et.js",
+      "name": "./node_modules/react-intl/locale-data/et.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./eu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/eu.js",
+      "name": "./node_modules/react-intl/locale-data/eu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ewo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ewo.js",
+      "name": "./node_modules/react-intl/locale-data/ewo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fa.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fa.js",
+      "name": "./node_modules/react-intl/locale-data/fa.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ff.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ff.js",
+      "name": "./node_modules/react-intl/locale-data/ff.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fi.js",
+      "name": "./node_modules/react-intl/locale-data/fi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fil.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fil.js",
+      "name": "./node_modules/react-intl/locale-data/fil.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fo.js",
+      "name": "./node_modules/react-intl/locale-data/fo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fr.js",
+      "name": "./node_modules/react-intl/locale-data/fr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fur.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fur.js",
+      "name": "./node_modules/react-intl/locale-data/fur.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./fy.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/fy.js",
+      "name": "./node_modules/react-intl/locale-data/fy.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ga.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ga.js",
+      "name": "./node_modules/react-intl/locale-data/ga.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./gd.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/gd.js",
+      "name": "./node_modules/react-intl/locale-data/gd.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./gl.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/gl.js",
+      "name": "./node_modules/react-intl/locale-data/gl.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./gsw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/gsw.js",
+      "name": "./node_modules/react-intl/locale-data/gsw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./gu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/gu.js",
+      "name": "./node_modules/react-intl/locale-data/gu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./guw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/guw.js",
+      "name": "./node_modules/react-intl/locale-data/guw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./guz.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/guz.js",
+      "name": "./node_modules/react-intl/locale-data/guz.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./gv.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/gv.js",
+      "name": "./node_modules/react-intl/locale-data/gv.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ha.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ha.js",
+      "name": "./node_modules/react-intl/locale-data/ha.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./haw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/haw.js",
+      "name": "./node_modules/react-intl/locale-data/haw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./he.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/he.js",
+      "name": "./node_modules/react-intl/locale-data/he.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./hi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/hi.js",
+      "name": "./node_modules/react-intl/locale-data/hi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./hr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/hr.js",
+      "name": "./node_modules/react-intl/locale-data/hr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./hsb.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/hsb.js",
+      "name": "./node_modules/react-intl/locale-data/hsb.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./hu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/hu.js",
+      "name": "./node_modules/react-intl/locale-data/hu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./hy.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/hy.js",
+      "name": "./node_modules/react-intl/locale-data/hy.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ia.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ia.js",
+      "name": "./node_modules/react-intl/locale-data/ia.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./id.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/id.js",
+      "name": "./node_modules/react-intl/locale-data/id.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ig.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ig.js",
+      "name": "./node_modules/react-intl/locale-data/ig.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ii.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ii.js",
+      "name": "./node_modules/react-intl/locale-data/ii.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./in.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/in.js",
+      "name": "./node_modules/react-intl/locale-data/in.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./io.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/io.js",
+      "name": "./node_modules/react-intl/locale-data/io.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./is.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/is.js",
+      "name": "./node_modules/react-intl/locale-data/is.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./it.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/it.js",
+      "name": "./node_modules/react-intl/locale-data/it.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./iu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/iu.js",
+      "name": "./node_modules/react-intl/locale-data/iu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./iw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/iw.js",
+      "name": "./node_modules/react-intl/locale-data/iw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ja.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ja.js",
+      "name": "./node_modules/react-intl/locale-data/ja.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./jbo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/jbo.js",
+      "name": "./node_modules/react-intl/locale-data/jbo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./jgo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/jgo.js",
+      "name": "./node_modules/react-intl/locale-data/jgo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ji.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ji.js",
+      "name": "./node_modules/react-intl/locale-data/ji.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./jmc.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/jmc.js",
+      "name": "./node_modules/react-intl/locale-data/jmc.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./jv.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/jv.js",
+      "name": "./node_modules/react-intl/locale-data/jv.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./jw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/jw.js",
+      "name": "./node_modules/react-intl/locale-data/jw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ka.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ka.js",
+      "name": "./node_modules/react-intl/locale-data/ka.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kab.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kab.js",
+      "name": "./node_modules/react-intl/locale-data/kab.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kaj.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kaj.js",
+      "name": "./node_modules/react-intl/locale-data/kaj.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kam.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kam.js",
+      "name": "./node_modules/react-intl/locale-data/kam.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kcg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kcg.js",
+      "name": "./node_modules/react-intl/locale-data/kcg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kde.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kde.js",
+      "name": "./node_modules/react-intl/locale-data/kde.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kea.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kea.js",
+      "name": "./node_modules/react-intl/locale-data/kea.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./khq.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/khq.js",
+      "name": "./node_modules/react-intl/locale-data/khq.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ki.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ki.js",
+      "name": "./node_modules/react-intl/locale-data/ki.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kk.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kk.js",
+      "name": "./node_modules/react-intl/locale-data/kk.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kkj.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kkj.js",
+      "name": "./node_modules/react-intl/locale-data/kkj.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kl.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kl.js",
+      "name": "./node_modules/react-intl/locale-data/kl.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kln.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kln.js",
+      "name": "./node_modules/react-intl/locale-data/kln.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./km.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/km.js",
+      "name": "./node_modules/react-intl/locale-data/km.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kn.js",
+      "name": "./node_modules/react-intl/locale-data/kn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ko.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ko.js",
+      "name": "./node_modules/react-intl/locale-data/ko.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kok.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kok.js",
+      "name": "./node_modules/react-intl/locale-data/kok.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ks.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ks.js",
+      "name": "./node_modules/react-intl/locale-data/ks.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ksb.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ksb.js",
+      "name": "./node_modules/react-intl/locale-data/ksb.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ksf.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ksf.js",
+      "name": "./node_modules/react-intl/locale-data/ksf.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ksh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ksh.js",
+      "name": "./node_modules/react-intl/locale-data/ksh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ku.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ku.js",
+      "name": "./node_modules/react-intl/locale-data/ku.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./kw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/kw.js",
+      "name": "./node_modules/react-intl/locale-data/kw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ky.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ky.js",
+      "name": "./node_modules/react-intl/locale-data/ky.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lag.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lag.js",
+      "name": "./node_modules/react-intl/locale-data/lag.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lb.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lb.js",
+      "name": "./node_modules/react-intl/locale-data/lb.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lg.js",
+      "name": "./node_modules/react-intl/locale-data/lg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lkt.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lkt.js",
+      "name": "./node_modules/react-intl/locale-data/lkt.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ln.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ln.js",
+      "name": "./node_modules/react-intl/locale-data/ln.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lo.js",
+      "name": "./node_modules/react-intl/locale-data/lo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lrc.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lrc.js",
+      "name": "./node_modules/react-intl/locale-data/lrc.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lt.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lt.js",
+      "name": "./node_modules/react-intl/locale-data/lt.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lu.js",
+      "name": "./node_modules/react-intl/locale-data/lu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./luo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/luo.js",
+      "name": "./node_modules/react-intl/locale-data/luo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./luy.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/luy.js",
+      "name": "./node_modules/react-intl/locale-data/luy.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./lv.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/lv.js",
+      "name": "./node_modules/react-intl/locale-data/lv.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mas.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mas.js",
+      "name": "./node_modules/react-intl/locale-data/mas.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mer.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mer.js",
+      "name": "./node_modules/react-intl/locale-data/mer.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mfe.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mfe.js",
+      "name": "./node_modules/react-intl/locale-data/mfe.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mg.js",
+      "name": "./node_modules/react-intl/locale-data/mg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mgh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mgh.js",
+      "name": "./node_modules/react-intl/locale-data/mgh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mgo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mgo.js",
+      "name": "./node_modules/react-intl/locale-data/mgo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mi.js",
+      "name": "./node_modules/react-intl/locale-data/mi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mk.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mk.js",
+      "name": "./node_modules/react-intl/locale-data/mk.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ml.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ml.js",
+      "name": "./node_modules/react-intl/locale-data/ml.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mn.js",
+      "name": "./node_modules/react-intl/locale-data/mn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mo.js",
+      "name": "./node_modules/react-intl/locale-data/mo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mr.js",
+      "name": "./node_modules/react-intl/locale-data/mr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ms.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ms.js",
+      "name": "./node_modules/react-intl/locale-data/ms.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mt.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mt.js",
+      "name": "./node_modules/react-intl/locale-data/mt.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mua.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mua.js",
+      "name": "./node_modules/react-intl/locale-data/mua.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./my.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/my.js",
+      "name": "./node_modules/react-intl/locale-data/my.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./mzn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/mzn.js",
+      "name": "./node_modules/react-intl/locale-data/mzn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nah.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nah.js",
+      "name": "./node_modules/react-intl/locale-data/nah.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./naq.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/naq.js",
+      "name": "./node_modules/react-intl/locale-data/naq.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nb.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nb.js",
+      "name": "./node_modules/react-intl/locale-data/nb.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nd.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nd.js",
+      "name": "./node_modules/react-intl/locale-data/nd.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nds.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nds.js",
+      "name": "./node_modules/react-intl/locale-data/nds.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ne.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ne.js",
+      "name": "./node_modules/react-intl/locale-data/ne.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nl.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nl.js",
+      "name": "./node_modules/react-intl/locale-data/nl.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nmg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nmg.js",
+      "name": "./node_modules/react-intl/locale-data/nmg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nn.js",
+      "name": "./node_modules/react-intl/locale-data/nn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nnh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nnh.js",
+      "name": "./node_modules/react-intl/locale-data/nnh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./no.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/no.js",
+      "name": "./node_modules/react-intl/locale-data/no.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nqo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nqo.js",
+      "name": "./node_modules/react-intl/locale-data/nqo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nr.js",
+      "name": "./node_modules/react-intl/locale-data/nr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nso.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nso.js",
+      "name": "./node_modules/react-intl/locale-data/nso.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nus.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nus.js",
+      "name": "./node_modules/react-intl/locale-data/nus.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ny.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ny.js",
+      "name": "./node_modules/react-intl/locale-data/ny.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./nyn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/nyn.js",
+      "name": "./node_modules/react-intl/locale-data/nyn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./om.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/om.js",
+      "name": "./node_modules/react-intl/locale-data/om.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./or.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/or.js",
+      "name": "./node_modules/react-intl/locale-data/or.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./os.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/os.js",
+      "name": "./node_modules/react-intl/locale-data/os.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./pa.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/pa.js",
+      "name": "./node_modules/react-intl/locale-data/pa.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./pap.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/pap.js",
+      "name": "./node_modules/react-intl/locale-data/pap.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./pl.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/pl.js",
+      "name": "./node_modules/react-intl/locale-data/pl.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./prg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/prg.js",
+      "name": "./node_modules/react-intl/locale-data/prg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ps.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ps.js",
+      "name": "./node_modules/react-intl/locale-data/ps.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./pt.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/pt.js",
+      "name": "./node_modules/react-intl/locale-data/pt.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./qu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/qu.js",
+      "name": "./node_modules/react-intl/locale-data/qu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./rm.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/rm.js",
+      "name": "./node_modules/react-intl/locale-data/rm.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./rn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/rn.js",
+      "name": "./node_modules/react-intl/locale-data/rn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ro.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ro.js",
+      "name": "./node_modules/react-intl/locale-data/ro.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./rof.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/rof.js",
+      "name": "./node_modules/react-intl/locale-data/rof.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ru.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ru.js",
+      "name": "./node_modules/react-intl/locale-data/ru.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./rw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/rw.js",
+      "name": "./node_modules/react-intl/locale-data/rw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./rwk.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/rwk.js",
+      "name": "./node_modules/react-intl/locale-data/rwk.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sah.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sah.js",
+      "name": "./node_modules/react-intl/locale-data/sah.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./saq.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/saq.js",
+      "name": "./node_modules/react-intl/locale-data/saq.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sbp.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sbp.js",
+      "name": "./node_modules/react-intl/locale-data/sbp.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sc.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sc.js",
+      "name": "./node_modules/react-intl/locale-data/sc.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./scn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/scn.js",
+      "name": "./node_modules/react-intl/locale-data/scn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sd.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sd.js",
+      "name": "./node_modules/react-intl/locale-data/sd.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sdh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sdh.js",
+      "name": "./node_modules/react-intl/locale-data/sdh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./se.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/se.js",
+      "name": "./node_modules/react-intl/locale-data/se.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./seh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/seh.js",
+      "name": "./node_modules/react-intl/locale-data/seh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ses.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ses.js",
+      "name": "./node_modules/react-intl/locale-data/ses.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sg.js",
+      "name": "./node_modules/react-intl/locale-data/sg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sh.js",
+      "name": "./node_modules/react-intl/locale-data/sh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./shi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/shi.js",
+      "name": "./node_modules/react-intl/locale-data/shi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./si.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/si.js",
+      "name": "./node_modules/react-intl/locale-data/si.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sk.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sk.js",
+      "name": "./node_modules/react-intl/locale-data/sk.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sl.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sl.js",
+      "name": "./node_modules/react-intl/locale-data/sl.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sma.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sma.js",
+      "name": "./node_modules/react-intl/locale-data/sma.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./smi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/smi.js",
+      "name": "./node_modules/react-intl/locale-data/smi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./smj.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/smj.js",
+      "name": "./node_modules/react-intl/locale-data/smj.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./smn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/smn.js",
+      "name": "./node_modules/react-intl/locale-data/smn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sms.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sms.js",
+      "name": "./node_modules/react-intl/locale-data/sms.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sn.js",
+      "name": "./node_modules/react-intl/locale-data/sn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./so.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/so.js",
+      "name": "./node_modules/react-intl/locale-data/so.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sq.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sq.js",
+      "name": "./node_modules/react-intl/locale-data/sq.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sr.js",
+      "name": "./node_modules/react-intl/locale-data/sr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ss.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ss.js",
+      "name": "./node_modules/react-intl/locale-data/ss.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ssy.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ssy.js",
+      "name": "./node_modules/react-intl/locale-data/ssy.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./st.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/st.js",
+      "name": "./node_modules/react-intl/locale-data/st.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sv.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sv.js",
+      "name": "./node_modules/react-intl/locale-data/sv.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./sw.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/sw.js",
+      "name": "./node_modules/react-intl/locale-data/sw.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./syr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/syr.js",
+      "name": "./node_modules/react-intl/locale-data/syr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ta.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ta.js",
+      "name": "./node_modules/react-intl/locale-data/ta.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./te.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/te.js",
+      "name": "./node_modules/react-intl/locale-data/te.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./teo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/teo.js",
+      "name": "./node_modules/react-intl/locale-data/teo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tg.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tg.js",
+      "name": "./node_modules/react-intl/locale-data/tg.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./th.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/th.js",
+      "name": "./node_modules/react-intl/locale-data/th.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ti.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ti.js",
+      "name": "./node_modules/react-intl/locale-data/ti.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tig.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tig.js",
+      "name": "./node_modules/react-intl/locale-data/tig.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tk.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tk.js",
+      "name": "./node_modules/react-intl/locale-data/tk.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tl.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tl.js",
+      "name": "./node_modules/react-intl/locale-data/tl.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tn.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tn.js",
+      "name": "./node_modules/react-intl/locale-data/tn.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./to.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/to.js",
+      "name": "./node_modules/react-intl/locale-data/to.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tr.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tr.js",
+      "name": "./node_modules/react-intl/locale-data/tr.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ts.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ts.js",
+      "name": "./node_modules/react-intl/locale-data/ts.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tt.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tt.js",
+      "name": "./node_modules/react-intl/locale-data/tt.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./twq.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/twq.js",
+      "name": "./node_modules/react-intl/locale-data/twq.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./tzm.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/tzm.js",
+      "name": "./node_modules/react-intl/locale-data/tzm.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ug.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ug.js",
+      "name": "./node_modules/react-intl/locale-data/ug.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./uk.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/uk.js",
+      "name": "./node_modules/react-intl/locale-data/uk.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ur.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ur.js",
+      "name": "./node_modules/react-intl/locale-data/ur.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./uz.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/uz.js",
+      "name": "./node_modules/react-intl/locale-data/uz.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./vai.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/vai.js",
+      "name": "./node_modules/react-intl/locale-data/vai.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ve.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/ve.js",
+      "name": "./node_modules/react-intl/locale-data/ve.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./vi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/vi.js",
+      "name": "./node_modules/react-intl/locale-data/vi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./vo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/vo.js",
+      "name": "./node_modules/react-intl/locale-data/vo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./vun.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/vun.js",
+      "name": "./node_modules/react-intl/locale-data/vun.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./wa.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/wa.js",
+      "name": "./node_modules/react-intl/locale-data/wa.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./wae.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/wae.js",
+      "name": "./node_modules/react-intl/locale-data/wae.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./wo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/wo.js",
+      "name": "./node_modules/react-intl/locale-data/wo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./xh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/xh.js",
+      "name": "./node_modules/react-intl/locale-data/xh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./xog.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/xog.js",
+      "name": "./node_modules/react-intl/locale-data/xog.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./yav.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/yav.js",
+      "name": "./node_modules/react-intl/locale-data/yav.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./yi.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/yi.js",
+      "name": "./node_modules/react-intl/locale-data/yi.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./yo.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/yo.js",
+      "name": "./node_modules/react-intl/locale-data/yo.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./yue.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/yue.js",
+      "name": "./node_modules/react-intl/locale-data/yue.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./zgh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/zgh.js",
+      "name": "./node_modules/react-intl/locale-data/zgh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./zh.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/zh.js",
+      "name": "./node_modules/react-intl/locale-data/zh.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./zu.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/zu.js",
+      "name": "./node_modules/react-intl/locale-data/zu.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./cjs/react-is.development.js": [
     {
       "id": "./node_modules/react-is/cjs/react-is.development.js",
       "name": "./node_modules/react-is/cjs/react-is.development.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-is": [
     {
       "id": "./node_modules/react-is/index.js",
       "name": "./node_modules/react-is/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-loadable": [
     {
       "id": "./node_modules/react-loadable/lib/index.js",
       "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./BrowserRouter": [
     {
       "id": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "name": "./node_modules/react-router-dom/es/BrowserRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./HashRouter": [
     {
       "id": "./node_modules/react-router-dom/es/HashRouter.js",
       "name": "./node_modules/react-router-dom/es/HashRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./Link": [
     {
       "id": "./node_modules/react-router-dom/es/Link.js",
       "name": "./node_modules/react-router-dom/es/Link.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./MemoryRouter": [
     {
       "id": "./node_modules/react-router-dom/es/MemoryRouter.js",
       "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./NavLink": [
     {
       "id": "./node_modules/react-router-dom/es/NavLink.js",
       "name": "./node_modules/react-router-dom/es/NavLink.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./Prompt": [
     {
       "id": "./node_modules/react-router-dom/es/Prompt.js",
       "name": "./node_modules/react-router-dom/es/Prompt.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./Redirect": [
     {
       "id": "./node_modules/react-router-dom/es/Redirect.js",
       "name": "./node_modules/react-router-dom/es/Redirect.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./Route": [
     {
       "id": "./node_modules/react-router-dom/es/Route.js",
       "name": "./node_modules/react-router-dom/es/Route.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./Router": [
     {
       "id": "./node_modules/react-router-dom/es/Router.js",
       "name": "./node_modules/react-router-dom/es/Router.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./StaticRouter": [
     {
       "id": "./node_modules/react-router-dom/es/StaticRouter.js",
       "name": "./node_modules/react-router-dom/es/StaticRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
-    }
-  ],
-  "./Switch": [
-    {
-      "id": "./node_modules/react-router-dom/es/Switch.js",
-      "name": "./node_modules/react-router-dom/es/Switch.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./generatePath": [
     {
       "id": "./node_modules/react-router-dom/es/generatePath.js",
       "name": "./node_modules/react-router-dom/es/generatePath.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router-dom": [
     {
       "id": "./node_modules/react-router-dom/es/index.js",
       "name": "./node_modules/react-router-dom/es/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./matchPath": [
     {
       "id": "./node_modules/react-router-dom/es/matchPath.js",
       "name": "./node_modules/react-router-dom/es/matchPath.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./withRouter": [
     {
       "id": "./node_modules/react-router-dom/es/withRouter.js",
       "name": "./node_modules/react-router-dom/es/withRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/MemoryRouter": [
     {
       "id": "./node_modules/react-router/es/MemoryRouter.js",
       "name": "./node_modules/react-router/es/MemoryRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/Prompt": [
     {
       "id": "./node_modules/react-router/es/Prompt.js",
       "name": "./node_modules/react-router/es/Prompt.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/Redirect": [
     {
       "id": "./node_modules/react-router/es/Redirect.js",
       "name": "./node_modules/react-router/es/Redirect.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/Route": [
     {
       "id": "./node_modules/react-router/es/Route.js",
       "name": "./node_modules/react-router/es/Route.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/Router": [
     {
       "id": "./node_modules/react-router/es/Router.js",
       "name": "./node_modules/react-router/es/Router.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/StaticRouter": [
     {
       "id": "./node_modules/react-router/es/StaticRouter.js",
       "name": "./node_modules/react-router/es/StaticRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/Switch": [
     {
       "id": "./node_modules/react-router/es/Switch.js",
       "name": "./node_modules/react-router/es/Switch.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/generatePath": [
     {
       "id": "./node_modules/react-router/es/generatePath.js",
       "name": "./node_modules/react-router/es/generatePath.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/matchPath": [
     {
       "id": "./node_modules/react-router/es/matchPath.js",
       "name": "./node_modules/react-router/es/matchPath.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react-router/es/withRouter": [
     {
       "id": "./node_modules/react-router/es/withRouter.js",
       "name": "./node_modules/react-router/es/withRouter.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./cjs/react.development.js": [
     {
       "id": "./node_modules/react/cjs/react.development.js",
       "name": "./node_modules/react/cjs/react.development.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "react": [
     {
       "id": "./node_modules/react/index.js",
       "name": "./node_modules/react/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "resolve-pathname": [
     {
       "id": "./node_modules/resolve-pathname/index.js",
       "name": "./node_modules/resolve-pathname/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./cjs/scheduler-tracing.development.js": [
     {
       "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./cjs/scheduler.development.js": [
     {
       "id": "./node_modules/scheduler/cjs/scheduler.development.js",
       "name": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "scheduler": [
     {
       "id": "./node_modules/scheduler/index.js",
       "name": "./node_modules/scheduler/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "scheduler/tracing": [
     {
       "id": "./node_modules/scheduler/tracing.js",
       "name": "./node_modules/scheduler/tracing.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "styled-components": [
     {
       "id": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "stylis-rule-sheet": [
     {
       "id": "./node_modules/stylis-rule-sheet/index.js",
       "name": "./node_modules/stylis-rule-sheet/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "stylis/stylis.min": [
     {
       "id": "./node_modules/stylis/stylis.min.js",
       "name": "./node_modules/stylis/stylis.min.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": "./node_modules/symbol-observable/es/index.js",
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": "./node_modules/symbol-observable/es/ponyfill.js",
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "value-equal": [
     {
       "id": "./node_modules/value-equal/index.js",
       "name": "./node_modules/value-equal/index.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "warning": [
     {
       "id": "./node_modules/warning/warning.js",
       "name": "./node_modules/warning/warning.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
-  "./../../webpack/buildin/global.js": [
+  "./../../../webpack/buildin/global.js": [
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./../../webpack/buildin/harmony-module.js": [
     {
       "id": "./node_modules/webpack/buildin/harmony-module.js",
       "name": "./node_modules/webpack/buildin/harmony-module.js",
-      "file": "commons.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/commons.6d3aae228551c645e442.bundle-dev.js"
+      "file": "commons.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/commons.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./NotLoadableHomePage": [
     {
       "id": "./src/containers/HomePage/NotLoadableHomePage.js",
       "name": "./src/containers/HomePage/NotLoadableHomePage.js",
-      "file": "home-page.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/home-page.6d3aae228551c645e442.bundle-dev.js"
+      "file": "home-page.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/home-page.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./src/app.js": [
     {
       "id": "./src/app.js",
       "name": "./src/app.js",
-      "file": "main.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/main.6d3aae228551c645e442.bundle-dev.js"
-    }
-  ],
-  "../../common/components/spinners/DoubleBounceSpinner": [
-    {
-      "id": "./src/common/components/spinners/DoubleBounceSpinner/index.js",
-      "name": "./src/common/components/spinners/DoubleBounceSpinner/index.js",
-      "file": "main.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/main.6d3aae228551c645e442.bundle-dev.js"
-    }
-  ],
-  "../../../palette": [
-    {
-      "id": "./src/common/palette.js",
-      "name": "./src/common/palette.js",
-      "file": "main.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/main.6d3aae228551c645e442.bundle-dev.js"
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "./containers/App": [
     {
       "id": "./src/containers/App/index.js",
       "name": "./src/containers/App/index.js",
-      "file": "main.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/main.6d3aae228551c645e442.bundle-dev.js"
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../../../i18n/locale/data.json": [
+    {
+      "id": "./i18n/locale/data.json",
+      "name": "./i18n/locale/data.json",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../../common/GlobalStyle": [
+    {
+      "id": "./src/common/GlobalStyle.js",
+      "name": "./src/common/GlobalStyle.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../../common/components/buttons/Button": [
+    {
+      "id": "./src/common/components/buttons/Button/index.js",
+      "name": "./src/common/components/buttons/Button/index.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../../common/components/spinners/DoubleBounceSpinner": [
+    {
+      "id": "./src/common/components/spinners/DoubleBounceSpinner/index.js",
+      "name": "./src/common/components/spinners/DoubleBounceSpinner/index.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./palette": [
+    {
+      "id": "./src/common/palette.js",
+      "name": "./src/common/palette.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../../common/theme": [
+    {
+      "id": "./src/common/theme.js",
+      "name": "./src/common/theme.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "../Application": [
     {
       "id": "./src/containers/Application/index.js",
       "name": "./src/containers/Application/index.js",
-      "file": "main.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/main.6d3aae228551c645e442.bundle-dev.js"
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ],
   "../HomePage": [
     {
       "id": "./src/containers/HomePage/index.js",
       "name": "./src/containers/HomePage/index.js",
-      "file": "main.6d3aae228551c645e442.bundle-dev.js",
-      "publicPath": "/bundles/main.6d3aae228551c645e442.bundle-dev.js"
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "../LoadingPage": [
+    {
+      "id": "./src/containers/LoadingPage/index.js",
+      "name": "./src/containers/LoadingPage/index.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
+    }
+  ],
+  "./messages": [
+    {
+      "id": "./src/containers/LoadingPage/messages.js",
+      "name": "./src/containers/LoadingPage/messages.js",
+      "file": "main.dbbd0c0c93a41f594409.bundle-dev.js",
+      "publicPath": "/bundles/main.dbbd0c0c93a41f594409.bundle-dev.js"
     }
   ]
 }

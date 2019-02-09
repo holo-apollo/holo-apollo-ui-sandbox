@@ -1,31 +1,32 @@
 import React from 'react';
-import { Link, Switch, Route } from 'react-router-dom';
-import styled from 'styled-components';
+import { Switch, Route } from 'react-router-dom';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import { IntlProvider, addLocaleData } from 'react-intl';
 
+import GlobalStyle from 'common/GlobalStyle';
+import theme from 'common/theme';
 import Application from 'containers/Application';
 import HomePage from 'containers/HomePage';
+import localeData from '../../../i18n/locale/data.json';
 
-const Cont = styled.div``;
+// TODO: move language detection to redux
+const language = 'en';
+const messages = localeData[language] || localeData.en;
 
-const LinksCont = styled.div`
-  display: flex;
-
-  a {
-    margin-right: 20px;
-  }
-`;
+import(`react-intl/locale-data/${language}`).then(data => {
+  addLocaleData(data);
+});
 
 const App = () => (
-  <Cont>
-    <LinksCont>
-      <Link to="/">Home</Link>
-      <Link to="/application">Application</Link>
-    </LinksCont>
-    <Switch>
-      <Route path="/" exact component={HomePage} />
-      <Route path="/application" exact component={Application} />
-    </Switch>
-  </Cont>
+  <IntlProvider locale={language} messages={messages}>
+    <MuiThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/application" exact component={Application} />
+      </Switch>
+    </MuiThemeProvider>
+  </IntlProvider>
 );
 
 export default App;

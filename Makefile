@@ -1,4 +1,4 @@
 build:
-	rm static/bundles/*.js
+	rm static/bundles/*
 	yarn build
 	yarn build:dev
