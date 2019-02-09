@@ -5,7 +5,9 @@ import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { preloadAll, Capture } from 'react-loadable';
 import { getBundles } from 'react-loadable/webpack';
+import Helmet from 'react-helmet';
 
+import addIntl from 'helpers/addIntl';
 import App from 'containers/App';
 
 const isProd = process.env.NODE_ENV === 'production';
@@ -30,10 +32,12 @@ if (process.env.NODE_ENV === 'development') {
 app.get('/*', (req, res) => {
   const context = {};
   const modules = [];
+  const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
+
   const jsx = (
     <Capture report={moduleName => modules.push(moduleName)}>
       <StaticRouter context={context} location={req.url}>
-        <App />
+        {addIntl(App, lang)}
       </StaticRouter>
     </Capture>
   );
@@ -51,9 +55,16 @@ app.get('/*', (req, res) => {
     getBundlePath('main'),
   ];
   const staticRoot = process.env.STATIC_ROOT || '';
-  const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
+  const helmetData = Helmet.renderStatic();
 
-  res.render('index', { reactDom, bundlePaths, staticRoot, isProd, lang });
+  res.render('index', {
+    reactDom,
+    bundlePaths,
+    staticRoot,
+    isProd,
+    lang,
+    helmetData,
+  });
 });
 
 preloadAll()

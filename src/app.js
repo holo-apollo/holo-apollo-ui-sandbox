@@ -1,15 +1,8 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
 import { preloadReady } from 'react-loadable';
 
-import App from 'containers/App';
+import FrontendApp from 'containers/App/FrontendApp';
 
 preloadReady().then(() => {
-  ReactDOM.hydrate(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>,
-    document.getElementById('app')
-  );
+  ReactDOM.hydrate(FrontendApp, document.getElementById('app'));
 });

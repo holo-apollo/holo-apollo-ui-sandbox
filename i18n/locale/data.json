@@ -1,1 +1,20 @@
-{}
+{
+  "en": {
+    "App.description": "Unique marketplace of design products will be here soon. In a meantime, subscribe for updates ❤️",
+    "LoadingPage.error": "Error!",
+    "LoadingPage.retry": "Retry",
+    "LoadingPage.timedOut": "Taking a long time..."
+  },
+  "ru": {
+    "App.description": "Скоро здесь будет уникальная торговая площадка дизайнерских изделий. А пока, подписывайтесь на обновления ❤️",
+    "LoadingPage.error": "Ошибка!",
+    "LoadingPage.retry": "Попробовать еще",
+    "LoadingPage.timedOut": "Что-то долго..."
+  },
+  "uk": {
+    "App.description": "Незабаром тут буде унікальний торговий майданчик дизайнерських виробів. Тим часом, підпишіться на оновлення ❤️",
+    "LoadingPage.error": "Помилка!",
+    "LoadingPage.retry": "Спробувати ще",
+    "LoadingPage.timedOut": "Щось довго..."
+  }
+}
