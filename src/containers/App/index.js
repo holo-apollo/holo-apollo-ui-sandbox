@@ -1,9 +1,7 @@
-// @flow
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import Helmet from 'react-helmet';
-import type { IntlShape } from 'react-intl';
 
 import GlobalStyle from 'common/GlobalStyle';
 import theme from 'common/theme';
@@ -11,11 +9,7 @@ import Application from 'containers/Application';
 import HomePage from 'containers/HomePage';
 import messages from './messages';
 
-type Props = {
-  intl: IntlShape,
-};
-
-const App = ({ intl }: Props) => (
+const App = ({ intl }) => (
   <MuiThemeProvider theme={theme}>
     <GlobalStyle />
     <Helmet>

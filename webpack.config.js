@@ -31,10 +31,6 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'eslint-loader',
       },
-      {
-        test: /\.(png|woff|woff2|eot|otf|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'url-loader',
-      },
     ],
   },
   mode: 'development',

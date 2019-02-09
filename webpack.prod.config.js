@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const UglifyJsPlugin = require('uglify-es-webpack-plugin');
 const { StatsWriterPlugin } = require('webpack-stats-plugin');
 const { ReactLoadablePlugin } = require('react-loadable/webpack');
 
@@ -41,10 +41,6 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'eslint-loader',
-      },
-      {
-        test: /\.(png|woff|woff2|eot|otf|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'url-loader',
       },
     ],
   },

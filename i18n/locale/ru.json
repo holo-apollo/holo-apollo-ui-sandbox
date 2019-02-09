@@ -1,5 +1,12 @@
 {
   "App.description": "Скоро здесь будет уникальная торговая площадка дизайнерских изделий. А пока, подписывайтесь на обновления ❤️",
+  "HomePageLayout.comingSoon": "Уже скоро",
+  "HomePageLayout.welcomeBack": "С возвращением",
+  "HomePageLayout.hello": "Привет",
+  "HomePageLayout.welcome": "Добро пожаловать",
+  "HomePageLayout.toHolloApollo": "на Holo-Apollo.art",
+  "HomePageLayout.toMarketPlace": "Лучшую торговую площадку ДЕКОРА и ДИЗАЙНА",
+  "HomePageLayout.onMarketPlace": "Лучшую торговую площадку ДЕКОРА и ДИЗАЙНА",
   "LoadingPage.error": "Ошибка!",
   "LoadingPage.retry": "Попробовать еще",
   "LoadingPage.timedOut": "Что-то долго..."
