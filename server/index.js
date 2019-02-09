@@ -1,17 +1,18 @@
 import express from 'express';
-import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { preloadAll, Capture } from 'react-loadable';
 import { getBundles } from 'react-loadable/webpack';
 import Helmet from 'react-helmet';
+import { ServerStyleSheet } from 'styled-components';
 
 import addIntl from 'helpers/addIntl';
 import App from 'containers/App';
+import setup from './middlewares/frontendMiddleware';
 
 const isProd = process.env.NODE_ENV === 'production';
-const suffix = isProd ? 'prod' : 'dev';
+const suffix = process.env.NODE_ENV;
 const webpackStats = require(`../webpack-stats-${suffix}.json`);
 const reactLoadableStats = require(`../react-loadable-stats-${suffix}.json`);
 
@@ -22,22 +23,20 @@ function getBundlePath(bundleName) {
 
 const app = express();
 
-app.set('view engine', 'ejs');
+setup(app);
 
-if (process.env.NODE_ENV === 'development') {
-  const staticDir = path.resolve(__dirname, `../static`);
-  app.use(express.static(staticDir));
-}
+app.set('view engine', 'ejs');
 
 app.get('/*', (req, res) => {
   const context = {};
   const modules = [];
   const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
+  const appWithIntl = addIntl(App, lang);
 
   const jsx = (
     <Capture report={moduleName => modules.push(moduleName)}>
       <StaticRouter context={context} location={req.url}>
-        {addIntl(App, lang)}
+        {appWithIntl}
       </StaticRouter>
     </Capture>
   );
@@ -47,11 +46,14 @@ app.get('/*', (req, res) => {
     return;
   }
 
-  const reactDom = renderToString(jsx);
+  const sheet = new ServerStyleSheet();
+  const reactDom = renderToString(sheet.collectStyles(jsx));
+  const styleTags = sheet.getStyleTags();
 
   const bundles = getBundles(reactLoadableStats, modules);
   const bundlePaths = [
     ...bundles.map(bundle => bundle.publicPath),
+    getBundlePath('commons'),
     getBundlePath('main'),
   ];
   const staticRoot = process.env.STATIC_ROOT || '';
@@ -64,6 +66,7 @@ app.get('/*', (req, res) => {
     isProd,
     lang,
     helmetData,
+    styleTags,
   });
 });
 
