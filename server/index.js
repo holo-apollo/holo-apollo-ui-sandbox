@@ -26,57 +26,63 @@ const app = express();
 setup(app);
 
 app.get('/*', (req, res) => {
-  const context = {};
-  const modules = [];
-  const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
-  const appWithIntl = addIntl(App, lang);
+  try {
+    const context = {};
+    const modules = [];
+    const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
+    const appWithIntl = addIntl(App, lang);
 
-  const jsx = (
-    <Capture report={moduleName => modules.push(moduleName)}>
-      <StaticRouter context={context} location={req.url}>
-        {appWithIntl}
-      </StaticRouter>
-    </Capture>
-  );
+    const jsx = (
+      <Capture report={moduleName => modules.push(moduleName)}>
+        <StaticRouter context={context} location={req.url}>
+          {appWithIntl}
+        </StaticRouter>
+      </Capture>
+    );
 
-  if (context.url) {
-    res.redirect(context.url);
-    return;
+    if (context.url) {
+      res.redirect(context.url);
+      return;
+    }
+
+    const sheet = new ServerStyleSheet();
+    const reactDom = renderToString(sheet.collectStyles(jsx));
+    const styleTags = sheet.getStyleTags();
+
+    const bundles = getBundles(reactLoadableStats, modules);
+    const bundlePaths = [
+      ...bundles
+        .map(bundle => bundle.publicPath)
+        .filter(bundlePath => bundlePath),
+      getBundlePath('commons'),
+      getBundlePath('main'),
+    ];
+    const staticRoot = process.env.STATIC_ROOT || '';
+    const helmetData = Helmet.renderStatic();
+
+    res.render('index', {
+      reactDom,
+      bundlePaths,
+      staticRoot,
+      isProd,
+      lang,
+      helmetData,
+      styleTags,
+    });
+  } catch (e) {
+    console.error(e); // eslint-disable-line no-console
+    // TODO: implement custom server error page
+    res.send(500);
   }
-
-  const sheet = new ServerStyleSheet();
-  const reactDom = renderToString(sheet.collectStyles(jsx));
-  const styleTags = sheet.getStyleTags();
-
-  const bundles = getBundles(reactLoadableStats, modules);
-  const bundlePaths = [
-    ...bundles.map(bundle => bundle.publicPath),
-    getBundlePath('commons'),
-    getBundlePath('main'),
-  ];
-  const staticRoot = process.env.STATIC_ROOT || '';
-  const helmetData = Helmet.renderStatic();
-
-  res.render('index', {
-    reactDom,
-    bundlePaths,
-    staticRoot,
-    isProd,
-    lang,
-    helmetData,
-    styleTags,
-  });
 });
 
 preloadAll()
   .then(() => {
     app.listen(process.env.PORT, () => {
       // TODO: use logging middleware
-      // eslint-disable-next-line no-console
-      console.log('Server has started');
+      console.log('Server has started'); // eslint-disable-line no-console
     });
   })
   .catch(error => {
-    // eslint-disable-next-line no-console
-    console.log(error);
+    console.log(error); // eslint-disable-line no-console
   });

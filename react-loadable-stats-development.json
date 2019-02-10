@@ -1,8 +1,16 @@
 {
-  "./NotLoadableApplication": [
+  "./PureApplicationLayout": [
     {
-      "id": "./src/containers/Application/NotLoadableApplication.js",
-      "name": "./src/containers/Application/NotLoadableApplication.js",
+      "id": "./src/containers/Application/ApplicationLayout/PureApplicationLayout.js",
+      "name": "./src/containers/Application/ApplicationLayout/PureApplicationLayout.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    }
+  ],
+  "./ApplicationLayout": [
+    {
+      "id": "./src/containers/Application/ApplicationLayout/index.js",
+      "name": "./src/containers/Application/ApplicationLayout/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/application.bundle-development.js"
     }
@@ -463,14 +471,6 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "./_array-includes": [
-    {
-      "id": "./node_modules/core-js/modules/_array-includes.js",
-      "name": "./node_modules/core-js/modules/_array-includes.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
   "./_classof": [
     {
       "id": "./node_modules/core-js/modules/_classof.js",
@@ -523,14 +523,6 @@
     {
       "id": "./node_modules/core-js/modules/_dom-create.js",
       "name": "./node_modules/core-js/modules/_dom-create.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_enum-bug-keys": [
-    {
-      "id": "./node_modules/core-js/modules/_enum-bug-keys.js",
-      "name": "./node_modules/core-js/modules/_enum-bug-keys.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -599,14 +591,6 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "./_iobject": [
-    {
-      "id": "./node_modules/core-js/modules/_iobject.js",
-      "name": "./node_modules/core-js/modules/_iobject.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
   "./_is-object": [
     {
       "id": "./node_modules/core-js/modules/_is-object.js",
@@ -623,50 +607,10 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "./_object-assign": [
-    {
-      "id": "./node_modules/core-js/modules/_object-assign.js",
-      "name": "./node_modules/core-js/modules/_object-assign.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
   "./_object-dp": [
     {
       "id": "./node_modules/core-js/modules/_object-dp.js",
       "name": "./node_modules/core-js/modules/_object-dp.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_object-gops": [
-    {
-      "id": "./node_modules/core-js/modules/_object-gops.js",
-      "name": "./node_modules/core-js/modules/_object-gops.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_object-keys-internal": [
-    {
-      "id": "./node_modules/core-js/modules/_object-keys-internal.js",
-      "name": "./node_modules/core-js/modules/_object-keys-internal.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_object-keys": [
-    {
-      "id": "./node_modules/core-js/modules/_object-keys.js",
-      "name": "./node_modules/core-js/modules/_object-keys.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_object-pie": [
-    {
-      "id": "./node_modules/core-js/modules/_object-pie.js",
-      "name": "./node_modules/core-js/modules/_object-pie.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -711,58 +655,10 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "./_shared-key": [
-    {
-      "id": "./node_modules/core-js/modules/_shared-key.js",
-      "name": "./node_modules/core-js/modules/_shared-key.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
   "./_shared": [
     {
       "id": "./node_modules/core-js/modules/_shared.js",
       "name": "./node_modules/core-js/modules/_shared.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_to-absolute-index": [
-    {
-      "id": "./node_modules/core-js/modules/_to-absolute-index.js",
-      "name": "./node_modules/core-js/modules/_to-absolute-index.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_to-integer": [
-    {
-      "id": "./node_modules/core-js/modules/_to-integer.js",
-      "name": "./node_modules/core-js/modules/_to-integer.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_to-iobject": [
-    {
-      "id": "./node_modules/core-js/modules/_to-iobject.js",
-      "name": "./node_modules/core-js/modules/_to-iobject.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_to-length": [
-    {
-      "id": "./node_modules/core-js/modules/_to-length.js",
-      "name": "./node_modules/core-js/modules/_to-length.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_to-object": [
-    {
-      "id": "./node_modules/core-js/modules/_to-object.js",
-      "name": "./node_modules/core-js/modules/_to-object.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -787,14 +683,6 @@
     {
       "id": "./node_modules/core-js/modules/_wks.js",
       "name": "./node_modules/core-js/modules/_wks.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "core-js/modules/es6.object.assign": [
-    {
-      "id": "./node_modules/core-js/modules/es6.object.assign.js",
-      "name": "./node_modules/core-js/modules/es6.object.assign.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }

@@ -4,7 +4,7 @@ import LoadingPage from 'containers/LoadingPage';
 
 const Application = createLoadable({
   loader: () =>
-    import(/* webpackChunkName: 'application' */ './NotLoadableApplication'),
+    import(/* webpackChunkName: 'application' */ './ApplicationLayout'),
   loading: LoadingPage,
 });
 
