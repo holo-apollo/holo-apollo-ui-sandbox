@@ -1,8 +1,8 @@
 import express from 'express';
-const path = require('path');
-const webpack = require('webpack');
-const webpackDevMiddleware = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware');
+import path from 'path';
+import webpack from 'webpack';
+import webpackDevMiddleware from 'webpack-dev-middleware';
+import webpackHotMiddleware from 'webpack-hot-middleware';
 
 function createWebpackMiddleware(compiler, publicPath) {
   return webpackDevMiddleware(compiler, {

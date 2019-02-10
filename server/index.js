@@ -9,7 +9,7 @@ import { ServerStyleSheet } from 'styled-components';
 
 import addIntl from 'helpers/addIntl';
 import App from 'containers/App';
-import setup from './middlewares/frontendMiddleware';
+import setup from './setup';
 
 const isProd = process.env.NODE_ENV === 'production';
 const suffix = process.env.NODE_ENV;
@@ -24,8 +24,6 @@ function getBundlePath(bundleName) {
 const app = express();
 
 setup(app);
-
-app.set('view engine', 'ejs');
 
 app.get('/*', (req, res) => {
   const context = {};
