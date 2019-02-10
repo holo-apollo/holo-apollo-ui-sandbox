@@ -31,7 +31,7 @@ export const Content = styled.div`
 
   h5 {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     margin: 10px 0;
   }
 

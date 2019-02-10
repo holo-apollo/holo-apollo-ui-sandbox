@@ -1,5 +1,13 @@
 {
   "App.description": "Скоро здесь будет уникальная торговая площадка дизайнерских изделий. А пока, подписывайтесь на обновления ❤️",
+  "ApplicationCreate.participantApplication": "Заявка участника",
+  "ApplicationCreate.greetings": "Рады вас приветствовать на этапе регистрации вашего магазина на Holo-Apollo.art",
+  "ApplicationCreate.consists": "Это состоит из 2 шагов:",
+  "ApplicationLayout.showroomDescription": "Онлайн-шоурум Design Made in UA",
+  "ApplicationSuccess.cool": "Класс!",
+  "ApplicationSuccess.submittedSuccessfully": "Ваша заявка успешно отправлена.",
+  "ApplicationSuccess.confirmation": "Совсем скоро вам на почту придет подтвержение публикации.",
+  "ApplicationSuccess.pubDateExplanation": "Это предварительная дата публикации о вас на нашей инста-страничке.",
   "HomePageLayout.comingSoon": "Уже скоро",
   "HomePageLayout.welcomeBack": "С возвращением",
   "HomePageLayout.hello": "Привет",

@@ -1,4 +1,90 @@
 {
+  "../../../common/constants": [
+    {
+      "id": "./src/common/constants.js",
+      "name": "./src/common/constants.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/common/constants.js",
+      "name": "./src/common/constants.js",
+      "file": "home-page.bundle-development.js",
+      "publicPath": "/bundles/home-page.bundle-development.js"
+    }
+  ],
+  "../ApplicationCreate": [
+    {
+      "id": "./src/containers/Application/ApplicationCreate/index.js",
+      "name": "./src/containers/Application/ApplicationCreate/index.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    }
+  ],
+  "./messages": [
+    {
+      "id": "./src/containers/Application/ApplicationCreate/messages.js",
+      "name": "./src/containers/Application/ApplicationCreate/messages.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/Application/ApplicationLayout/messages.js",
+      "name": "./src/containers/Application/ApplicationLayout/messages.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/Application/ApplicationSuccess/messages.js",
+      "name": "./src/containers/Application/ApplicationSuccess/messages.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/HomePage/HomePageLayout/messages.js",
+      "name": "./src/containers/HomePage/HomePageLayout/messages.js",
+      "file": "home-page.bundle-development.js",
+      "publicPath": "/bundles/home-page.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/App/messages.js",
+      "name": "./src/containers/App/messages.js",
+      "file": "main.bundle-development.js",
+      "publicPath": "/bundles/main.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/LoadingPage/messages.js",
+      "name": "./src/containers/LoadingPage/messages.js",
+      "file": "main.bundle-development.js",
+      "publicPath": "/bundles/main.bundle-development.js"
+    }
+  ],
+  "./styled": [
+    {
+      "id": "./src/containers/Application/ApplicationCreate/styled.js",
+      "name": "./src/containers/Application/ApplicationCreate/styled.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/Application/ApplicationLayout/styled.js",
+      "name": "./src/containers/Application/ApplicationLayout/styled.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/Application/ApplicationSuccess/styled.js",
+      "name": "./src/containers/Application/ApplicationSuccess/styled.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/HomePage/HomePageLayout/styled.js",
+      "name": "./src/containers/HomePage/HomePageLayout/styled.js",
+      "file": "home-page.bundle-development.js",
+      "publicPath": "/bundles/home-page.bundle-development.js"
+    }
+  ],
   "./PureApplicationLayout": [
     {
       "id": "./src/containers/Application/ApplicationLayout/PureApplicationLayout.js",
@@ -11,6 +97,14 @@
     {
       "id": "./src/containers/Application/ApplicationLayout/index.js",
       "name": "./src/containers/Application/ApplicationLayout/index.js",
+      "file": "application.bundle-development.js",
+      "publicPath": "/bundles/application.bundle-development.js"
+    }
+  ],
+  "../ApplicationSuccess": [
+    {
+      "id": "./src/containers/Application/ApplicationSuccess/index.js",
+      "name": "./src/containers/Application/ApplicationSuccess/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/application.bundle-development.js"
     }
@@ -43,6 +137,30 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/defineProperty.js",
       "name": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "@babel/runtime/helpers/esm/extends": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "@babel/runtime/helpers/esm/inheritsLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -447,6 +565,22 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
+  "babel-runtime/core-js/object/keys": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/keys.js",
+      "name": "./node_modules/babel-runtime/core-js/object/keys.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "babel-runtime/helpers/classCallCheck": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/classCallCheck.js",
+      "name": "./node_modules/babel-runtime/helpers/classCallCheck.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
   "brcast": [
     {
       "id": "./node_modules/brcast/dist/brcast.es.js",
@@ -455,7 +589,29 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
+  "change-emitter": [
+    {
+      "id": "./node_modules/change-emitter/lib/index.js",
+      "name": "./node_modules/change-emitter/lib/index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "core-js/library/fn/object/keys": [
+    {
+      "id": "./node_modules/core-js/library/fn/object/keys.js",
+      "name": "./node_modules/core-js/library/fn/object/keys.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
   "./_a-function": [
+    {
+      "id": "./node_modules/core-js/library/modules/_a-function.js",
+      "name": "./node_modules/core-js/library/modules/_a-function.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
     {
       "id": "./node_modules/core-js/modules/_a-function.js",
       "name": "./node_modules/core-js/modules/_a-function.js",
@@ -465,8 +621,378 @@
   ],
   "./_an-object": [
     {
+      "id": "./node_modules/core-js/library/modules/_an-object.js",
+      "name": "./node_modules/core-js/library/modules/_an-object.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
       "id": "./node_modules/core-js/modules/_an-object.js",
       "name": "./node_modules/core-js/modules/_an-object.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_array-includes": [
+    {
+      "id": "./node_modules/core-js/library/modules/_array-includes.js",
+      "name": "./node_modules/core-js/library/modules/_array-includes.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_cof": [
+    {
+      "id": "./node_modules/core-js/library/modules/_cof.js",
+      "name": "./node_modules/core-js/library/modules/_cof.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_cof.js",
+      "name": "./node_modules/core-js/modules/_cof.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../modules/_core": [
+    {
+      "id": "./node_modules/core-js/library/modules/_core.js",
+      "name": "./node_modules/core-js/library/modules/_core.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_ctx": [
+    {
+      "id": "./node_modules/core-js/library/modules/_ctx.js",
+      "name": "./node_modules/core-js/library/modules/_ctx.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_ctx.js",
+      "name": "./node_modules/core-js/modules/_ctx.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_defined": [
+    {
+      "id": "./node_modules/core-js/library/modules/_defined.js",
+      "name": "./node_modules/core-js/library/modules/_defined.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_defined.js",
+      "name": "./node_modules/core-js/modules/_defined.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_descriptors": [
+    {
+      "id": "./node_modules/core-js/library/modules/_descriptors.js",
+      "name": "./node_modules/core-js/library/modules/_descriptors.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_descriptors.js",
+      "name": "./node_modules/core-js/modules/_descriptors.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_dom-create": [
+    {
+      "id": "./node_modules/core-js/library/modules/_dom-create.js",
+      "name": "./node_modules/core-js/library/modules/_dom-create.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_dom-create.js",
+      "name": "./node_modules/core-js/modules/_dom-create.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_enum-bug-keys": [
+    {
+      "id": "./node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "name": "./node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_export": [
+    {
+      "id": "./node_modules/core-js/library/modules/_export.js",
+      "name": "./node_modules/core-js/library/modules/_export.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_export.js",
+      "name": "./node_modules/core-js/modules/_export.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_fails": [
+    {
+      "id": "./node_modules/core-js/library/modules/_fails.js",
+      "name": "./node_modules/core-js/library/modules/_fails.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_fails.js",
+      "name": "./node_modules/core-js/modules/_fails.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_global": [
+    {
+      "id": "./node_modules/core-js/library/modules/_global.js",
+      "name": "./node_modules/core-js/library/modules/_global.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_global.js",
+      "name": "./node_modules/core-js/modules/_global.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_has": [
+    {
+      "id": "./node_modules/core-js/library/modules/_has.js",
+      "name": "./node_modules/core-js/library/modules/_has.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_has.js",
+      "name": "./node_modules/core-js/modules/_has.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_hide": [
+    {
+      "id": "./node_modules/core-js/library/modules/_hide.js",
+      "name": "./node_modules/core-js/library/modules/_hide.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_hide.js",
+      "name": "./node_modules/core-js/modules/_hide.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_ie8-dom-define": [
+    {
+      "id": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "name": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_ie8-dom-define.js",
+      "name": "./node_modules/core-js/modules/_ie8-dom-define.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_iobject": [
+    {
+      "id": "./node_modules/core-js/library/modules/_iobject.js",
+      "name": "./node_modules/core-js/library/modules/_iobject.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_is-object": [
+    {
+      "id": "./node_modules/core-js/library/modules/_is-object.js",
+      "name": "./node_modules/core-js/library/modules/_is-object.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_is-object.js",
+      "name": "./node_modules/core-js/modules/_is-object.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_library": [
+    {
+      "id": "./node_modules/core-js/library/modules/_library.js",
+      "name": "./node_modules/core-js/library/modules/_library.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_library.js",
+      "name": "./node_modules/core-js/modules/_library.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_object-dp": [
+    {
+      "id": "./node_modules/core-js/library/modules/_object-dp.js",
+      "name": "./node_modules/core-js/library/modules/_object-dp.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_object-dp.js",
+      "name": "./node_modules/core-js/modules/_object-dp.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_object-keys-internal": [
+    {
+      "id": "./node_modules/core-js/library/modules/_object-keys-internal.js",
+      "name": "./node_modules/core-js/library/modules/_object-keys-internal.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_object-keys": [
+    {
+      "id": "./node_modules/core-js/library/modules/_object-keys.js",
+      "name": "./node_modules/core-js/library/modules/_object-keys.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_object-sap": [
+    {
+      "id": "./node_modules/core-js/library/modules/_object-sap.js",
+      "name": "./node_modules/core-js/library/modules/_object-sap.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_property-desc": [
+    {
+      "id": "./node_modules/core-js/library/modules/_property-desc.js",
+      "name": "./node_modules/core-js/library/modules/_property-desc.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_property-desc.js",
+      "name": "./node_modules/core-js/modules/_property-desc.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_shared-key": [
+    {
+      "id": "./node_modules/core-js/library/modules/_shared-key.js",
+      "name": "./node_modules/core-js/library/modules/_shared-key.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_shared": [
+    {
+      "id": "./node_modules/core-js/library/modules/_shared.js",
+      "name": "./node_modules/core-js/library/modules/_shared.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_shared.js",
+      "name": "./node_modules/core-js/modules/_shared.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_to-absolute-index": [
+    {
+      "id": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_to-integer": [
+    {
+      "id": "./node_modules/core-js/library/modules/_to-integer.js",
+      "name": "./node_modules/core-js/library/modules/_to-integer.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_to-iobject": [
+    {
+      "id": "./node_modules/core-js/library/modules/_to-iobject.js",
+      "name": "./node_modules/core-js/library/modules/_to-iobject.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_to-length": [
+    {
+      "id": "./node_modules/core-js/library/modules/_to-length.js",
+      "name": "./node_modules/core-js/library/modules/_to-length.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_to-object": [
+    {
+      "id": "./node_modules/core-js/library/modules/_to-object.js",
+      "name": "./node_modules/core-js/library/modules/_to-object.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_to-primitive": [
+    {
+      "id": "./node_modules/core-js/library/modules/_to-primitive.js",
+      "name": "./node_modules/core-js/library/modules/_to-primitive.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_to-primitive.js",
+      "name": "./node_modules/core-js/modules/_to-primitive.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./_uid": [
+    {
+      "id": "./node_modules/core-js/library/modules/_uid.js",
+      "name": "./node_modules/core-js/library/modules/_uid.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/_uid.js",
+      "name": "./node_modules/core-js/modules/_uid.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../modules/es6.object.keys": [
+    {
+      "id": "./node_modules/core-js/library/modules/es6.object.keys.js",
+      "name": "./node_modules/core-js/library/modules/es6.object.keys.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -479,66 +1005,10 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "./_cof": [
-    {
-      "id": "./node_modules/core-js/modules/_cof.js",
-      "name": "./node_modules/core-js/modules/_cof.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
   "./_core": [
     {
       "id": "./node_modules/core-js/modules/_core.js",
       "name": "./node_modules/core-js/modules/_core.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_ctx": [
-    {
-      "id": "./node_modules/core-js/modules/_ctx.js",
-      "name": "./node_modules/core-js/modules/_ctx.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_defined": [
-    {
-      "id": "./node_modules/core-js/modules/_defined.js",
-      "name": "./node_modules/core-js/modules/_defined.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_descriptors": [
-    {
-      "id": "./node_modules/core-js/modules/_descriptors.js",
-      "name": "./node_modules/core-js/modules/_descriptors.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_dom-create": [
-    {
-      "id": "./node_modules/core-js/modules/_dom-create.js",
-      "name": "./node_modules/core-js/modules/_dom-create.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_export": [
-    {
-      "id": "./node_modules/core-js/modules/_export.js",
-      "name": "./node_modules/core-js/modules/_export.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_fails": [
-    {
-      "id": "./node_modules/core-js/modules/_fails.js",
-      "name": "./node_modules/core-js/modules/_fails.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -555,70 +1025,6 @@
     {
       "id": "./node_modules/core-js/modules/_flags.js",
       "name": "./node_modules/core-js/modules/_flags.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_global": [
-    {
-      "id": "./node_modules/core-js/modules/_global.js",
-      "name": "./node_modules/core-js/modules/_global.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_has": [
-    {
-      "id": "./node_modules/core-js/modules/_has.js",
-      "name": "./node_modules/core-js/modules/_has.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_hide": [
-    {
-      "id": "./node_modules/core-js/modules/_hide.js",
-      "name": "./node_modules/core-js/modules/_hide.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_ie8-dom-define": [
-    {
-      "id": "./node_modules/core-js/modules/_ie8-dom-define.js",
-      "name": "./node_modules/core-js/modules/_ie8-dom-define.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_is-object": [
-    {
-      "id": "./node_modules/core-js/modules/_is-object.js",
-      "name": "./node_modules/core-js/modules/_is-object.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_library": [
-    {
-      "id": "./node_modules/core-js/modules/_library.js",
-      "name": "./node_modules/core-js/modules/_library.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_object-dp": [
-    {
-      "id": "./node_modules/core-js/modules/_object-dp.js",
-      "name": "./node_modules/core-js/modules/_object-dp.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_property-desc": [
-    {
-      "id": "./node_modules/core-js/modules/_property-desc.js",
-      "name": "./node_modules/core-js/modules/_property-desc.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -651,30 +1057,6 @@
     {
       "id": "./node_modules/core-js/modules/_same-value.js",
       "name": "./node_modules/core-js/modules/_same-value.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_shared": [
-    {
-      "id": "./node_modules/core-js/modules/_shared.js",
-      "name": "./node_modules/core-js/modules/_shared.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_to-primitive": [
-    {
-      "id": "./node_modules/core-js/modules/_to-primitive.js",
-      "name": "./node_modules/core-js/modules/_to-primitive.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/commons.bundle-development.js"
-    }
-  ],
-  "./_uid": [
-    {
-      "id": "./node_modules/core-js/modules/_uid.js",
-      "name": "./node_modules/core-js/modules/_uid.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -783,10 +1165,250 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
+  "../../../data/all.json": [
+    {
+      "id": "./node_modules/emoji-mart/data/all.json",
+      "name": "./node_modules/emoji-mart/data/all.json",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../anchors": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/anchors.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/anchors.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./components/category": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/category.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/category.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./components/emoji/emoji": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/emoji/emoji.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/emoji/emoji.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./components/emoji/nimble-emoji": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/emoji/nimble-emoji.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/emoji/nimble-emoji.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./not-found": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/not-found.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/not-found.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./components/picker/nimble-picker": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/picker/nimble-picker.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/picker/nimble-picker.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./components/picker/picker": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/picker/picker.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/picker/picker.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../preview": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/preview.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/preview.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../search": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/search.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/search.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./skins-dot": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/skins-dot.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/skins-dot.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./skins-emoji": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/skins-emoji.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/skins-emoji.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./skins": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/components/skins.js",
+      "name": "./node_modules/emoji-mart/dist-es/components/skins.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "emoji-mart": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/index.js",
+      "name": "./node_modules/emoji-mart/dist-es/index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../polyfills/createClass": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/polyfills/createClass.js",
+      "name": "./node_modules/emoji-mart/dist-es/polyfills/createClass.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../polyfills/extends": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
+      "name": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../polyfills/inherits": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
+      "name": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../polyfills/objectGetPrototypeOf": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
+      "name": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../polyfills/possibleConstructorReturn": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
+      "name": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../polyfills/stringFromCodePoint": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/polyfills/stringFromCodePoint.js",
+      "name": "./node_modules/emoji-mart/dist-es/polyfills/stringFromCodePoint.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../svgs": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/svgs/index.js",
+      "name": "./node_modules/emoji-mart/dist-es/svgs/index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../data": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/data.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/data.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./utils/emoji-index/emoji-index": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/emoji-index/emoji-index.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/emoji-index/emoji-index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./utils/emoji-index/nimble-emoji-index": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/emoji-index/nimble-emoji-index.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/emoji-index/nimble-emoji-index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./utils/frequently": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/frequently.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/frequently.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "..": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/index.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../utils/shared-props": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/shared-props.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/shared-props.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "./utils/store": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/utils/store.js",
+      "name": "./node_modules/emoji-mart/dist-es/utils/store.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "../../vendor/raf-polyfill": [
+    {
+      "id": "./node_modules/emoji-mart/dist-es/vendor/raf-polyfill.js",
+      "name": "./node_modules/emoji-mart/dist-es/vendor/raf-polyfill.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
   "exenv": [
     {
       "id": "./node_modules/exenv/index.js",
       "name": "./node_modules/exenv/index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
+  "fbjs/lib/shallowEqual": [
+    {
+      "id": "./node_modules/fbjs/lib/shallowEqual.js",
+      "name": "./node_modules/fbjs/lib/shallowEqual.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/commons.bundle-development.js"
     }
@@ -3515,6 +4137,14 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
+  "react-lifecycles-compat": [
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
   "react-loadable": [
     {
       "id": "./node_modules/react-loadable/lib/index.js",
@@ -3739,6 +4369,14 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
+  "recompose": [
+    {
+      "id": "./node_modules/recompose/dist/Recompose.esm.js",
+      "name": "./node_modules/recompose/dist/Recompose.esm.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/commons.bundle-development.js"
+    }
+  ],
   "resolve-pathname": [
     {
       "id": "./node_modules/resolve-pathname/index.js",
@@ -3907,14 +4545,6 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../../../common/constants": [
-    {
-      "id": "./src/common/constants.js",
-      "name": "./src/common/constants.js",
-      "file": "home-page.bundle-development.js",
-      "publicPath": "/bundles/home-page.bundle-development.js"
-    }
-  ],
   "./PureHomePageLayout": [
     {
       "id": "./src/containers/HomePage/HomePageLayout/PureHomePageLayout.js",
@@ -3927,34 +4557,6 @@
     {
       "id": "./src/containers/HomePage/HomePageLayout/index.js",
       "name": "./src/containers/HomePage/HomePageLayout/index.js",
-      "file": "home-page.bundle-development.js",
-      "publicPath": "/bundles/home-page.bundle-development.js"
-    }
-  ],
-  "./messages": [
-    {
-      "id": "./src/containers/HomePage/HomePageLayout/messages.js",
-      "name": "./src/containers/HomePage/HomePageLayout/messages.js",
-      "file": "home-page.bundle-development.js",
-      "publicPath": "/bundles/home-page.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/App/messages.js",
-      "name": "./src/containers/App/messages.js",
-      "file": "main.bundle-development.js",
-      "publicPath": "/bundles/main.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/LoadingPage/messages.js",
-      "name": "./src/containers/LoadingPage/messages.js",
-      "file": "main.bundle-development.js",
-      "publicPath": "/bundles/main.bundle-development.js"
-    }
-  ],
-  "./styled": [
-    {
-      "id": "./src/containers/HomePage/HomePageLayout/styled.js",
-      "name": "./src/containers/HomePage/HomePageLayout/styled.js",
       "file": "home-page.bundle-development.js",
       "publicPath": "/bundles/home-page.bundle-development.js"
     }
