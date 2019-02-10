@@ -40,6 +40,10 @@ module.exports = options => ({
         exclude: /node_modules/,
         loader: 'eslint-loader',
       },
+      {
+        test: /\.(png|woff|woff2|eot|otf|ttf|svg|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: 'url-loader',
+      },
     ],
   },
 });

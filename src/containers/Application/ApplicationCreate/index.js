@@ -2,6 +2,7 @@
 import React, { Fragment } from 'react';
 import { FormattedMessage } from 'react-intl';
 
+import ApplicationForm from '../ApplicationForm';
 import { FormCont } from './styled';
 import messages from './messages';
 
@@ -22,7 +23,7 @@ const ApplicationCreate = ({ setSuccess }: Props) => (
       <FormattedMessage {...messages.consists} />
     </h4>
     <FormCont>
-      <h1 onClick={() => setSuccess(true)}>Application form</h1>
+      <ApplicationForm onSuccess={() => setSuccess(true)} />
     </FormCont>
   </Fragment>
 );
