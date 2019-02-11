@@ -23,14 +23,6 @@
       "publicPath": "/bundles/application.bundle-development.js"
     }
   ],
-  "./checkbox.svg": [
-    {
-      "id": "./src/common/components/inputs/Checkbox/checkbox.svg",
-      "name": "./src/common/components/inputs/Checkbox/checkbox.svg",
-      "file": "application.bundle-development.js",
-      "publicPath": "/bundles/application.bundle-development.js"
-    }
-  ],
   "../../../../common/components/inputs/Checkbox": [
     {
       "id": "./src/common/components/inputs/Checkbox/index.js",
@@ -3037,7 +3029,7 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../polyfills/createClass": [
+  "../../polyfills/createClass": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/createClass.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/createClass.js",
@@ -3045,7 +3037,7 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../polyfills/extends": [
+  "../../polyfills/extends": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
@@ -3053,7 +3045,7 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../polyfills/inherits": [
+  "../../polyfills/inherits": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
@@ -3061,7 +3053,7 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../polyfills/objectGetPrototypeOf": [
+  "../../polyfills/objectGetPrototypeOf": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
@@ -3069,7 +3061,7 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../polyfills/possibleConstructorReturn": [
+  "../../polyfills/possibleConstructorReturn": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
@@ -3125,7 +3117,7 @@
       "publicPath": "/bundles/commons.bundle-development.js"
     }
   ],
-  "../utils": [
+  "..": [
     {
       "id": "./node_modules/emoji-mart/dist-es/utils/index.js",
       "name": "./node_modules/emoji-mart/dist-es/utils/index.js",

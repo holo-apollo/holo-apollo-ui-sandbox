@@ -53,7 +53,9 @@ app.get('/*', (req, res) => {
     const bundlePaths = [
       ...bundles
         .map(bundle => bundle.publicPath)
-        .filter(bundlePath => bundlePath),
+        .filter(
+          bundlePath => bundlePath && !bundlePath.endsWith('hot-update.js')
+        ),
       getBundlePath('commons'),
       getBundlePath('main'),
     ];

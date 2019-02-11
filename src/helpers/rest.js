@@ -16,7 +16,6 @@ export const api = create({
       'X-Requested-With': 'XMLHttpRequest',
     },
   },
-  withCredentials: true,
 });
 
 export function requestWithFiles(
