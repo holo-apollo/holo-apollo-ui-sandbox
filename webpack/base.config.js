@@ -9,8 +9,8 @@ module.exports = options => ({
   entry: options.entry,
   output: Object.assign(
     {
-      path: path.resolve(__dirname, 'static/bundles'),
-      publicPath: '/bundles/',
+      path: path.resolve(__dirname, '../static/bundles/front'),
+      publicPath: '/bundles/front/',
     },
     options.output
   ),
@@ -18,10 +18,10 @@ module.exports = options => ({
   plugins: options.plugins.concat([
     new Dotenv(),
     new StatsWriterPlugin({
-      filename: `../../webpack-stats-${options.mode}.json`,
+      filename: `../../../webpack/stats-${options.mode}.json`,
     }),
     new ReactLoadablePlugin({
-      filename: `./react-loadable-stats-${options.mode}.json`,
+      filename: `./webpack/loadable-stats-${options.mode}.json`,
     }),
   ]),
   resolve: {
