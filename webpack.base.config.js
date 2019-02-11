@@ -1,9 +1,7 @@
 const path = require('path');
-const dotenv = require('dotenv');
 const { StatsWriterPlugin } = require('webpack-stats-plugin');
 const { ReactLoadablePlugin } = require('react-loadable/webpack');
-
-dotenv.config();
+const Dotenv = require('dotenv-webpack');
 
 module.exports = options => ({
   mode: options.mode,
@@ -18,6 +16,7 @@ module.exports = options => ({
   ),
   optimization: options.optimization,
   plugins: options.plugins.concat([
+    new Dotenv(),
     new StatsWriterPlugin({
       filename: `../../webpack-stats-${options.mode}.json`,
     }),
