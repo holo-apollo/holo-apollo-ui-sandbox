@@ -3037,7 +3037,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/extends": [
+  "../polyfills/extends": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
@@ -3045,7 +3045,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/inherits": [
+  "../polyfills/inherits": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
@@ -3053,7 +3053,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/objectGetPrototypeOf": [
+  "../polyfills/objectGetPrototypeOf": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
@@ -3061,7 +3061,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/possibleConstructorReturn": [
+  "../polyfills/possibleConstructorReturn": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
