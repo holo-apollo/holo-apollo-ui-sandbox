@@ -3,6 +3,7 @@ import { renderToString } from 'react-dom/server';
 import { getBundles } from 'react-loadable/webpack';
 import Helmet from 'react-helmet';
 import { ServerStyleSheet } from 'styled-components';
+import { SheetsRegistry } from 'jss';
 
 import ServerApp from 'containers/App/ServerApp';
 
@@ -18,6 +19,7 @@ function getBundlePath(bundleName) {
 }
 
 module.exports = function(req, context) {
+  const sheetsRegistry = new SheetsRegistry();
   const modules = [];
   const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
 
@@ -27,6 +29,7 @@ module.exports = function(req, context) {
       context={context}
       location={req.url}
       language={lang}
+      sheetsRegistry={sheetsRegistry}
     />
   );
 
@@ -46,6 +49,7 @@ module.exports = function(req, context) {
   ];
   const staticRoot = process.env.STATIC_ROOT || '';
   const helmetData = Helmet.renderStatic();
+  const css = sheetsRegistry.toString();
 
   return {
     reactDom,
@@ -55,5 +59,6 @@ module.exports = function(req, context) {
     lang,
     helmetData,
     styleTags,
+    css,
   };
 };
