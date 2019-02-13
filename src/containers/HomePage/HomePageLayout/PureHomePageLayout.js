@@ -2,6 +2,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
+import Subscription from '../Subscription';
 import { Container, Content, ImageHolo, InstaIcon } from './styled';
 import messages from './messages';
 
@@ -30,7 +31,7 @@ const PureHomePageLayout = ({ unsubscribeToken }: Props) => (
         {unsubscribeToken && <FormattedMessage {...messages.toMarketPlace} />}
         {!unsubscribeToken && <FormattedMessage {...messages.onMarketPlace} />}
       </h5>
-
+      <Subscription token={unsubscribeToken} />
       <a href="https://www.instagram.com/holo.apollo.art/" target="_blank">
         <InstaIcon src={`${staticRoot}/img/instaicon.png`} alt="instaicon" />
       </a>
