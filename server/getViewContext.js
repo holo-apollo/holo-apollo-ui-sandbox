@@ -6,6 +6,7 @@ import { ServerStyleSheet } from 'styled-components';
 import { SheetsRegistry } from 'jss';
 
 import ServerApp from 'containers/App/ServerApp';
+import configureStore from 'store/configureStore';
 
 const isProd = process.env.NODE_ENV === 'production';
 const suffix = process.env.NODE_ENV;
@@ -19,6 +20,7 @@ function getBundlePath(bundleName) {
 }
 
 module.exports = function(req, context) {
+  const { store } = configureStore(req.url);
   const sheetsRegistry = new SheetsRegistry();
   const modules = [];
   const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
@@ -30,9 +32,11 @@ module.exports = function(req, context) {
       location={req.url}
       language={lang}
       sheetsRegistry={sheetsRegistry}
+      store={store}
     />
   );
 
+  const state = JSON.stringify(store.getState()).replace(/</g, '\\u003c');
   const sheet = new ServerStyleSheet();
   const reactDom = renderToString(sheet.collectStyles(jsx));
   const styleTags = sheet.getStyleTags();
@@ -60,5 +64,6 @@ module.exports = function(req, context) {
     helmetData,
     styleTags,
     css,
+    state,
   };
 };

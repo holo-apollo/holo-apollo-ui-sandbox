@@ -32,6 +32,9 @@
 <body>
 <div id="app"><%- reactDom %></div>
 
+<script>
+  window.__PRELOADED_STATE__ = <%- state %>
+</script>
 <% bundlePaths.forEach(function(bundle) { %>
     <script src="<%= staticRoot %><%= bundle %>"></script>
 <% }); %>

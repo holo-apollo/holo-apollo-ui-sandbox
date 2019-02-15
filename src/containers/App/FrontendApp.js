@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { ConnectedRouter } from 'connected-react-router';
 import JssProvider from 'react-jss/lib/JssProvider';
 import {
   MuiThemeProvider,
@@ -9,6 +10,9 @@ import {
 import addIntl from 'helpers/addIntl';
 import theme from 'common/theme';
 import App from 'containers/App';
+import configureStore from 'store/configureStore';
+
+const { store, history } = configureStore();
 
 const generateClassName = createGenerateClassName();
 
@@ -23,13 +27,15 @@ class FrontendApp extends PureComponent {
 
   render() {
     return (
-      <BrowserRouter>
-        <JssProvider generateClassName={generateClassName}>
-          <MuiThemeProvider theme={theme}>
-            {addIntl(App, document.documentElement.lang || 'en')}
-          </MuiThemeProvider>
-        </JssProvider>
-      </BrowserRouter>
+      <Provider store={store}>
+        <ConnectedRouter history={history}>
+          <JssProvider generateClassName={generateClassName}>
+            <MuiThemeProvider theme={theme}>
+              {addIntl(App, document.documentElement.lang || 'en')}
+            </MuiThemeProvider>
+          </JssProvider>
+        </ConnectedRouter>
+      </Provider>
     );
   }
 }
