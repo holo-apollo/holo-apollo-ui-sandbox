@@ -1,19 +1,23 @@
 // @flow
 import React, { PureComponent } from 'react';
+import { connect } from 'react-redux';
 import autoBind from 'react-autobind';
 import { injectIntl, type IntlShape } from 'react-intl';
 import { withState, compose } from 'recompose';
 
 import type { SelectOption } from 'common/types';
 import { api } from 'helpers/rest';
+import { type ApplicationData } from '../types';
 import PureApplicationForm from './PureApplicationForm';
+import { getApplicationId } from '../selectors';
+import { addApplicationData } from '../actions';
 
 type Props = {
   intl: IntlShape,
   step: number,
   setStep: number => void,
   applicationId?: number,
-  setApplicationId: number => void,
+  addApplicationData: ApplicationData => void,
   categoryOptions: SelectOption<string>[],
   setCategoryOptions: (SelectOption<string>[]) => void,
   onSuccess: () => void,
@@ -36,8 +40,8 @@ class NotEnchancedApplicationForm extends PureComponent<Props> {
     }
   }
 
-  onStepOneSuccess(applicationId: number) {
-    this.props.setApplicationId(applicationId);
+  onStepOneSuccess(applicationData: ApplicationData) {
+    this.props.addApplicationData(applicationData);
     this.props.setStep(2);
   }
 
@@ -52,10 +56,19 @@ class NotEnchancedApplicationForm extends PureComponent<Props> {
   }
 }
 
+const mapStateToProps = state => ({
+  applicationId: getApplicationId(state),
+});
+
+const withConnect = connect(
+  mapStateToProps,
+  { addApplicationData }
+);
+
 const ApplicationForm = compose(
+  withConnect,
   // $FlowFixMe
   withState('step', 'setStep', 1),
-  withState('applicationId', 'setApplicationId', undefined),
   withState('categoryOptions', 'setCategoryOptions', []),
   injectIntl
 )(NotEnchancedApplicationForm);

@@ -13,9 +13,10 @@ const staticRoot = process.env.STATIC_ROOT || '';
 type Props = {
   isSuccess: boolean,
   setSuccess: boolean => void,
+  pubDate?: string,
 };
 
-const PureApplicationLayout = ({ isSuccess, setSuccess }: Props) => (
+const PureApplicationLayout = ({ isSuccess, setSuccess, pubDate }: Props) => (
   <Container>
     <BlockLeft>
       <LogoCont>
@@ -29,7 +30,9 @@ const PureApplicationLayout = ({ isSuccess, setSuccess }: Props) => (
     <BlockMain>
       <Switch>
         <Case when={isSuccess}>
-          <ApplicationSuccess pubDate={new Date()} />
+          <ApplicationSuccess
+            pubDate={pubDate ? new Date(pubDate) : undefined}
+          />
         </Case>
         <Case when={!isSuccess}>
           <ApplicationCreate setSuccess={setSuccess} />

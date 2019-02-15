@@ -2,6 +2,7 @@
 import type { FormikBag } from 'formik';
 import type { IntlShape } from 'react-intl';
 
+import { type ApplicationData } from 'containers/Application/types';
 import { api } from 'helpers/rest';
 import messages from './messages';
 import type { Values } from './types';
@@ -9,7 +10,7 @@ import type { Values } from './types';
 type Props = {
   applicationId?: number,
   intl: IntlShape,
-  onSuccess: number => void,
+  onSuccess: ApplicationData => void,
 };
 
 async function handleSubmit(
@@ -32,7 +33,7 @@ async function handleSubmit(
   }
   if (resp.ok && resp.data) {
     if (resp.data.id) {
-      onSuccess(resp.data.id);
+      onSuccess(resp.data);
     } else {
       setFieldError(
         'nonFieldErrors',

@@ -6,6 +6,7 @@ import type { SelectOption } from 'common/types';
 import StepsControls from './StepsControls';
 import StepOne from './StepOne';
 import StepTwo from './StepTwo';
+import { type ApplicationData } from '../types';
 
 type Props = {
   applicationId?: number,
@@ -13,7 +14,7 @@ type Props = {
   categoryOptions: SelectOption<string>[],
   intl: IntlShape,
   setStep: number => void,
-  onStepOneSuccess: number => void,
+  onStepOneSuccess: ApplicationData => void,
   onStepTwoSuccess: () => void,
 };
 
