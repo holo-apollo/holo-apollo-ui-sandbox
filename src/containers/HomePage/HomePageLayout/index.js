@@ -1,12 +1,12 @@
-import React from 'react';
-import queryString from 'query-string';
+import { connect } from 'react-redux';
 
+import { getQueryParam } from 'containers/Router/selectors';
 import PureHomePageLayout from './PureHomePageLayout';
 
-const HomePageLayout = props => (
-  <PureHomePageLayout
-    unsubscribeToken={queryString.parse(props.location.search).token}
-  />
-);
+const mapStateToProps = state => ({
+  unsubscribeToken: getQueryParam(state, 'token'),
+});
+
+const HomePageLayout = connect(mapStateToProps)(PureHomePageLayout);
 
 export default HomePageLayout;
