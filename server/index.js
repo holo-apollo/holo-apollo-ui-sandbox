@@ -2,16 +2,16 @@ import express from 'express';
 import { preloadAll } from 'react-loadable';
 
 import setup from './setup';
-const getViewContext = require('./getViewContext');
+import getViewContext from './getViewContext';
 
 const app = express();
 
 setup(app);
 
-app.get('/*', (req, res) => {
+app.get('/*', async (req, res) => {
   try {
     const context = {};
-    const viewContext = getViewContext(req, context);
+    const viewContext = await getViewContext(req, context);
     if (context.url) {
       res.redirect(context.url);
       return;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { StaticRouter } from 'react-router-dom';
 import { Capture } from 'react-loadable';
+import { Frontload } from 'react-frontload';
 import JssProvider from 'react-jss/lib/JssProvider';
 import {
   MuiThemeProvider,
@@ -27,14 +28,16 @@ const ServerApp = ({
     <Capture report={report}>
       <Provider store={store}>
         <StaticRouter context={context} location={location}>
-          <JssProvider
-            registry={sheetsRegistry}
-            generateClassName={generateClassName}
-          >
-            <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
-              {appWithIntl}
-            </MuiThemeProvider>
-          </JssProvider>
+          <Frontload>
+            <JssProvider
+              registry={sheetsRegistry}
+              generateClassName={generateClassName}
+            >
+              <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
+                {appWithIntl}
+              </MuiThemeProvider>
+            </JssProvider>
+          </Frontload>
         </StaticRouter>
       </Provider>
     </Capture>

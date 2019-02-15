@@ -16,3 +16,8 @@ export const getApplicationPubDate = createSelector(
   getApplicationData,
   data => data && data.pub_date
 );
+
+export const getCategoryOptions = createSelector(
+  getApplication,
+  application => application && application.categoryOptions
+);

@@ -8876,6 +8876,13 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
+react-frontload@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-frontload/-/react-frontload-1.0.3.tgz#8a89f0ffd011e4dc9d4586d78620e046caedd43a"
+  integrity sha512-AdFaIwvzexk41e7tjvACcoOl4fBstosknMI7fQNcrK3NsALlSa9bQPRKWcdTLngN9SRVpkrudprsFxuGKHWCmg==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-fuzzy@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/react-fuzzy/-/react-fuzzy-0.5.2.tgz#fc13bf6f0b785e5fefe908724efebec4935eaefe"

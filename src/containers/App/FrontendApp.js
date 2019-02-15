@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
+import { Frontload } from 'react-frontload';
 import JssProvider from 'react-jss/lib/JssProvider';
 import {
   MuiThemeProvider,
@@ -29,11 +30,13 @@ class FrontendApp extends PureComponent {
     return (
       <Provider store={store}>
         <ConnectedRouter history={history}>
-          <JssProvider generateClassName={generateClassName}>
-            <MuiThemeProvider theme={theme}>
-              {addIntl(App, document.documentElement.lang || 'en')}
-            </MuiThemeProvider>
-          </JssProvider>
+          <Frontload noServerRender={true}>
+            <JssProvider generateClassName={generateClassName}>
+              <MuiThemeProvider theme={theme}>
+                {addIntl(App, document.documentElement.lang || 'en')}
+              </MuiThemeProvider>
+            </JssProvider>
+          </Frontload>
         </ConnectedRouter>
       </Provider>
     );

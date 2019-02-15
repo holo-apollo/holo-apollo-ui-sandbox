@@ -1,5 +1,6 @@
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+import { frontloadServerRender } from 'react-frontload';
 import { getBundles } from 'react-loadable/webpack';
 import Helmet from 'react-helmet';
 import { ServerStyleSheet } from 'styled-components';
@@ -19,7 +20,7 @@ function getBundlePath(bundleName) {
   return `/bundles/front/${bundleFileName}`;
 }
 
-module.exports = function(req, context) {
+export default async function(req, context) {
   const { store } = configureStore(req.url);
   const sheetsRegistry = new SheetsRegistry();
   const modules = [];
@@ -38,7 +39,9 @@ module.exports = function(req, context) {
 
   const state = JSON.stringify(store.getState()).replace(/</g, '\\u003c');
   const sheet = new ServerStyleSheet();
-  const reactDom = renderToString(sheet.collectStyles(jsx));
+  const reactDom = await frontloadServerRender(() =>
+    renderToString(sheet.collectStyles(jsx))
+  );
   const styleTags = sheet.getStyleTags();
 
   const bundles = getBundles(reactLoadableStats, modules);
@@ -66,4 +69,4 @@ module.exports = function(req, context) {
     css,
     state,
   };
-};
+}

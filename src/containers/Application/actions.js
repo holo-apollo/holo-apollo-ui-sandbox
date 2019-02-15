@@ -1,5 +1,6 @@
 // @flow
-import { ADD_APPLICATION_DATA } from './constants';
+import type { SelectOption } from 'common/types';
+import { ADD_APPLICATION_DATA, ADD_CATEGORY_OPTIONS } from './constants';
 import { type ApplicationData } from './types';
 
 export type AddApplicationDataAction = {
@@ -12,4 +13,16 @@ export const addApplicationData = (
 ): AddApplicationDataAction => ({
   type: ADD_APPLICATION_DATA,
   applicationData,
+});
+
+export type AddCategoryOptionsAction = {
+  type: typeof ADD_CATEGORY_OPTIONS,
+  options: SelectOption<string>[],
+};
+
+export const addCategoryOptions = (
+  options: SelectOption<string>[]
+): AddCategoryOptionsAction => ({
+  type: ADD_CATEGORY_OPTIONS,
+  options,
 });
