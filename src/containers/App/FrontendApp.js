@@ -13,6 +13,8 @@ import theme from 'common/theme';
 import App from 'containers/App';
 import configureStore from 'store/configureStore';
 
+const language = document.documentElement.lang || 'en';
+
 const { store, history } = configureStore();
 
 const generateClassName = createGenerateClassName();
@@ -30,10 +32,10 @@ class FrontendApp extends PureComponent {
     return (
       <Provider store={store}>
         <ConnectedRouter history={history}>
-          <Frontload noServerRender={true}>
+          <Frontload>
             <JssProvider generateClassName={generateClassName}>
               <MuiThemeProvider theme={theme}>
-                {addIntl(App, document.documentElement.lang || 'en')}
+                {addIntl(App, language)}
               </MuiThemeProvider>
             </JssProvider>
           </Frontload>

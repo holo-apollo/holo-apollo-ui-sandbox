@@ -1,6 +1,7 @@
 // @flow
 import { create } from 'apisauce';
 import { isEmpty, isNil } from 'ramda';
+import type { Store } from 'redux';
 
 type Data = { [string]: any };
 type Files = FileList | File[];
@@ -44,4 +45,10 @@ export function requestWithFiles(
     });
   }
   return api[method](url, data);
+}
+
+export function subscribeApiToStore(store: Store) {
+  store.subscribe(() => {
+    api.setHeader('Accept-Language', store.getState().language);
+  });
 }

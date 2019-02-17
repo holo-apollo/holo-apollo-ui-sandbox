@@ -8,6 +8,7 @@ import { SheetsRegistry } from 'jss';
 
 import ServerApp from 'containers/App/ServerApp';
 import configureStore from 'store/configureStore';
+import { setLanguage } from 'containers/Language/actions';
 
 const isProd = process.env.NODE_ENV === 'production';
 const suffix = process.env.NODE_ENV;
@@ -21,10 +22,12 @@ function getBundlePath(bundleName) {
 }
 
 export default async function(req, context) {
+  const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
   const { store } = configureStore(req.url);
+  store.dispatch(setLanguage(lang));
+
   const sheetsRegistry = new SheetsRegistry();
   const modules = [];
-  const lang = req.acceptsLanguages('en', 'ru', 'uk') || 'en';
 
   const jsx = (
     <ServerApp
@@ -37,7 +40,6 @@ export default async function(req, context) {
     />
   );
 
-  const state = JSON.stringify(store.getState()).replace(/</g, '\\u003c');
   const sheet = new ServerStyleSheet();
   const reactDom = await frontloadServerRender(() =>
     renderToString(sheet.collectStyles(jsx))
@@ -57,6 +59,8 @@ export default async function(req, context) {
   const staticRoot = process.env.STATIC_ROOT || '';
   const helmetData = Helmet.renderStatic();
   const css = sheetsRegistry.toString();
+
+  const state = JSON.stringify(store.getState()).replace(/</g, '\\u003c');
 
   return {
     reactDom,

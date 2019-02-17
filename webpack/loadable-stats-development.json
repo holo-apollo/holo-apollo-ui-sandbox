@@ -5,12 +5,6 @@
       "name": "./src/common/components/icons/Attach/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/icons/Attach/index.js",
-      "name": "./src/common/components/icons/Attach/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../../icons/Close": [
@@ -19,12 +13,6 @@
       "name": "./src/common/components/icons/Close/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/icons/Close/index.js",
-      "name": "./src/common/components/icons/Close/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../SVGIcon": [
@@ -33,12 +21,6 @@
       "name": "./src/common/components/icons/SVGIcon.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/icons/SVGIcon.js",
-      "name": "./src/common/components/icons/SVGIcon.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../../../../common/components/inputs/Checkbox": [
@@ -47,12 +29,6 @@
       "name": "./src/common/components/inputs/Checkbox/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/inputs/Checkbox/index.js",
-      "name": "./src/common/components/inputs/Checkbox/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./styled": [
@@ -105,54 +81,6 @@
       "publicPath": "/bundles/front/application.bundle-development.js"
     },
     {
-      "id": "./src/common/components/inputs/Checkbox/styled.js",
-      "name": "./src/common/components/inputs/Checkbox/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/common/components/inputs/ImageUploadPreview/styled.js",
-      "name": "./src/common/components/inputs/ImageUploadPreview/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/common/components/inputs/TextFieldWithCounter/styled.js",
-      "name": "./src/common/components/inputs/TextFieldWithCounter/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/common/components/navigation/FormStep/styled.js",
-      "name": "./src/common/components/navigation/FormStep/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationCreate/styled.js",
-      "name": "./src/containers/Application/ApplicationCreate/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepsControls/styled.js",
-      "name": "./src/containers/Application/ApplicationForm/StepsControls/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationLayout/styled.js",
-      "name": "./src/containers/Application/ApplicationLayout/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationSuccess/styled.js",
-      "name": "./src/containers/Application/ApplicationSuccess/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
       "id": "./src/containers/HomePage/HomePageLayout/styled.js",
       "name": "./src/containers/HomePage/HomePageLayout/styled.js",
       "file": "home-page.bundle-development.js",
@@ -175,12 +103,6 @@
     {
       "id": "./src/common/components/inputs/FieldWithError.js",
       "name": "./src/common/components/inputs/FieldWithError.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/common/components/inputs/FieldWithError.js",
-      "name": "./src/common/components/inputs/FieldWithError.js",
       "file": "home-page.bundle-development.js",
       "publicPath": "/bundles/front/home-page.bundle-development.js"
     }
@@ -191,12 +113,6 @@
       "name": "./src/common/components/inputs/ImageUploadPreview/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/inputs/ImageUploadPreview/index.js",
-      "name": "./src/common/components/inputs/ImageUploadPreview/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../../../../common/components/inputs/Select": [
@@ -205,12 +121,6 @@
       "name": "./src/common/components/inputs/Select/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/inputs/Select/index.js",
-      "name": "./src/common/components/inputs/Select/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../../../../common/components/inputs/TextField": [
@@ -219,12 +129,6 @@
       "name": "./src/common/components/inputs/TextField/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/inputs/TextField/index.js",
-      "name": "./src/common/components/inputs/TextField/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     },
     {
       "id": "./src/common/components/inputs/TextField/index.js",
@@ -239,12 +143,6 @@
       "name": "./src/common/components/inputs/TextFieldWithCounter/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/inputs/TextFieldWithCounter/index.js",
-      "name": "./src/common/components/inputs/TextFieldWithCounter/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../../../../common/components/navigation/FormStep": [
@@ -253,12 +151,6 @@
       "name": "./src/common/components/navigation/FormStep/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/components/navigation/FormStep/index.js",
-      "name": "./src/common/components/navigation/FormStep/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../../../common/constants": [
@@ -267,12 +159,6 @@
       "name": "./src/common/constants.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/common/constants.js",
-      "name": "./src/common/constants.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     },
     {
       "id": "./src/common/constants.js",
@@ -287,12 +173,6 @@
       "name": "./src/containers/Application/ApplicationCreate/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationCreate/index.js",
-      "name": "./src/containers/Application/ApplicationCreate/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./messages": [
@@ -331,42 +211,6 @@
       "name": "./src/containers/Application/ApplicationSuccess/messages.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationCreate/messages.js",
-      "name": "./src/containers/Application/ApplicationCreate/messages.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepOne/messages.js",
-      "name": "./src/containers/Application/ApplicationForm/StepOne/messages.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepTwo/messages.js",
-      "name": "./src/containers/Application/ApplicationForm/StepTwo/messages.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepsControls/messages.js",
-      "name": "./src/containers/Application/ApplicationForm/StepsControls/messages.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationLayout/messages.js",
-      "name": "./src/containers/Application/ApplicationLayout/messages.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationSuccess/messages.js",
-      "name": "./src/containers/Application/ApplicationSuccess/messages.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     },
     {
       "id": "./src/containers/HomePage/HomePageLayout/messages.js",
@@ -411,12 +255,6 @@
       "name": "./src/containers/Application/ApplicationForm/PureApplicationForm.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/PureApplicationForm.js",
-      "name": "./src/containers/Application/ApplicationForm/PureApplicationForm.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./PureStepOne": [
@@ -425,12 +263,6 @@
       "name": "./src/containers/Application/ApplicationForm/StepOne/PureStepOne.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepOne/PureStepOne.js",
-      "name": "./src/containers/Application/ApplicationForm/StepOne/PureStepOne.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./constants": [
@@ -447,20 +279,14 @@
       "publicPath": "/bundles/front/application.bundle-development.js"
     },
     {
-      "id": "./src/containers/Application/ApplicationForm/StepOne/constants.js",
-      "name": "./src/containers/Application/ApplicationForm/StepOne/constants.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepTwo/constants.js",
-      "name": "./src/containers/Application/ApplicationForm/StepTwo/constants.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
       "id": "./src/containers/Application/constants.js",
       "name": "./src/containers/Application/constants.js",
+      "file": "main.bundle-development.js",
+      "publicPath": "/bundles/front/main.bundle-development.js"
+    },
+    {
+      "id": "./src/containers/Language/constants.js",
+      "name": "./src/containers/Language/constants.js",
       "file": "main.bundle-development.js",
       "publicPath": "/bundles/front/main.bundle-development.js"
     }
@@ -471,12 +297,6 @@
       "name": "./src/containers/Application/ApplicationForm/StepOne/handleSubmit.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepOne/handleSubmit.js",
-      "name": "./src/containers/Application/ApplicationForm/StepOne/handleSubmit.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     },
     {
       "id": "./src/containers/HomePage/Subscription/SubscriptionForm/handleSubmit.js",
@@ -497,12 +317,6 @@
       "name": "./src/containers/Application/ApplicationForm/StepOne/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepOne/index.js",
-      "name": "./src/containers/Application/ApplicationForm/StepOne/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./validate": [
@@ -511,12 +325,6 @@
       "name": "./src/containers/Application/ApplicationForm/StepOne/validate.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepOne/validate.js",
-      "name": "./src/containers/Application/ApplicationForm/StepOne/validate.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     },
     {
       "id": "./src/containers/HomePage/Subscription/SubscriptionForm/validate.js",
@@ -531,12 +339,6 @@
       "name": "./src/containers/Application/ApplicationForm/StepTwo/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepTwo/index.js",
-      "name": "./src/containers/Application/ApplicationForm/StepTwo/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./StepsControls": [
@@ -545,12 +347,6 @@
       "name": "./src/containers/Application/ApplicationForm/StepsControls/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/StepsControls/index.js",
-      "name": "./src/containers/Application/ApplicationForm/StepsControls/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../ApplicationForm": [
@@ -559,12 +355,6 @@
       "name": "./src/containers/Application/ApplicationForm/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/index.js",
-      "name": "./src/containers/Application/ApplicationForm/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../styled": [
@@ -573,12 +363,6 @@
       "name": "./src/containers/Application/ApplicationForm/styled.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationForm/styled.js",
-      "name": "./src/containers/Application/ApplicationForm/styled.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./PureApplicationLayout": [
@@ -587,12 +371,6 @@
       "name": "./src/containers/Application/ApplicationLayout/PureApplicationLayout.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationLayout/PureApplicationLayout.js",
-      "name": "./src/containers/Application/ApplicationLayout/PureApplicationLayout.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "./ApplicationLayout": [
@@ -601,12 +379,6 @@
       "name": "./src/containers/Application/ApplicationLayout/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationLayout/index.js",
-      "name": "./src/containers/Application/ApplicationLayout/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../ApplicationSuccess": [
@@ -615,12 +387,6 @@
       "name": "./src/containers/Application/ApplicationSuccess/index.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/ApplicationSuccess/index.js",
-      "name": "./src/containers/Application/ApplicationSuccess/index.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../actions": [
@@ -629,12 +395,6 @@
       "name": "./src/containers/Application/actions.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/actions.js",
-      "name": "./src/containers/Application/actions.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     }
   ],
   "../selectors": [
@@ -643,32 +403,6 @@
       "name": "./src/containers/Application/selectors.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/containers/Application/selectors.js",
-      "name": "./src/containers/Application/selectors.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    }
-  ],
-  "../../../../helpers/rest": [
-    {
-      "id": "./src/helpers/rest.js",
-      "name": "./src/helpers/rest.js",
-      "file": "application.bundle-development.js",
-      "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/helpers/rest.js",
-      "name": "./src/helpers/rest.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
-    },
-    {
-      "id": "./src/helpers/rest.js",
-      "name": "./src/helpers/rest.js",
-      "file": "home-page.bundle-development.js",
-      "publicPath": "/bundles/front/home-page.bundle-development.js"
     }
   ],
   "../../../../helpers/validators": [
@@ -677,12 +411,6 @@
       "name": "./src/helpers/validators.js",
       "file": "application.bundle-development.js",
       "publicPath": "/bundles/front/application.bundle-development.js"
-    },
-    {
-      "id": "./src/helpers/validators.js",
-      "name": "./src/helpers/validators.js",
-      "file": "application.5999401a240ddcf89756.hot-update.js",
-      "publicPath": "/bundles/front/application.5999401a240ddcf89756.hot-update.js"
     },
     {
       "id": "./src/helpers/validators.js",
@@ -867,7 +595,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../helpers/typeof": [
+  "@babel/runtime/helpers/typeof": [
     {
       "id": "./node_modules/@babel/runtime/helpers/typeof.js",
       "name": "./node_modules/@babel/runtime/helpers/typeof.js",
@@ -3461,7 +3189,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/extends": [
+  "../polyfills/extends": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/extends.js",
@@ -3469,7 +3197,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/inherits": [
+  "../polyfills/inherits": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/inherits.js",
@@ -3477,7 +3205,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/objectGetPrototypeOf": [
+  "../polyfills/objectGetPrototypeOf": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/objectGetPrototypeOf.js",
@@ -3485,7 +3213,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "../../polyfills/possibleConstructorReturn": [
+  "../polyfills/possibleConstructorReturn": [
     {
       "id": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
       "name": "./node_modules/emoji-mart/dist-es/polyfills/possibleConstructorReturn.js",
@@ -3825,12 +3553,6 @@
     {
       "id": "./node_modules/intl-relativeformat/lib/en.js",
       "name": "./node_modules/intl-relativeformat/lib/en.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-intl/locale-data/en.js",
-      "name": "./node_modules/react-intl/locale-data/en.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -5475,7 +5197,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bind.js": [
+  "../bind.js": [
     {
       "id": "./node_modules/ramda/es/bind.js",
       "name": "./node_modules/ramda/es/bind.js",
@@ -6267,7 +5989,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./internal/_indexOf.js": [
+  "./_indexOf.js": [
     {
       "id": "./node_modules/ramda/es/internal/_indexOf.js",
       "name": "./node_modules/ramda/es/internal/_indexOf.js",
@@ -6283,7 +6005,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./internal/_isArray.js": [
+  "./_isArray.js": [
     {
       "id": "./node_modules/ramda/es/internal/_isArray.js",
       "name": "./node_modules/ramda/es/internal/_isArray.js",
@@ -6355,7 +6077,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./internal/_isTransformer.js": [
+  "./_isTransformer.js": [
     {
       "id": "./node_modules/ramda/es/internal/_isTransformer.js",
       "name": "./node_modules/ramda/es/internal/_isTransformer.js",
@@ -6387,7 +6109,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./internal/_objectIs.js": [
+  "./_objectIs.js": [
     {
       "id": "./node_modules/ramda/es/internal/_objectIs.js",
       "name": "./node_modules/ramda/es/internal/_objectIs.js",
@@ -6435,7 +6157,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./internal/_reduced.js": [
+  "./_reduced.js": [
     {
       "id": "./node_modules/ramda/es/internal/_reduced.js",
       "name": "./node_modules/ramda/es/internal/_reduced.js",
@@ -6689,6 +6411,12 @@
       "name": "./node_modules/ramda/es/is.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/react-intl/locale-data/is.js",
+      "name": "./node_modules/react-intl/locale-data/is.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "./isEmpty.js": [
@@ -6799,6 +6527,12 @@
     {
       "id": "./node_modules/ramda/es/lt.js",
       "name": "./node_modules/ramda/es/lt.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/react-intl/locale-data/lt.js",
+      "name": "./node_modules/react-intl/locale-data/lt.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -7111,6 +6845,12 @@
     {
       "id": "./node_modules/ramda/es/or.js",
       "name": "./node_modules/ramda/es/or.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    },
+    {
+      "id": "./node_modules/react-intl/locale-data/or.js",
+      "name": "./node_modules/react-intl/locale-data/or.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -8275,7 +8015,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "ramda/src/keys": [
+  "./keys": [
     {
       "id": "./node_modules/ramda/src/keys.js",
       "name": "./node_modules/ramda/src/keys.js",
@@ -8407,12 +8147,6 @@
       "name": "./node_modules/react-router-dom/es/Switch.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/Switch.js",
-      "name": "./node_modules/react-router/es/Switch.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "react-case-when": [
@@ -8503,7 +8237,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./af": [
+  "./af.js": [
     {
       "id": "./node_modules/react-intl/locale-data/af.js",
       "name": "./node_modules/react-intl/locale-data/af.js",
@@ -8511,7 +8245,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./agq": [
+  "./agq.js": [
     {
       "id": "./node_modules/react-intl/locale-data/agq.js",
       "name": "./node_modules/react-intl/locale-data/agq.js",
@@ -8519,7 +8253,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ak": [
+  "./ak.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ak.js",
       "name": "./node_modules/react-intl/locale-data/ak.js",
@@ -8527,7 +8261,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./am": [
+  "./am.js": [
     {
       "id": "./node_modules/react-intl/locale-data/am.js",
       "name": "./node_modules/react-intl/locale-data/am.js",
@@ -8535,7 +8269,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ar": [
+  "./ar.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ar.js",
       "name": "./node_modules/react-intl/locale-data/ar.js",
@@ -8543,7 +8277,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ars": [
+  "./ars.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ars.js",
       "name": "./node_modules/react-intl/locale-data/ars.js",
@@ -8551,7 +8285,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./as": [
+  "./as.js": [
     {
       "id": "./node_modules/react-intl/locale-data/as.js",
       "name": "./node_modules/react-intl/locale-data/as.js",
@@ -8559,7 +8293,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./asa": [
+  "./asa.js": [
     {
       "id": "./node_modules/react-intl/locale-data/asa.js",
       "name": "./node_modules/react-intl/locale-data/asa.js",
@@ -8567,7 +8301,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ast": [
+  "./ast.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ast.js",
       "name": "./node_modules/react-intl/locale-data/ast.js",
@@ -8575,7 +8309,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./az": [
+  "./az.js": [
     {
       "id": "./node_modules/react-intl/locale-data/az.js",
       "name": "./node_modules/react-intl/locale-data/az.js",
@@ -8583,7 +8317,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bas": [
+  "./bas.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bas.js",
       "name": "./node_modules/react-intl/locale-data/bas.js",
@@ -8591,7 +8325,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./be": [
+  "./be.js": [
     {
       "id": "./node_modules/react-intl/locale-data/be.js",
       "name": "./node_modules/react-intl/locale-data/be.js",
@@ -8599,7 +8333,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bem": [
+  "./bem.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bem.js",
       "name": "./node_modules/react-intl/locale-data/bem.js",
@@ -8607,7 +8341,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bez": [
+  "./bez.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bez.js",
       "name": "./node_modules/react-intl/locale-data/bez.js",
@@ -8615,7 +8349,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bg": [
+  "./bg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bg.js",
       "name": "./node_modules/react-intl/locale-data/bg.js",
@@ -8623,7 +8357,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bh": [
+  "./bh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bh.js",
       "name": "./node_modules/react-intl/locale-data/bh.js",
@@ -8631,7 +8365,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bm": [
+  "./bm.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bm.js",
       "name": "./node_modules/react-intl/locale-data/bm.js",
@@ -8639,7 +8373,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bn": [
+  "./bn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bn.js",
       "name": "./node_modules/react-intl/locale-data/bn.js",
@@ -8647,7 +8381,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bo": [
+  "./bo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bo.js",
       "name": "./node_modules/react-intl/locale-data/bo.js",
@@ -8655,7 +8389,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./br": [
+  "./br.js": [
     {
       "id": "./node_modules/react-intl/locale-data/br.js",
       "name": "./node_modules/react-intl/locale-data/br.js",
@@ -8663,7 +8397,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./brx": [
+  "./brx.js": [
     {
       "id": "./node_modules/react-intl/locale-data/brx.js",
       "name": "./node_modules/react-intl/locale-data/brx.js",
@@ -8671,7 +8405,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./bs": [
+  "./bs.js": [
     {
       "id": "./node_modules/react-intl/locale-data/bs.js",
       "name": "./node_modules/react-intl/locale-data/bs.js",
@@ -8679,7 +8413,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ca": [
+  "./ca.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ca.js",
       "name": "./node_modules/react-intl/locale-data/ca.js",
@@ -8687,7 +8421,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ccp": [
+  "./ccp.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ccp.js",
       "name": "./node_modules/react-intl/locale-data/ccp.js",
@@ -8695,7 +8429,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ce": [
+  "./ce.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ce.js",
       "name": "./node_modules/react-intl/locale-data/ce.js",
@@ -8703,7 +8437,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./cgg": [
+  "./cgg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/cgg.js",
       "name": "./node_modules/react-intl/locale-data/cgg.js",
@@ -8711,7 +8445,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./chr": [
+  "./chr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/chr.js",
       "name": "./node_modules/react-intl/locale-data/chr.js",
@@ -8719,7 +8453,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ckb": [
+  "./ckb.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ckb.js",
       "name": "./node_modules/react-intl/locale-data/ckb.js",
@@ -8727,7 +8461,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./cs": [
+  "./cs.js": [
     {
       "id": "./node_modules/react-intl/locale-data/cs.js",
       "name": "./node_modules/react-intl/locale-data/cs.js",
@@ -8735,7 +8469,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./cu": [
+  "./cu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/cu.js",
       "name": "./node_modules/react-intl/locale-data/cu.js",
@@ -8743,7 +8477,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./cy": [
+  "./cy.js": [
     {
       "id": "./node_modules/react-intl/locale-data/cy.js",
       "name": "./node_modules/react-intl/locale-data/cy.js",
@@ -8751,7 +8485,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./da": [
+  "./da.js": [
     {
       "id": "./node_modules/react-intl/locale-data/da.js",
       "name": "./node_modules/react-intl/locale-data/da.js",
@@ -8759,7 +8493,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./dav": [
+  "./dav.js": [
     {
       "id": "./node_modules/react-intl/locale-data/dav.js",
       "name": "./node_modules/react-intl/locale-data/dav.js",
@@ -8767,7 +8501,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./de": [
+  "./de.js": [
     {
       "id": "./node_modules/react-intl/locale-data/de.js",
       "name": "./node_modules/react-intl/locale-data/de.js",
@@ -8783,7 +8517,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./dsb": [
+  "./dsb.js": [
     {
       "id": "./node_modules/react-intl/locale-data/dsb.js",
       "name": "./node_modules/react-intl/locale-data/dsb.js",
@@ -8791,7 +8525,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./dua": [
+  "./dua.js": [
     {
       "id": "./node_modules/react-intl/locale-data/dua.js",
       "name": "./node_modules/react-intl/locale-data/dua.js",
@@ -8799,7 +8533,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./dv": [
+  "./dv.js": [
     {
       "id": "./node_modules/react-intl/locale-data/dv.js",
       "name": "./node_modules/react-intl/locale-data/dv.js",
@@ -8807,7 +8541,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./dyo": [
+  "./dyo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/dyo.js",
       "name": "./node_modules/react-intl/locale-data/dyo.js",
@@ -8815,7 +8549,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./dz": [
+  "./dz.js": [
     {
       "id": "./node_modules/react-intl/locale-data/dz.js",
       "name": "./node_modules/react-intl/locale-data/dz.js",
@@ -8823,7 +8557,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ebu": [
+  "./ebu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ebu.js",
       "name": "./node_modules/react-intl/locale-data/ebu.js",
@@ -8831,7 +8565,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ee": [
+  "./ee.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ee.js",
       "name": "./node_modules/react-intl/locale-data/ee.js",
@@ -8839,7 +8573,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./el": [
+  "./el.js": [
     {
       "id": "./node_modules/react-intl/locale-data/el.js",
       "name": "./node_modules/react-intl/locale-data/el.js",
@@ -8847,7 +8581,15 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./eo": [
+  "./en.js": [
+    {
+      "id": "./node_modules/react-intl/locale-data/en.js",
+      "name": "./node_modules/react-intl/locale-data/en.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "./eo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/eo.js",
       "name": "./node_modules/react-intl/locale-data/eo.js",
@@ -8855,7 +8597,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./es": [
+  "./es.js": [
     {
       "id": "./node_modules/react-intl/locale-data/es.js",
       "name": "./node_modules/react-intl/locale-data/es.js",
@@ -8863,7 +8605,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./et": [
+  "./et.js": [
     {
       "id": "./node_modules/react-intl/locale-data/et.js",
       "name": "./node_modules/react-intl/locale-data/et.js",
@@ -8871,7 +8613,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./eu": [
+  "./eu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/eu.js",
       "name": "./node_modules/react-intl/locale-data/eu.js",
@@ -8879,7 +8621,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ewo": [
+  "./ewo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ewo.js",
       "name": "./node_modules/react-intl/locale-data/ewo.js",
@@ -8887,7 +8629,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fa": [
+  "./fa.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fa.js",
       "name": "./node_modules/react-intl/locale-data/fa.js",
@@ -8895,7 +8637,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ff": [
+  "./ff.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ff.js",
       "name": "./node_modules/react-intl/locale-data/ff.js",
@@ -8903,7 +8645,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fi": [
+  "./fi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fi.js",
       "name": "./node_modules/react-intl/locale-data/fi.js",
@@ -8911,7 +8653,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fil": [
+  "./fil.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fil.js",
       "name": "./node_modules/react-intl/locale-data/fil.js",
@@ -8919,7 +8661,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fo": [
+  "./fo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fo.js",
       "name": "./node_modules/react-intl/locale-data/fo.js",
@@ -8927,7 +8669,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fr": [
+  "./fr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fr.js",
       "name": "./node_modules/react-intl/locale-data/fr.js",
@@ -8935,7 +8677,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fur": [
+  "./fur.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fur.js",
       "name": "./node_modules/react-intl/locale-data/fur.js",
@@ -8943,7 +8685,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./fy": [
+  "./fy.js": [
     {
       "id": "./node_modules/react-intl/locale-data/fy.js",
       "name": "./node_modules/react-intl/locale-data/fy.js",
@@ -8951,7 +8693,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ga": [
+  "./ga.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ga.js",
       "name": "./node_modules/react-intl/locale-data/ga.js",
@@ -8959,7 +8701,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./gd": [
+  "./gd.js": [
     {
       "id": "./node_modules/react-intl/locale-data/gd.js",
       "name": "./node_modules/react-intl/locale-data/gd.js",
@@ -8967,7 +8709,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./gl": [
+  "./gl.js": [
     {
       "id": "./node_modules/react-intl/locale-data/gl.js",
       "name": "./node_modules/react-intl/locale-data/gl.js",
@@ -8975,7 +8717,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./gsw": [
+  "./gsw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/gsw.js",
       "name": "./node_modules/react-intl/locale-data/gsw.js",
@@ -8983,7 +8725,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./gu": [
+  "./gu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/gu.js",
       "name": "./node_modules/react-intl/locale-data/gu.js",
@@ -8991,7 +8733,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./guw": [
+  "./guw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/guw.js",
       "name": "./node_modules/react-intl/locale-data/guw.js",
@@ -8999,7 +8741,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./guz": [
+  "./guz.js": [
     {
       "id": "./node_modules/react-intl/locale-data/guz.js",
       "name": "./node_modules/react-intl/locale-data/guz.js",
@@ -9007,7 +8749,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./gv": [
+  "./gv.js": [
     {
       "id": "./node_modules/react-intl/locale-data/gv.js",
       "name": "./node_modules/react-intl/locale-data/gv.js",
@@ -9015,7 +8757,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ha": [
+  "./ha.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ha.js",
       "name": "./node_modules/react-intl/locale-data/ha.js",
@@ -9023,7 +8765,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./haw": [
+  "./haw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/haw.js",
       "name": "./node_modules/react-intl/locale-data/haw.js",
@@ -9031,7 +8773,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./he": [
+  "./he.js": [
     {
       "id": "./node_modules/react-intl/locale-data/he.js",
       "name": "./node_modules/react-intl/locale-data/he.js",
@@ -9039,7 +8781,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./hi": [
+  "./hi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/hi.js",
       "name": "./node_modules/react-intl/locale-data/hi.js",
@@ -9047,7 +8789,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./hr": [
+  "./hr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/hr.js",
       "name": "./node_modules/react-intl/locale-data/hr.js",
@@ -9055,7 +8797,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./hsb": [
+  "./hsb.js": [
     {
       "id": "./node_modules/react-intl/locale-data/hsb.js",
       "name": "./node_modules/react-intl/locale-data/hsb.js",
@@ -9063,7 +8805,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./hu": [
+  "./hu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/hu.js",
       "name": "./node_modules/react-intl/locale-data/hu.js",
@@ -9071,7 +8813,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./hy": [
+  "./hy.js": [
     {
       "id": "./node_modules/react-intl/locale-data/hy.js",
       "name": "./node_modules/react-intl/locale-data/hy.js",
@@ -9079,7 +8821,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ia": [
+  "./ia.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ia.js",
       "name": "./node_modules/react-intl/locale-data/ia.js",
@@ -9087,7 +8829,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./id": [
+  "./id.js": [
     {
       "id": "./node_modules/react-intl/locale-data/id.js",
       "name": "./node_modules/react-intl/locale-data/id.js",
@@ -9095,7 +8837,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ig": [
+  "./ig.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ig.js",
       "name": "./node_modules/react-intl/locale-data/ig.js",
@@ -9103,7 +8845,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ii": [
+  "./ii.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ii.js",
       "name": "./node_modules/react-intl/locale-data/ii.js",
@@ -9111,7 +8853,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./in": [
+  "./in.js": [
     {
       "id": "./node_modules/react-intl/locale-data/in.js",
       "name": "./node_modules/react-intl/locale-data/in.js",
@@ -9119,7 +8861,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./io": [
+  "./io.js": [
     {
       "id": "./node_modules/react-intl/locale-data/io.js",
       "name": "./node_modules/react-intl/locale-data/io.js",
@@ -9127,15 +8869,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./is": [
-    {
-      "id": "./node_modules/react-intl/locale-data/is.js",
-      "name": "./node_modules/react-intl/locale-data/is.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    }
-  ],
-  "./it": [
+  "./it.js": [
     {
       "id": "./node_modules/react-intl/locale-data/it.js",
       "name": "./node_modules/react-intl/locale-data/it.js",
@@ -9143,7 +8877,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./iu": [
+  "./iu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/iu.js",
       "name": "./node_modules/react-intl/locale-data/iu.js",
@@ -9151,7 +8885,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./iw": [
+  "./iw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/iw.js",
       "name": "./node_modules/react-intl/locale-data/iw.js",
@@ -9159,7 +8893,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ja": [
+  "./ja.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ja.js",
       "name": "./node_modules/react-intl/locale-data/ja.js",
@@ -9167,7 +8901,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./jbo": [
+  "./jbo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/jbo.js",
       "name": "./node_modules/react-intl/locale-data/jbo.js",
@@ -9175,7 +8909,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./jgo": [
+  "./jgo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/jgo.js",
       "name": "./node_modules/react-intl/locale-data/jgo.js",
@@ -9183,7 +8917,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ji": [
+  "./ji.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ji.js",
       "name": "./node_modules/react-intl/locale-data/ji.js",
@@ -9191,7 +8925,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./jmc": [
+  "./jmc.js": [
     {
       "id": "./node_modules/react-intl/locale-data/jmc.js",
       "name": "./node_modules/react-intl/locale-data/jmc.js",
@@ -9199,7 +8933,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./jv": [
+  "./jv.js": [
     {
       "id": "./node_modules/react-intl/locale-data/jv.js",
       "name": "./node_modules/react-intl/locale-data/jv.js",
@@ -9207,7 +8941,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./jw": [
+  "./jw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/jw.js",
       "name": "./node_modules/react-intl/locale-data/jw.js",
@@ -9215,7 +8949,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ka": [
+  "./ka.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ka.js",
       "name": "./node_modules/react-intl/locale-data/ka.js",
@@ -9223,7 +8957,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kab": [
+  "./kab.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kab.js",
       "name": "./node_modules/react-intl/locale-data/kab.js",
@@ -9231,7 +8965,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kaj": [
+  "./kaj.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kaj.js",
       "name": "./node_modules/react-intl/locale-data/kaj.js",
@@ -9239,7 +8973,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kam": [
+  "./kam.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kam.js",
       "name": "./node_modules/react-intl/locale-data/kam.js",
@@ -9247,7 +8981,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kcg": [
+  "./kcg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kcg.js",
       "name": "./node_modules/react-intl/locale-data/kcg.js",
@@ -9255,7 +8989,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kde": [
+  "./kde.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kde.js",
       "name": "./node_modules/react-intl/locale-data/kde.js",
@@ -9263,7 +8997,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kea": [
+  "./kea.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kea.js",
       "name": "./node_modules/react-intl/locale-data/kea.js",
@@ -9271,7 +9005,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./khq": [
+  "./khq.js": [
     {
       "id": "./node_modules/react-intl/locale-data/khq.js",
       "name": "./node_modules/react-intl/locale-data/khq.js",
@@ -9279,7 +9013,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ki": [
+  "./ki.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ki.js",
       "name": "./node_modules/react-intl/locale-data/ki.js",
@@ -9287,7 +9021,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kk": [
+  "./kk.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kk.js",
       "name": "./node_modules/react-intl/locale-data/kk.js",
@@ -9295,7 +9029,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kkj": [
+  "./kkj.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kkj.js",
       "name": "./node_modules/react-intl/locale-data/kkj.js",
@@ -9303,7 +9037,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kl": [
+  "./kl.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kl.js",
       "name": "./node_modules/react-intl/locale-data/kl.js",
@@ -9311,7 +9045,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kln": [
+  "./kln.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kln.js",
       "name": "./node_modules/react-intl/locale-data/kln.js",
@@ -9319,7 +9053,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./km": [
+  "./km.js": [
     {
       "id": "./node_modules/react-intl/locale-data/km.js",
       "name": "./node_modules/react-intl/locale-data/km.js",
@@ -9327,7 +9061,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kn": [
+  "./kn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kn.js",
       "name": "./node_modules/react-intl/locale-data/kn.js",
@@ -9335,7 +9069,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ko": [
+  "./ko.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ko.js",
       "name": "./node_modules/react-intl/locale-data/ko.js",
@@ -9343,7 +9077,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kok": [
+  "./kok.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kok.js",
       "name": "./node_modules/react-intl/locale-data/kok.js",
@@ -9351,7 +9085,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ks": [
+  "./ks.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ks.js",
       "name": "./node_modules/react-intl/locale-data/ks.js",
@@ -9359,7 +9093,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ksb": [
+  "./ksb.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ksb.js",
       "name": "./node_modules/react-intl/locale-data/ksb.js",
@@ -9367,7 +9101,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ksf": [
+  "./ksf.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ksf.js",
       "name": "./node_modules/react-intl/locale-data/ksf.js",
@@ -9375,7 +9109,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ksh": [
+  "./ksh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ksh.js",
       "name": "./node_modules/react-intl/locale-data/ksh.js",
@@ -9383,7 +9117,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ku": [
+  "./ku.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ku.js",
       "name": "./node_modules/react-intl/locale-data/ku.js",
@@ -9391,7 +9125,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./kw": [
+  "./kw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/kw.js",
       "name": "./node_modules/react-intl/locale-data/kw.js",
@@ -9399,7 +9133,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ky": [
+  "./ky.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ky.js",
       "name": "./node_modules/react-intl/locale-data/ky.js",
@@ -9407,7 +9141,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lag": [
+  "./lag.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lag.js",
       "name": "./node_modules/react-intl/locale-data/lag.js",
@@ -9415,7 +9149,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lb": [
+  "./lb.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lb.js",
       "name": "./node_modules/react-intl/locale-data/lb.js",
@@ -9423,7 +9157,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lg": [
+  "./lg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lg.js",
       "name": "./node_modules/react-intl/locale-data/lg.js",
@@ -9431,7 +9165,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lkt": [
+  "./lkt.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lkt.js",
       "name": "./node_modules/react-intl/locale-data/lkt.js",
@@ -9439,7 +9173,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ln": [
+  "./ln.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ln.js",
       "name": "./node_modules/react-intl/locale-data/ln.js",
@@ -9447,7 +9181,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lo": [
+  "./lo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lo.js",
       "name": "./node_modules/react-intl/locale-data/lo.js",
@@ -9455,7 +9189,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lrc": [
+  "./lrc.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lrc.js",
       "name": "./node_modules/react-intl/locale-data/lrc.js",
@@ -9463,15 +9197,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lt": [
-    {
-      "id": "./node_modules/react-intl/locale-data/lt.js",
-      "name": "./node_modules/react-intl/locale-data/lt.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    }
-  ],
-  "./lu": [
+  "./lu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lu.js",
       "name": "./node_modules/react-intl/locale-data/lu.js",
@@ -9479,7 +9205,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./luo": [
+  "./luo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/luo.js",
       "name": "./node_modules/react-intl/locale-data/luo.js",
@@ -9487,7 +9213,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./luy": [
+  "./luy.js": [
     {
       "id": "./node_modules/react-intl/locale-data/luy.js",
       "name": "./node_modules/react-intl/locale-data/luy.js",
@@ -9495,7 +9221,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./lv": [
+  "./lv.js": [
     {
       "id": "./node_modules/react-intl/locale-data/lv.js",
       "name": "./node_modules/react-intl/locale-data/lv.js",
@@ -9503,7 +9229,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mas": [
+  "./mas.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mas.js",
       "name": "./node_modules/react-intl/locale-data/mas.js",
@@ -9511,7 +9237,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mer": [
+  "./mer.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mer.js",
       "name": "./node_modules/react-intl/locale-data/mer.js",
@@ -9519,7 +9245,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mfe": [
+  "./mfe.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mfe.js",
       "name": "./node_modules/react-intl/locale-data/mfe.js",
@@ -9527,7 +9253,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mg": [
+  "./mg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mg.js",
       "name": "./node_modules/react-intl/locale-data/mg.js",
@@ -9535,7 +9261,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mgh": [
+  "./mgh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mgh.js",
       "name": "./node_modules/react-intl/locale-data/mgh.js",
@@ -9543,7 +9269,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mgo": [
+  "./mgo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mgo.js",
       "name": "./node_modules/react-intl/locale-data/mgo.js",
@@ -9551,7 +9277,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mi": [
+  "./mi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mi.js",
       "name": "./node_modules/react-intl/locale-data/mi.js",
@@ -9559,7 +9285,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mk": [
+  "./mk.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mk.js",
       "name": "./node_modules/react-intl/locale-data/mk.js",
@@ -9567,7 +9293,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ml": [
+  "./ml.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ml.js",
       "name": "./node_modules/react-intl/locale-data/ml.js",
@@ -9575,7 +9301,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mn": [
+  "./mn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mn.js",
       "name": "./node_modules/react-intl/locale-data/mn.js",
@@ -9583,7 +9309,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mo": [
+  "./mo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mo.js",
       "name": "./node_modules/react-intl/locale-data/mo.js",
@@ -9591,7 +9317,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mr": [
+  "./mr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mr.js",
       "name": "./node_modules/react-intl/locale-data/mr.js",
@@ -9599,7 +9325,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ms": [
+  "./ms.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ms.js",
       "name": "./node_modules/react-intl/locale-data/ms.js",
@@ -9607,7 +9333,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mt": [
+  "./mt.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mt.js",
       "name": "./node_modules/react-intl/locale-data/mt.js",
@@ -9615,7 +9341,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mua": [
+  "./mua.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mua.js",
       "name": "./node_modules/react-intl/locale-data/mua.js",
@@ -9623,7 +9349,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./my": [
+  "./my.js": [
     {
       "id": "./node_modules/react-intl/locale-data/my.js",
       "name": "./node_modules/react-intl/locale-data/my.js",
@@ -9631,7 +9357,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./mzn": [
+  "./mzn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/mzn.js",
       "name": "./node_modules/react-intl/locale-data/mzn.js",
@@ -9639,7 +9365,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nah": [
+  "./nah.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nah.js",
       "name": "./node_modules/react-intl/locale-data/nah.js",
@@ -9647,7 +9373,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./naq": [
+  "./naq.js": [
     {
       "id": "./node_modules/react-intl/locale-data/naq.js",
       "name": "./node_modules/react-intl/locale-data/naq.js",
@@ -9655,7 +9381,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nb": [
+  "./nb.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nb.js",
       "name": "./node_modules/react-intl/locale-data/nb.js",
@@ -9663,7 +9389,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nd": [
+  "./nd.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nd.js",
       "name": "./node_modules/react-intl/locale-data/nd.js",
@@ -9671,7 +9397,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nds": [
+  "./nds.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nds.js",
       "name": "./node_modules/react-intl/locale-data/nds.js",
@@ -9679,7 +9405,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ne": [
+  "./ne.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ne.js",
       "name": "./node_modules/react-intl/locale-data/ne.js",
@@ -9687,7 +9413,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nl": [
+  "./nl.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nl.js",
       "name": "./node_modules/react-intl/locale-data/nl.js",
@@ -9695,7 +9421,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nmg": [
+  "./nmg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nmg.js",
       "name": "./node_modules/react-intl/locale-data/nmg.js",
@@ -9703,7 +9429,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nn": [
+  "./nn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nn.js",
       "name": "./node_modules/react-intl/locale-data/nn.js",
@@ -9711,7 +9437,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nnh": [
+  "./nnh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nnh.js",
       "name": "./node_modules/react-intl/locale-data/nnh.js",
@@ -9719,7 +9445,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./no": [
+  "./no.js": [
     {
       "id": "./node_modules/react-intl/locale-data/no.js",
       "name": "./node_modules/react-intl/locale-data/no.js",
@@ -9727,7 +9453,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nqo": [
+  "./nqo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nqo.js",
       "name": "./node_modules/react-intl/locale-data/nqo.js",
@@ -9735,7 +9461,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nr": [
+  "./nr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nr.js",
       "name": "./node_modules/react-intl/locale-data/nr.js",
@@ -9743,7 +9469,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nso": [
+  "./nso.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nso.js",
       "name": "./node_modules/react-intl/locale-data/nso.js",
@@ -9751,7 +9477,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nus": [
+  "./nus.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nus.js",
       "name": "./node_modules/react-intl/locale-data/nus.js",
@@ -9759,7 +9485,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ny": [
+  "./ny.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ny.js",
       "name": "./node_modules/react-intl/locale-data/ny.js",
@@ -9767,7 +9493,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./nyn": [
+  "./nyn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/nyn.js",
       "name": "./node_modules/react-intl/locale-data/nyn.js",
@@ -9775,7 +9501,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./om": [
+  "./om.js": [
     {
       "id": "./node_modules/react-intl/locale-data/om.js",
       "name": "./node_modules/react-intl/locale-data/om.js",
@@ -9783,15 +9509,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./or": [
-    {
-      "id": "./node_modules/react-intl/locale-data/or.js",
-      "name": "./node_modules/react-intl/locale-data/or.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    }
-  ],
-  "./os": [
+  "./os.js": [
     {
       "id": "./node_modules/react-intl/locale-data/os.js",
       "name": "./node_modules/react-intl/locale-data/os.js",
@@ -9799,7 +9517,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./pa": [
+  "./pa.js": [
     {
       "id": "./node_modules/react-intl/locale-data/pa.js",
       "name": "./node_modules/react-intl/locale-data/pa.js",
@@ -9807,7 +9525,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./pap": [
+  "./pap.js": [
     {
       "id": "./node_modules/react-intl/locale-data/pap.js",
       "name": "./node_modules/react-intl/locale-data/pap.js",
@@ -9815,7 +9533,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./pl": [
+  "./pl.js": [
     {
       "id": "./node_modules/react-intl/locale-data/pl.js",
       "name": "./node_modules/react-intl/locale-data/pl.js",
@@ -9823,7 +9541,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./prg": [
+  "./prg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/prg.js",
       "name": "./node_modules/react-intl/locale-data/prg.js",
@@ -9831,7 +9549,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ps": [
+  "./ps.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ps.js",
       "name": "./node_modules/react-intl/locale-data/ps.js",
@@ -9839,7 +9557,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./pt": [
+  "./pt.js": [
     {
       "id": "./node_modules/react-intl/locale-data/pt.js",
       "name": "./node_modules/react-intl/locale-data/pt.js",
@@ -9847,7 +9565,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./qu": [
+  "./qu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/qu.js",
       "name": "./node_modules/react-intl/locale-data/qu.js",
@@ -9855,7 +9573,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./rm": [
+  "./rm.js": [
     {
       "id": "./node_modules/react-intl/locale-data/rm.js",
       "name": "./node_modules/react-intl/locale-data/rm.js",
@@ -9863,7 +9581,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./rn": [
+  "./rn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/rn.js",
       "name": "./node_modules/react-intl/locale-data/rn.js",
@@ -9871,7 +9589,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ro": [
+  "./ro.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ro.js",
       "name": "./node_modules/react-intl/locale-data/ro.js",
@@ -9879,7 +9597,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./rof": [
+  "./rof.js": [
     {
       "id": "./node_modules/react-intl/locale-data/rof.js",
       "name": "./node_modules/react-intl/locale-data/rof.js",
@@ -9887,7 +9605,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ru": [
+  "./ru.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ru.js",
       "name": "./node_modules/react-intl/locale-data/ru.js",
@@ -9895,7 +9613,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./rw": [
+  "./rw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/rw.js",
       "name": "./node_modules/react-intl/locale-data/rw.js",
@@ -9903,7 +9621,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./rwk": [
+  "./rwk.js": [
     {
       "id": "./node_modules/react-intl/locale-data/rwk.js",
       "name": "./node_modules/react-intl/locale-data/rwk.js",
@@ -9911,7 +9629,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sah": [
+  "./sah.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sah.js",
       "name": "./node_modules/react-intl/locale-data/sah.js",
@@ -9919,7 +9637,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./saq": [
+  "./saq.js": [
     {
       "id": "./node_modules/react-intl/locale-data/saq.js",
       "name": "./node_modules/react-intl/locale-data/saq.js",
@@ -9927,7 +9645,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sbp": [
+  "./sbp.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sbp.js",
       "name": "./node_modules/react-intl/locale-data/sbp.js",
@@ -9935,7 +9653,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sc": [
+  "./sc.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sc.js",
       "name": "./node_modules/react-intl/locale-data/sc.js",
@@ -9943,7 +9661,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./scn": [
+  "./scn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/scn.js",
       "name": "./node_modules/react-intl/locale-data/scn.js",
@@ -9951,7 +9669,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sd": [
+  "./sd.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sd.js",
       "name": "./node_modules/react-intl/locale-data/sd.js",
@@ -9959,7 +9677,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sdh": [
+  "./sdh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sdh.js",
       "name": "./node_modules/react-intl/locale-data/sdh.js",
@@ -9967,7 +9685,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./se": [
+  "./se.js": [
     {
       "id": "./node_modules/react-intl/locale-data/se.js",
       "name": "./node_modules/react-intl/locale-data/se.js",
@@ -9975,7 +9693,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./seh": [
+  "./seh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/seh.js",
       "name": "./node_modules/react-intl/locale-data/seh.js",
@@ -9983,7 +9701,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ses": [
+  "./ses.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ses.js",
       "name": "./node_modules/react-intl/locale-data/ses.js",
@@ -9991,7 +9709,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sg": [
+  "./sg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sg.js",
       "name": "./node_modules/react-intl/locale-data/sg.js",
@@ -9999,7 +9717,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sh": [
+  "./sh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sh.js",
       "name": "./node_modules/react-intl/locale-data/sh.js",
@@ -10007,7 +9725,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./shi": [
+  "./shi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/shi.js",
       "name": "./node_modules/react-intl/locale-data/shi.js",
@@ -10015,7 +9733,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./si": [
+  "./si.js": [
     {
       "id": "./node_modules/react-intl/locale-data/si.js",
       "name": "./node_modules/react-intl/locale-data/si.js",
@@ -10023,7 +9741,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sk": [
+  "./sk.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sk.js",
       "name": "./node_modules/react-intl/locale-data/sk.js",
@@ -10031,7 +9749,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sl": [
+  "./sl.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sl.js",
       "name": "./node_modules/react-intl/locale-data/sl.js",
@@ -10039,7 +9757,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sma": [
+  "./sma.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sma.js",
       "name": "./node_modules/react-intl/locale-data/sma.js",
@@ -10047,7 +9765,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./smi": [
+  "./smi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/smi.js",
       "name": "./node_modules/react-intl/locale-data/smi.js",
@@ -10055,7 +9773,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./smj": [
+  "./smj.js": [
     {
       "id": "./node_modules/react-intl/locale-data/smj.js",
       "name": "./node_modules/react-intl/locale-data/smj.js",
@@ -10063,7 +9781,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./smn": [
+  "./smn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/smn.js",
       "name": "./node_modules/react-intl/locale-data/smn.js",
@@ -10071,7 +9789,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sms": [
+  "./sms.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sms.js",
       "name": "./node_modules/react-intl/locale-data/sms.js",
@@ -10079,7 +9797,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sn": [
+  "./sn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sn.js",
       "name": "./node_modules/react-intl/locale-data/sn.js",
@@ -10087,7 +9805,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./so": [
+  "./so.js": [
     {
       "id": "./node_modules/react-intl/locale-data/so.js",
       "name": "./node_modules/react-intl/locale-data/so.js",
@@ -10095,7 +9813,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sq": [
+  "./sq.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sq.js",
       "name": "./node_modules/react-intl/locale-data/sq.js",
@@ -10103,7 +9821,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sr": [
+  "./sr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sr.js",
       "name": "./node_modules/react-intl/locale-data/sr.js",
@@ -10111,7 +9829,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ss": [
+  "./ss.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ss.js",
       "name": "./node_modules/react-intl/locale-data/ss.js",
@@ -10119,7 +9837,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ssy": [
+  "./ssy.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ssy.js",
       "name": "./node_modules/react-intl/locale-data/ssy.js",
@@ -10127,7 +9845,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./st": [
+  "./st.js": [
     {
       "id": "./node_modules/react-intl/locale-data/st.js",
       "name": "./node_modules/react-intl/locale-data/st.js",
@@ -10135,7 +9853,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sv": [
+  "./sv.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sv.js",
       "name": "./node_modules/react-intl/locale-data/sv.js",
@@ -10143,7 +9861,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./sw": [
+  "./sw.js": [
     {
       "id": "./node_modules/react-intl/locale-data/sw.js",
       "name": "./node_modules/react-intl/locale-data/sw.js",
@@ -10151,7 +9869,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./syr": [
+  "./syr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/syr.js",
       "name": "./node_modules/react-intl/locale-data/syr.js",
@@ -10159,7 +9877,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ta": [
+  "./ta.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ta.js",
       "name": "./node_modules/react-intl/locale-data/ta.js",
@@ -10167,7 +9885,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./te": [
+  "./te.js": [
     {
       "id": "./node_modules/react-intl/locale-data/te.js",
       "name": "./node_modules/react-intl/locale-data/te.js",
@@ -10175,7 +9893,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./teo": [
+  "./teo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/teo.js",
       "name": "./node_modules/react-intl/locale-data/teo.js",
@@ -10183,7 +9901,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tg": [
+  "./tg.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tg.js",
       "name": "./node_modules/react-intl/locale-data/tg.js",
@@ -10191,7 +9909,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./th": [
+  "./th.js": [
     {
       "id": "./node_modules/react-intl/locale-data/th.js",
       "name": "./node_modules/react-intl/locale-data/th.js",
@@ -10199,7 +9917,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ti": [
+  "./ti.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ti.js",
       "name": "./node_modules/react-intl/locale-data/ti.js",
@@ -10207,7 +9925,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tig": [
+  "./tig.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tig.js",
       "name": "./node_modules/react-intl/locale-data/tig.js",
@@ -10215,7 +9933,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tk": [
+  "./tk.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tk.js",
       "name": "./node_modules/react-intl/locale-data/tk.js",
@@ -10223,7 +9941,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tl": [
+  "./tl.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tl.js",
       "name": "./node_modules/react-intl/locale-data/tl.js",
@@ -10231,7 +9949,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tn": [
+  "./tn.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tn.js",
       "name": "./node_modules/react-intl/locale-data/tn.js",
@@ -10239,7 +9957,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./to": [
+  "./to.js": [
     {
       "id": "./node_modules/react-intl/locale-data/to.js",
       "name": "./node_modules/react-intl/locale-data/to.js",
@@ -10247,7 +9965,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tr": [
+  "./tr.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tr.js",
       "name": "./node_modules/react-intl/locale-data/tr.js",
@@ -10255,7 +9973,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ts": [
+  "./ts.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ts.js",
       "name": "./node_modules/react-intl/locale-data/ts.js",
@@ -10263,7 +9981,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tt": [
+  "./tt.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tt.js",
       "name": "./node_modules/react-intl/locale-data/tt.js",
@@ -10271,7 +9989,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./twq": [
+  "./twq.js": [
     {
       "id": "./node_modules/react-intl/locale-data/twq.js",
       "name": "./node_modules/react-intl/locale-data/twq.js",
@@ -10279,7 +9997,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./tzm": [
+  "./tzm.js": [
     {
       "id": "./node_modules/react-intl/locale-data/tzm.js",
       "name": "./node_modules/react-intl/locale-data/tzm.js",
@@ -10287,7 +10005,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ug": [
+  "./ug.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ug.js",
       "name": "./node_modules/react-intl/locale-data/ug.js",
@@ -10295,7 +10013,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./uk": [
+  "./uk.js": [
     {
       "id": "./node_modules/react-intl/locale-data/uk.js",
       "name": "./node_modules/react-intl/locale-data/uk.js",
@@ -10303,7 +10021,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ur": [
+  "./ur.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ur.js",
       "name": "./node_modules/react-intl/locale-data/ur.js",
@@ -10311,7 +10029,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./uz": [
+  "./uz.js": [
     {
       "id": "./node_modules/react-intl/locale-data/uz.js",
       "name": "./node_modules/react-intl/locale-data/uz.js",
@@ -10319,7 +10037,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./vai": [
+  "./vai.js": [
     {
       "id": "./node_modules/react-intl/locale-data/vai.js",
       "name": "./node_modules/react-intl/locale-data/vai.js",
@@ -10327,7 +10045,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./ve": [
+  "./ve.js": [
     {
       "id": "./node_modules/react-intl/locale-data/ve.js",
       "name": "./node_modules/react-intl/locale-data/ve.js",
@@ -10335,7 +10053,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./vi": [
+  "./vi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/vi.js",
       "name": "./node_modules/react-intl/locale-data/vi.js",
@@ -10343,7 +10061,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./vo": [
+  "./vo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/vo.js",
       "name": "./node_modules/react-intl/locale-data/vo.js",
@@ -10351,7 +10069,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./vun": [
+  "./vun.js": [
     {
       "id": "./node_modules/react-intl/locale-data/vun.js",
       "name": "./node_modules/react-intl/locale-data/vun.js",
@@ -10359,7 +10077,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./wa": [
+  "./wa.js": [
     {
       "id": "./node_modules/react-intl/locale-data/wa.js",
       "name": "./node_modules/react-intl/locale-data/wa.js",
@@ -10367,7 +10085,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./wae": [
+  "./wae.js": [
     {
       "id": "./node_modules/react-intl/locale-data/wae.js",
       "name": "./node_modules/react-intl/locale-data/wae.js",
@@ -10375,7 +10093,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./wo": [
+  "./wo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/wo.js",
       "name": "./node_modules/react-intl/locale-data/wo.js",
@@ -10383,7 +10101,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./xh": [
+  "./xh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/xh.js",
       "name": "./node_modules/react-intl/locale-data/xh.js",
@@ -10391,7 +10109,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./xog": [
+  "./xog.js": [
     {
       "id": "./node_modules/react-intl/locale-data/xog.js",
       "name": "./node_modules/react-intl/locale-data/xog.js",
@@ -10399,7 +10117,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./yav": [
+  "./yav.js": [
     {
       "id": "./node_modules/react-intl/locale-data/yav.js",
       "name": "./node_modules/react-intl/locale-data/yav.js",
@@ -10407,7 +10125,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./yi": [
+  "./yi.js": [
     {
       "id": "./node_modules/react-intl/locale-data/yi.js",
       "name": "./node_modules/react-intl/locale-data/yi.js",
@@ -10415,7 +10133,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./yo": [
+  "./yo.js": [
     {
       "id": "./node_modules/react-intl/locale-data/yo.js",
       "name": "./node_modules/react-intl/locale-data/yo.js",
@@ -10423,7 +10141,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./yue": [
+  "./yue.js": [
     {
       "id": "./node_modules/react-intl/locale-data/yue.js",
       "name": "./node_modules/react-intl/locale-data/yue.js",
@@ -10431,7 +10149,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./zgh": [
+  "./zgh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/zgh.js",
       "name": "./node_modules/react-intl/locale-data/zgh.js",
@@ -10439,7 +10157,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./zh": [
+  "./zh.js": [
     {
       "id": "./node_modules/react-intl/locale-data/zh.js",
       "name": "./node_modules/react-intl/locale-data/zh.js",
@@ -10447,7 +10165,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./zu": [
+  "./zu.js": [
     {
       "id": "./node_modules/react-intl/locale-data/zu.js",
       "name": "./node_modules/react-intl/locale-data/zu.js",
@@ -10639,7 +10357,7 @@
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
-  "./warning": [
+  "../utils/warning": [
     {
       "id": "./node_modules/react-redux/es/utils/warning.js",
       "name": "./node_modules/react-redux/es/utils/warning.js",
@@ -10677,12 +10395,6 @@
       "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/MemoryRouter.js",
-      "name": "./node_modules/react-router/es/MemoryRouter.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "./NavLink": [
@@ -10699,24 +10411,12 @@
       "name": "./node_modules/react-router-dom/es/Prompt.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/Prompt.js",
-      "name": "./node_modules/react-router/es/Prompt.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "./Redirect": [
     {
       "id": "./node_modules/react-router-dom/es/Redirect.js",
       "name": "./node_modules/react-router-dom/es/Redirect.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/Redirect.js",
-      "name": "./node_modules/react-router/es/Redirect.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -10727,24 +10427,12 @@
       "name": "./node_modules/react-router-dom/es/Route.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/Route.js",
-      "name": "./node_modules/react-router/es/Route.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "./Router": [
     {
       "id": "./node_modules/react-router-dom/es/Router.js",
       "name": "./node_modules/react-router-dom/es/Router.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/Router.js",
-      "name": "./node_modules/react-router/es/Router.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -10755,24 +10443,12 @@
       "name": "./node_modules/react-router-dom/es/StaticRouter.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/StaticRouter.js",
-      "name": "./node_modules/react-router/es/StaticRouter.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "./generatePath": [
     {
       "id": "./node_modules/react-router-dom/es/generatePath.js",
       "name": "./node_modules/react-router-dom/es/generatePath.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/generatePath.js",
-      "name": "./node_modules/react-router/es/generatePath.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -10791,12 +10467,6 @@
       "name": "./node_modules/react-router-dom/es/matchPath.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/matchPath.js",
-      "name": "./node_modules/react-router/es/matchPath.js",
-      "file": "commons.bundle-development.js",
-      "publicPath": "/bundles/front/commons.bundle-development.js"
     }
   ],
   "./withRouter": [
@@ -10805,10 +10475,68 @@
       "name": "./node_modules/react-router-dom/es/withRouter.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
-    },
+    }
+  ],
+  "react-router/es/MemoryRouter": [
     {
-      "id": "./node_modules/react-router/es/withRouter.js",
-      "name": "./node_modules/react-router/es/withRouter.js",
+      "id": "./node_modules/react-router/es/MemoryRouter.js",
+      "name": "./node_modules/react-router/es/MemoryRouter.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/Prompt": [
+    {
+      "id": "./node_modules/react-router/es/Prompt.js",
+      "name": "./node_modules/react-router/es/Prompt.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/Redirect": [
+    {
+      "id": "./node_modules/react-router/es/Redirect.js",
+      "name": "./node_modules/react-router/es/Redirect.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/Route": [
+    {
+      "id": "./node_modules/react-router/es/Route.js",
+      "name": "./node_modules/react-router/es/Route.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/Router": [
+    {
+      "id": "./node_modules/react-router/es/Router.js",
+      "name": "./node_modules/react-router/es/Router.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/StaticRouter": [
+    {
+      "id": "./node_modules/react-router/es/StaticRouter.js",
+      "name": "./node_modules/react-router/es/StaticRouter.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/Switch": [
+    {
+      "id": "./node_modules/react-router/es/Switch.js",
+      "name": "./node_modules/react-router/es/Switch.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/generatePath": [
+    {
+      "id": "./node_modules/react-router/es/generatePath.js",
+      "name": "./node_modules/react-router/es/generatePath.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -10817,6 +10545,22 @@
     {
       "id": "./node_modules/react-router/es/index.js",
       "name": "./node_modules/react-router/es/index.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/matchPath": [
+    {
+      "id": "./node_modules/react-router/es/matchPath.js",
+      "name": "./node_modules/react-router/es/matchPath.js",
+      "file": "commons.bundle-development.js",
+      "publicPath": "/bundles/front/commons.bundle-development.js"
+    }
+  ],
+  "react-router/es/withRouter": [
+    {
+      "id": "./node_modules/react-router/es/withRouter.js",
+      "name": "./node_modules/react-router/es/withRouter.js",
       "file": "commons.bundle-development.js",
       "publicPath": "/bundles/front/commons.bundle-development.js"
     }
@@ -11343,10 +11087,26 @@
       "publicPath": "/bundles/front/main.bundle-development.js"
     }
   ],
+  "../containers/Language/reducer": [
+    {
+      "id": "./src/containers/Language/reducer.js",
+      "name": "./src/containers/Language/reducer.js",
+      "file": "main.bundle-development.js",
+      "publicPath": "/bundles/front/main.bundle-development.js"
+    }
+  ],
   "../LoadingPage": [
     {
       "id": "./src/containers/LoadingPage/index.js",
       "name": "./src/containers/LoadingPage/index.js",
+      "file": "main.bundle-development.js",
+      "publicPath": "/bundles/front/main.bundle-development.js"
+    }
+  ],
+  "../helpers/rest": [
+    {
+      "id": "./src/helpers/rest.js",
+      "name": "./src/helpers/rest.js",
       "file": "main.bundle-development.js",
       "publicPath": "/bundles/front/main.bundle-development.js"
     }
