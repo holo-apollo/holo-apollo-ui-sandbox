@@ -2,7 +2,8 @@
 import styled, { css } from 'styled-components';
 
 import palette from 'common/palette';
-import CheckIcon from './checkbox.svg';
+
+const staticRoot = process.env.STATIC_ROOT || '';
 
 const getLabelStyles = ({ error }: { error: boolean }) => css`
   color: ${error ? palette.red : palette.grey};
@@ -43,7 +44,7 @@ export const StyledCheckbox = styled.input`
   }
 
   &:checked {
-    background-image: url(${CheckIcon});
+    background-image: url(${`${staticRoot}/img/checkbox.svg`});
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px 13px;

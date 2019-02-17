@@ -3,7 +3,7 @@
 .DS_Store
 *.log
 node_modules
-build
 i18n/messages
 coverage
+static/bundles
 storybook/static

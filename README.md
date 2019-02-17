@@ -13,7 +13,7 @@ For API project see https://github.com/holo-apollo/holo-apollo-api.
   ```
   yarn
   ```
-  
+
 #### Internationalization (i18n)
 
 - Mark all user-facing strings in React code using [react-intl](https://github.com/yahoo/react-intl/wiki#getting-started) means
