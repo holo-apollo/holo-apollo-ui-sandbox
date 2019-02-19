@@ -1,6 +1,7 @@
+// @flow
 import { createStore, compose } from 'redux';
 
-import createReducer from './createReducer';
+import createReducer, { type State } from './createReducer';
 
 // A nice helper to tell us if we're on the server
 export const isServer = !(
@@ -9,7 +10,7 @@ export const isServer = !(
   window.document.createElement
 );
 
-export default (initialState = {}) => {
+export default (initialState: State = {}) => {
   const enhancers = [];
   // Dev tools are helpful
   if (process.env.NODE_ENV === 'development' && !isServer) {

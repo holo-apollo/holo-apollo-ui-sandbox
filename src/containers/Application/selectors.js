@@ -1,23 +1,32 @@
+// @flow
 import { createSelector } from 'reselect';
 
-export const getApplication = state => state.application;
+import type { State } from 'store/createReducer';
+import type { SelectOption } from 'common/types';
+import type { State as ApplicationState } from './reducer';
+import type { ApplicationData } from './types';
+
+export const getApplication = (state: State): ApplicationState =>
+  state.application;
 
 export const getApplicationData = createSelector(
   getApplication,
-  application => application && application.applicationData
+  (application: ApplicationState): ApplicationData | void =>
+    application && application.applicationData
 );
 
 export const getApplicationId = createSelector(
   getApplicationData,
-  data => data && data.id
+  (data?: ApplicationData): number | void => data && data.id
 );
 
 export const getApplicationPubDate = createSelector(
   getApplicationData,
-  data => data && data.pub_date
+  (data?: ApplicationData): string | void => data && data.pub_date
 );
 
 export const getCategoryOptions = createSelector(
   getApplication,
-  application => application && application.categoryOptions
+  (application: ApplicationState): SelectOption<string>[] | void =>
+    application && application.categoryOptions
 );
