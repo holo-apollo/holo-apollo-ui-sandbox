@@ -5,8 +5,6 @@ import Helmet from 'react-helmet';
 
 const staticRoot = process.env.STATIC_ROOT || '';
 
-// The document (which is SSR-only) needs to be customized to expose the locale
-// data for the user's locale for React Intl to work in the browser.
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
