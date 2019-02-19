@@ -18,18 +18,16 @@ For API project see https://github.com/holo-apollo/holo-apollo-api.
 
 - Mark all user-facing strings in React code using [react-intl](https://github.com/yahoo/react-intl/wiki#getting-started) means
 
-- Build the bundle. You should see messages collected to `.json` files for each module in `frontend/i18n/messages` folder
+- Build the bundle. You should see messages collected to `.json` files for each module in `i18n/messages` folder
 
-- Merge messages to single file:
+- Collect all messages from default language:
 
   ```
-  yarn build-langs
+  yarn default-lang
   ```
 
-- Copy new strings for translation from `frontend/i18n/locale/data.json` to each language file and translate them there
+  They will appear in `i18n/locale/en.json`
 
-- Merge messages again to put translations to single `data.json` file
+- Copy new strings for translation from `i18n/locale/en.json` to each language file and translate them there
 
 - Commit the result
-
-This process should perhaps be partially automated.

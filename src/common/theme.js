@@ -8,6 +8,9 @@ const theme = createMuiTheme({
       main: palette.blue,
       dark: palette.blue,
     },
+    background: {
+      default: palette.white,
+    },
   },
   typography: {
     useNextVariants: true,

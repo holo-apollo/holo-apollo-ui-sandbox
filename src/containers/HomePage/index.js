@@ -1,10 +1,3 @@
-import createLoadable from 'react-loadable';
+import HomePageLayout from './HomePageLayout';
 
-import LoadingPage from 'containers/LoadingPage';
-
-const HomePage = createLoadable({
-  loader: () => import(/* webpackChunkName: 'home-page' */ './HomePageLayout'),
-  loading: LoadingPage,
-});
-
-export default HomePage;
+export default HomePageLayout;
