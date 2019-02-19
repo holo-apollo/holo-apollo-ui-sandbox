@@ -1,11 +1,20 @@
-import createLoadable from 'react-loadable';
+import React, { PureComponent } from 'react';
+import ApplicationLayout from './ApplicationLayout';
 
-import LoadingPage from 'containers/LoadingPage';
+import { api } from 'helpers/rest';
+import { addCategoryOptions } from './actions';
 
-const Application = createLoadable({
-  loader: () =>
-    import(/* webpackChunkName: 'application' */ './ApplicationLayout'),
-  loading: LoadingPage,
-});
+class Application extends PureComponent {
+  static async getInitialProps({ reduxStore }) {
+    const resp = await api.get('stores/applications/categories/');
+    if (resp.ok && resp.data) {
+      reduxStore.dispatch(addCategoryOptions(resp.data));
+    }
+  }
+
+  render() {
+    return <ApplicationLayout {...this.props} />;
+  }
+}
 
 export default Application;

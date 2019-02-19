@@ -1,12 +1,12 @@
-import { connect } from 'react-redux';
+import React from 'react';
+import { withRouter } from 'next/router';
 
-import { getQueryParam } from 'containers/Router/selectors';
 import PureHomePageLayout from './PureHomePageLayout';
 
-const mapStateToProps = state => ({
-  unsubscribeToken: getQueryParam(state, 'token'),
-});
+const NotEnchancedHomePageLayout = ({ router }) => (
+  <PureHomePageLayout unsubscribeToken={router.query.token} />
+);
 
-const HomePageLayout = connect(mapStateToProps)(PureHomePageLayout);
+const HomePageLayout = withRouter(NotEnchancedHomePageLayout);
 
 export default HomePageLayout;
