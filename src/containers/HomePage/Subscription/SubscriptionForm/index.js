@@ -1,14 +1,18 @@
 // @flow
+import * as React from 'react';
 import { withFormik } from 'formik';
-import { withState, compose } from 'recompose';
+import { withState, compose, type HOC } from 'recompose';
 
 import PureSubscriptionForm from './PureSubscriptionForm';
 import handleSubmit from './handleSubmit';
 import validate from './validate';
 
+// eslint-disable-next-line prettier/prettier
+const withSuccess: HOC<*, React.ElementConfig<typeof PureSubscriptionForm>> =
+  withState('isSuccess', 'setSuccess', false);
+
 const SubscriptionForm = compose(
-  // $FlowFixMe
-  withState('isSuccess', 'setSuccess', false),
+  withSuccess,
   withFormik({ handleSubmit, validate })
 )(PureSubscriptionForm);
 
