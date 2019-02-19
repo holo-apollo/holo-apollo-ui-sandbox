@@ -25,6 +25,7 @@ module.exports = {
     '**/*.{js,jsx}',
     '!**/node_modules/**',
     '!**/*.test.{js,jsx}',
+    '!**/*.test.{js,jsx}.snap',
     '!**/*.stories.{js,jsx}',
   ],
 

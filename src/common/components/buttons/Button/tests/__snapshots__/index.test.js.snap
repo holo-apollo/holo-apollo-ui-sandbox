@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot 1`] = `
+<button
+  className="Button__StyledButton-kpekc2-0 eoAdBp"
+  color="#424242"
+  fontSize={14}
+  fontWeight="500"
+  height={35}
+  width={250}
+>
+  Button text
+</button>
+`;

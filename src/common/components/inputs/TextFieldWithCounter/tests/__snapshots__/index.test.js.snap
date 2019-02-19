@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextFieldWithCounter should match snapshot 1`] = `
+<div
+  className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+  maxLength={100}
+>
+  <label
+    className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+    data-shrink={false}
+    style={
+      Object {
+        "fontSize": "12px",
+      }
+    }
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-fullWidth-45 MuiInput-fullWidth-30 MuiInputBase-formControl-37 MuiInput-formControl-24"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input-46 MuiInput-input-31"
+      disabled={false}
+      maxLength={100}
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      type="text"
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root-53"
+    style={
+      Object {
+        "fontSize": "10px",
+      }
+    }
+  >
+    <span
+      className="styled__HelperCont-pe4d84-0 ewpuwM"
+    >
+      <span
+        className="styled__CounterCont-pe4d84-1 iilNAF"
+      >
+        0
+        /
+        100
+      </span>
+    </span>
+  </p>
+</div>
+`;

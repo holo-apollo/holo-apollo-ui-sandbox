@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should match snapshot 1`] = `
+<label
+  className="styled__StyledLabel-sc-93nche-0 hZnQSg"
+>
+  <input
+    className="styled__StyledCheckbox-sc-93nche-1 jNdYEo"
+    name="name"
+    size={20}
+    type="checkbox"
+  />
+  Label
+</label>
+`;
