@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should match snapshot 1`] = `
+<div
+  className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+>
+  <label
+    className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+    data-shrink={false}
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root-43 MuiInput-root-30 MuiInput-underline-34 MuiInputBase-formControl-44 MuiInput-formControl-31"
+    onClick={[Function]}
+  >
+    <div
+      className="MuiSelect-root-23"
+    >
+      <select
+        aria-invalid={false}
+        className="MuiSelect-select-24 MuiInputBase-input-53 MuiInput-input-38"
+        defaultValue=""
+        disabled={false}
+        multiple={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+      >
+        <option
+          disabled={true}
+          value=""
+        />
+        <option
+          value={1}
+        >
+          One
+        </option>
+        <option
+          value={2}
+        >
+          Two
+        </option>
+        <option
+          value={3}
+        >
+          Three
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-60 MuiSelect-icon-29"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

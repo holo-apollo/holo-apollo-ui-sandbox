@@ -1,9 +1,9 @@
 // @flow
-import React, { PureComponent } from 'react';
+import * as React from 'react';
 import { connect } from 'react-redux';
 import autoBind from 'react-autobind';
 import { injectIntl, type IntlShape } from 'react-intl';
-import { withState, compose } from 'recompose';
+import { withState, compose, type HOC } from 'recompose';
 
 import type { SelectOption } from 'common/types';
 import { type ApplicationData } from '../types';
@@ -21,7 +21,7 @@ type Props = {
   onSuccess: () => void,
 };
 
-class NotEnchancedApplicationForm extends PureComponent<Props> {
+class NotEnchancedApplicationForm extends React.PureComponent<Props> {
   constructor(props: Props) {
     super(props);
     autoBind(this);
@@ -53,10 +53,13 @@ const withConnect = connect(
   { addApplicationData }
 );
 
+// eslint-disable-next-line prettier/prettier
+const withStep: HOC<*, React.ElementConfig<typeof NotEnchancedApplicationForm>> =
+  withState('step', 'setStep', 1);
+
 const ApplicationForm = compose(
   withConnect,
-  // $FlowFixMe
-  withState('step', 'setStep', 1),
+  withStep,
   injectIntl
 )(NotEnchancedApplicationForm);
 

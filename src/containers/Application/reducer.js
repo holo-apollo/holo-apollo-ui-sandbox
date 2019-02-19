@@ -1,19 +1,26 @@
 // @flow
+import type { SelectOption } from 'common/types';
+import type { Action as StoreAction } from 'store/actions';
 import type {
   AddApplicationDataAction,
   AddCategoryOptionsAction,
 } from './actions';
 import { ADD_APPLICATION_DATA, ADD_CATEGORY_OPTIONS } from './constants';
+import type { ApplicationData } from './types';
 
-const initialState = {
+export type State = {
+  applicationData?: ApplicationData,
+  categoryOptions: SelectOption<any>[],
+};
+
+export const initialState = {
   applicationData: undefined,
   categoryOptions: [],
 };
 
-type Action = AddApplicationDataAction | AddCategoryOptionsAction;
+type Action = StoreAction<AddApplicationDataAction | AddCategoryOptionsAction>;
 
-// $FlowFixMe
-export default (state = initialState, action: Action) => {
+export default (state: State = initialState, action: Action) => {
   switch (action.type) {
     case ADD_APPLICATION_DATA:
       return {

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormStep should match snapshot 1`] = `
+<div
+  className="styled__Cont-sc-150835y-0 btLMjA"
+  onClick={[MockFunction]}
+>
+  <div
+    className="styled__ContentCont-sc-150835y-1 gxYQRH"
+  >
+    <div
+      className="styled__HeaderCont-sc-150835y-2 iabCzy"
+    >
+      Header
+    </div>
+    <div
+      className="styled__HelpTextCont-sc-150835y-3 jYzyzO"
+    >
+      Help text
+    </div>
+  </div>
+</div>
+`;
