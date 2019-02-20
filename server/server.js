@@ -24,8 +24,7 @@ const supportedLanguages = glob
 // We need to expose React Intl's locale data on the request for the user's
 // locale. This function will also cache the scripts by lang in memory.
 const localeDataCache = new Map();
-const getLocaleDataScript = locale => {
-  const lang = locale.split('-')[0];
+const getLocaleDataScript = lang => {
   if (!localeDataCache.has(lang)) {
     const localeDataFile = require.resolve(`react-intl/locale-data/${lang}`);
     const localeDataScript = readFileSync(localeDataFile, 'utf8');
@@ -35,16 +34,17 @@ const getLocaleDataScript = locale => {
 };
 
 // We need to load and expose the translations on the request for the user's locale.
-const getMessages = locale => {
-  return require(`../i18n/locale/${locale}.json`);
+const getMessages = lang => {
+  return require(`../i18n/locale/${lang}.json`);
 };
 
 const prepareRequest = req => {
   const locales = req.acceptsLanguages(supportedLanguages);
   const locale = locales ? locales[0] : 'en';
+  const lang = locale.split('-')[0];
   req.locale = locale;
-  req.localeDataScript = getLocaleDataScript(locale);
-  req.messages = getMessages(locale);
+  req.localeDataScript = getLocaleDataScript(lang);
+  req.messages = getMessages(lang);
 };
 
 app
