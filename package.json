@@ -16,7 +16,8 @@
     "flow": "flow",
     "storybook": "start-storybook -p 9001 -c storybook/config -s static",
     "storybook:build": "build-storybook -c storybook/config -o static/storybook",
-    "default-lang": "node scripts/defaultLang.js"
+    "default-lang": "node scripts/defaultLang.js",
+    "heroku-postbuild": "yarn build"
   },
   "keywords": [],
   "author": "Valerii Kovalchuk",
