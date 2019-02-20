@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import Helmet from 'react-helmet';
@@ -95,8 +95,17 @@ export default class MyDocument extends Document {
     return (
       <html {...this.helmetHtmlAttrComponents} lang={locale}>
         <Head>
+          {process.env.HOST === 'https://www.holo-apollo.art' && (
+            <Fragment>
+              {/* Global site tag (gtag.js) - Google Analytics */}
+              <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=UA-113883637-1"
+              />
+              <script src={`${staticRoot}/js/gtm.js`} />
+            </Fragment>
+          )}
           {this.helmetHeadComponents}
-          {/* TODO: add GTM tag in production */}
           <meta charSet="utf-8" />
           {/* Use minimum-scale=1 to enable GPU rasterization */}
           <meta
