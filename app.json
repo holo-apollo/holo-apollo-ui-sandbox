@@ -1,0 +1,31 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "UI for Holo Apollo project",
+  "env": {
+    "API_ROOT": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    },
+    "STATIC_ROOT": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "holo-apollo-ui",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
