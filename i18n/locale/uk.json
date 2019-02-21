@@ -64,8 +64,5 @@
   "Subscription.Unsubscribe.confirmUnsubscribe": "Ви впевнені, що хочете відписатися?",
   "Subscription.Unsubscribe.yesUnsubscribe": "Так, впевнений",
   "Subscription.Unsubscribe.unsubscribeSuccess": "Ви відписалися.",
-  "Subscription.Unsubscribe.seeYouAgain": "Сподіваємося побачитися знову.",
-  "LoadingPage.error": "Помилка!",
-  "LoadingPage.retry": "Спробувати ще",
-  "LoadingPage.timedOut": "Щось довго..."
+  "Subscription.Unsubscribe.seeYouAgain": "Сподіваємося побачитися знову."
 }
