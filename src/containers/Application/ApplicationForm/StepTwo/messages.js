@@ -2,10 +2,27 @@
 import { defineMessages } from 'react-intl';
 
 const messages = defineMessages({
-  unknownError: {
-    id: 'ApplicationForm.StepTwo.unknownError',
+  errorsOccurred: {
+    id: 'ApplicationForm.StepTwo.errorsOccurred',
+    defaultMessage: 'Some errors occurred during images upload.',
+  },
+  presignedRequestError: {
+    id: 'ApplicationForm.StepTwo.presignedRequestError',
+    defaultMessage: 'Error getting presigned request. File name: {fileName}.',
+  },
+  s3UploadError: {
+    id: 'ApplicationForm.StepTwo.s3UploadError',
+    defaultMessage: 'Error uploading file. File name: {fileName}.',
+  },
+  submitError: {
+    id: 'ApplicationForm.StepTwo.submitError',
     defaultMessage:
-      'Unknown error. Please contact us via email ira@holo-apollo.art or Instagram @holo.apollo.art. Error code: {errorCode}',
+      'Error submitting file URL. File name: {fileName}, URL: {url}.',
+  },
+  contactUs: {
+    id: 'ApplicationForm.StepTwo.contactUs',
+    defaultMessage:
+      'Please try again in a moment or contact us via email ira@holo-apollo.art or Instagram @holo.apollo.art.',
   },
   loadingText: {
     id: 'ApplicationForm.StepTwo.loadingText',

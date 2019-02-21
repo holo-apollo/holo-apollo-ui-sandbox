@@ -7,7 +7,7 @@ import type { IntlShape } from 'react-intl';
 import ImageUploadPreview from 'common/components/inputs/ImageUploadPreview';
 import Button from 'common/components/buttons/Button';
 import DoubleBounceSpinner from 'common/components/spinners/DoubleBounceSpinner';
-import { requestWithFiles } from 'helpers/rest';
+import { api, uploadToS3 } from 'helpers/rest';
 import messages from './messages';
 import { MIN_IMAGES, MAX_IMAGES, MAX_IMAGES_SIZE } from './constants';
 import {
@@ -52,23 +52,62 @@ class StepTwo extends React.PureComponent<Props, State> {
       onSuccess,
       intl: { formatMessage },
     } = this.props;
-    const resp = await requestWithFiles(
-      'put',
-      `stores/applications/${applicationId}/images/`,
-      values,
-      {
-        images: this.state.images,
+
+    const success = [];
+    const errors = [];
+
+    this.state.images.forEach(async file => {
+      const signS3Resp = await api.get('sign-s3', {
+        file_name: `application${applicationId}/${file.name}`,
+        file_type: file.type,
+      });
+      if (!signS3Resp.ok || !signS3Resp.data) {
+        errors.push(
+          formatMessage(messages.presignedRequestError, { fileName: file.name })
+        );
+        return;
       }
-    );
-    if (resp.ok) {
-      onSuccess();
-    } else {
-      setFieldError(
-        'nonFieldErrors',
-        formatMessage(messages.unknownError, { errorCode: resp.status })
+      const s3RequestData = signS3Resp.data.data;
+      const uploadS3Resp = await uploadToS3(
+        s3RequestData.url,
+        s3RequestData.fields,
+        file
       );
-      setSubmitting(false);
-    }
+
+      if (!uploadS3Resp.ok) {
+        errors.push(
+          formatMessage(messages.s3UploadError, { fileName: file.name })
+        );
+        return;
+      }
+
+      const holoApiResp = await api.post(
+        `stores/applications/${applicationId}/images/`,
+        {
+          image_url: signS3Resp.data.url,
+        }
+      );
+
+      if (holoApiResp.ok) {
+        success.push(file.name);
+      } else {
+        errors.push(
+          formatMessage(messages.submitError, {
+            fileName: file.name,
+            url: signS3Resp.data.url,
+          })
+        );
+      }
+
+      if (success.length === this.state.images.length) {
+        onSuccess();
+      } else if (success.length + errors.length === this.state.images.length) {
+        errors.unshift(formatMessage(messages.errorsOccurred));
+        errors.push(formatMessage(messages.contactUs));
+        setFieldError('nonFieldErrors', errors.join(' '));
+        setSubmitting(false);
+      }
+    });
   }
 
   validate() {

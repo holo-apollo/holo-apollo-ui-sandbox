@@ -29,7 +29,7 @@
         [
           "react-intl",
           {
-            "messagesDir": "i18n/messages/"
+            "messagesDir": "./i18n/messages/"
           }
         ]
       ]

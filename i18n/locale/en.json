@@ -23,7 +23,11 @@
   "ApplicationForm.StepsControls.stepOneHelptext": "information",
   "ApplicationForm.StepsControls.stepTwoHeader": "Step 2",
   "ApplicationForm.StepsControls.stepTwoHelptext": "photos",
-  "ApplicationForm.StepTwo.unknownError": "Unknown error. Please contact us via email ira@holo-apollo.art or Instagram @holo.apollo.art. Error code: {errorCode}",
+  "ApplicationForm.StepTwo.errorsOccurred": "Some errors occurred during images upload.",
+  "ApplicationForm.StepTwo.presignedRequestError": "Error getting presigned request. File name: {fileName}.",
+  "ApplicationForm.StepTwo.s3UploadError": "Error uploading file. File name: {fileName}.",
+  "ApplicationForm.StepTwo.submitError": "Error submitting file URL. File name: {fileName}, URL: {url}.",
+  "ApplicationForm.StepTwo.contactUs": "Please try again in a moment or contact us via email ira@holo-apollo.art or Instagram @holo.apollo.art.",
   "ApplicationForm.StepTwo.loadingText": "We are loading your photos. Please wait a moment",
   "ApplicationForm.StepTwo.imagesLabel": "Upload photos of your goods in good quality",
   "ApplicationForm.StepTwo.imagesButtonText": "Upload photos",
@@ -60,8 +64,5 @@
   "Subscription.Unsubscribe.confirmUnsubscribe": "Are you sure that you want to unsubscribe?",
   "Subscription.Unsubscribe.yesUnsubscribe": "Yes, I'm sure",
   "Subscription.Unsubscribe.unsubscribeSuccess": "You were unsubscribed.",
-  "Subscription.Unsubscribe.seeYouAgain": "Hope to see you again.",
-  "LoadingPage.error": "Error!",
-  "LoadingPage.retry": "Retry",
-  "LoadingPage.timedOut": "Taking a long time..."
+  "Subscription.Unsubscribe.seeYouAgain": "Hope to see you again."
 }
