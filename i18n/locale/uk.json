@@ -23,7 +23,11 @@
   "ApplicationForm.StepsControls.stepOneHelptext": "інформація",
   "ApplicationForm.StepsControls.stepTwoHeader": "Крок 2",
   "ApplicationForm.StepsControls.stepTwoHelptext": "фото",
-  "ApplicationForm.StepTwo.unknownError": "Невідома помилка. Будь ласка напишіть нам на пошту ira@holo-apollo.art або в Instagram @holo.apollo.art. Код помилки: {errorCode}",
+  "ApplicationForm.StepTwo.errorsOccurred": "Під час завантаження зображень стались деякі помилки.",
+  "ApplicationForm.StepTwo.presignedRequestError": "Помилка при отриманні підписаного запиту. Ім'я файлу: {fileName}.",
+  "ApplicationForm.StepTwo.s3UploadError": "Помилка при завантаженні файлу. Ім'я файлу: {fileName}.",
+  "ApplicationForm.StepTwo.submitError": "Помилка при надсиланні URL. Ім'я файлу: {fileName}, URL: {url}.",
+  "ApplicationForm.StepTwo.contactUs": "Будь ласка, спробуйте ще раз або напишіть нам на пошту ira@holo-apollo.art або в Instagram @holo.apollo.art.",
   "ApplicationForm.StepTwo.loadingText": "Ми завантажуємо ваші фото. Будь ласка, зачекайте хвилинку",
   "ApplicationForm.StepTwo.imagesLabel": "Додайте якісні фото ваших виробів",
   "ApplicationForm.StepTwo.imagesButtonText": "Завантажити фото",
@@ -60,8 +64,5 @@
   "Subscription.Unsubscribe.confirmUnsubscribe": "Ви впевнені, що хочете відписатися?",
   "Subscription.Unsubscribe.yesUnsubscribe": "Так, впевнений",
   "Subscription.Unsubscribe.unsubscribeSuccess": "Ви відписалися.",
-  "Subscription.Unsubscribe.seeYouAgain": "Сподіваємося побачитися знову.",
-  "LoadingPage.error": "Помилка!",
-  "LoadingPage.retry": "Спробувати ще",
-  "LoadingPage.timedOut": "Щось довго..."
+  "Subscription.Unsubscribe.seeYouAgain": "Сподіваємося побачитися знову."
 }
