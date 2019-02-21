@@ -47,10 +47,21 @@ const prepareRequest = req => {
   req.messages = getMessages(lang);
 };
 
+const sentryConfigured = !!process.env.SENTRY_DSN;
+
+const Sentry = require('@sentry/node');
+if (sentryConfigured) {
+  Sentry.init({ dsn: process.env.SENTRY_DSN });
+}
+
 app
   .prepare()
   .then(() => {
     const server = express();
+
+    // The request handler must be the first middleware on the app
+    sentryConfigured && server.use(Sentry.Handlers.requestHandler());
+
     if (process.env.SERVE_STATIC) {
       const staticDir = resolve(__dirname, `../static`);
       server.use(express.static(staticDir));
@@ -60,6 +71,18 @@ app
       prepareRequest(req);
       return handle(req, res);
     });
+
+    if (sentryConfigured) {
+      server.use(Sentry.Handlers.errorHandler());
+
+      // Optional fallthrough error handler
+      server.use(function onError(err, req, res) {
+        // The error id is attached to `res.sentry` to be returned
+        // and optionally displayed to the user for support.
+        res.statusCode = 500;
+        res.end(res.sentry + '\n');
+      });
+    }
 
     server.listen(port, err => {
       if (err) throw err;

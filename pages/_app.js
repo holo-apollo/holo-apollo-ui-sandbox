@@ -6,12 +6,15 @@ import { MuiThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import JssProvider from 'react-jss/lib/JssProvider';
 import { IntlProvider, addLocaleData } from 'react-intl';
+import * as Sentry from '@sentry/browser';
 
 import withReduxStore from 'lib/withReduxStore';
 import GlobalStyle from 'common/GlobalStyle';
 import getPageContext from 'helpers/getPageContext';
+import { isServer } from 'helpers/misc';
 import { subscribeApiToStore } from 'helpers/rest';
 import HelmetComponent from 'common/components/HelmetComponent';
+import ErrorBoundary from 'common/components/ErrorBoundary';
 import { setLanguage } from 'containers/Language/actions';
 
 // Register React Intl's locale data for the user's locale in the browser. This
@@ -27,6 +30,11 @@ class MyApp extends App {
   constructor() {
     super();
     this.pageContext = getPageContext();
+    if (!isServer && process.env.SENTRY_DSN) {
+      Sentry.init({
+        dsn: process.env.SENTRY_DSN,
+      });
+    }
   }
 
   static async getInitialProps({ Component, ctx }) {
@@ -74,30 +82,32 @@ class MyApp extends App {
         <Head>
           <title>Holo Apollo Art</title>
         </Head>
-        <IntlProvider
-          locale={locale}
-          messages={messages}
-          initialNow={initialNow}
-        >
-          <Provider store={reduxStore}>
-            <JssProvider
-              registry={this.pageContext.sheetsRegistry}
-              generateClassName={this.pageContext.generateClassName}
-            >
-              <MuiThemeProvider
-                theme={this.pageContext.theme}
-                sheetsManager={this.pageContext.sheetsManager}
+        <ErrorBoundary>
+          <IntlProvider
+            locale={locale}
+            messages={messages}
+            initialNow={initialNow}
+          >
+            <Provider store={reduxStore}>
+              <JssProvider
+                registry={this.pageContext.sheetsRegistry}
+                generateClassName={this.pageContext.generateClassName}
               >
-                <Fragment>
-                  <CssBaseline />
-                  <GlobalStyle />
-                  <HelmetComponent />
-                  <Component pageContext={this.pageContext} {...pageProps} />
-                </Fragment>
-              </MuiThemeProvider>
-            </JssProvider>
-          </Provider>
-        </IntlProvider>
+                <MuiThemeProvider
+                  theme={this.pageContext.theme}
+                  sheetsManager={this.pageContext.sheetsManager}
+                >
+                  <Fragment>
+                    <CssBaseline />
+                    <GlobalStyle />
+                    <HelmetComponent />
+                    <Component pageContext={this.pageContext} {...pageProps} />
+                  </Fragment>
+                </MuiThemeProvider>
+              </JssProvider>
+            </Provider>
+          </IntlProvider>
+        </ErrorBoundary>
       </Container>
     );
   }
