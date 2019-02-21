@@ -1,5 +1,6 @@
 import React from 'react';
-import initializeStore, { isServer } from 'store/initializeStore';
+import initializeStore from 'store/initializeStore';
+import { isServer } from 'helpers/misc';
 
 const __NEXT_REDUX_STORE__ = '__NEXT_REDUX_STORE__';
 
