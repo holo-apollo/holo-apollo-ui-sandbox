@@ -54,6 +54,12 @@ if (sentryConfigured) {
   Sentry.init({ dsn: process.env.SENTRY_DSN });
 }
 
+const env = {
+  API_ROOT: process.env.API_ROOT,
+  STATIC_ROOT: process.env.STATIC_ROOT,
+  SENTRY_DSN: process.env.SENTRY_DSN,
+};
+
 app
   .prepare()
   .then(() => {
@@ -66,6 +72,11 @@ app
       const staticDir = resolve(__dirname, `../static`);
       server.use(express.static(staticDir));
     }
+
+    server.get('/env.js', function(req, res) {
+      res.set('Content-Type', 'application/javascript');
+      res.send('var env = ' + JSON.stringify(env));
+    });
 
     server.get('*', (req, res) => {
       prepareRequest(req);

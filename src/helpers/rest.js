@@ -2,10 +2,12 @@
 import { create } from 'apisauce';
 import type { Store } from 'redux';
 
+import { getEnv } from './misc';
+
 type Data = { [string]: any };
 
 export const api = create({
-  baseURL: process.env.API_ROOT || '/',
+  baseURL: getEnv('API_ROOT') || '/',
   headers: {
     post: {
       'Content-Type': 'application/json; charset=utf-8',
