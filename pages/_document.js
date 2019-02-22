@@ -105,6 +105,7 @@ export default class MyDocument extends Document {
               <script src={`${staticRoot}/js/gtm.js`} />
             </Fragment>
           )}
+          <script src="/env.js" />
           {this.helmetHeadComponents}
           <meta charSet="utf-8" />
           {/* Use minimum-scale=1 to enable GPU rasterization */}

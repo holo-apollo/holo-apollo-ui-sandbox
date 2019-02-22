@@ -1,7 +1,9 @@
 import React, { PureComponent, Fragment } from 'react';
 import * as Sentry from '@sentry/browser';
 
-const sentryConfigured = !!process.env.SENTRY_DSN;
+import { getEnv } from 'helpers/misc';
+
+const sentryConfigured = !!getEnv('SENTRY_DSN');
 
 class ErrorBoundary extends PureComponent {
   constructor(props) {
