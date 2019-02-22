@@ -3,12 +3,13 @@ import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Switch, Case } from 'react-case-when';
 
+import { getEnv } from 'helpers/misc';
 import ApplicationCreate from '../ApplicationCreate';
 import ApplicationSuccess from '../ApplicationSuccess';
 import { Container, BlockLeft, BlockMain, LogoCont } from './styled';
 import messages from './messages';
 
-const staticRoot = process.env.STATIC_ROOT || '';
+const staticRoot = getEnv('STATIC_ROOT') || '';
 
 type Props = {
   isSuccess: boolean,

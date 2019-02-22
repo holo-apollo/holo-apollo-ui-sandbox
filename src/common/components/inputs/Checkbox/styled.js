@@ -2,8 +2,9 @@
 import styled, { css } from 'styled-components';
 
 import palette from 'common/palette';
+import { getEnv } from 'helpers/misc';
 
-const staticRoot = process.env.STATIC_ROOT || '';
+const staticRoot = getEnv('STATIC_ROOT') || '';
 
 const getLabelStyles = ({ error }: { error: boolean }) => css`
   color: ${error ? palette.red : palette.grey};

@@ -30,9 +30,9 @@ class MyApp extends App {
   constructor() {
     super();
     this.pageContext = getPageContext();
-    if (!isServer && process.env.SENTRY_DSN) {
+    if (!isServer && window.env.SENTRY_DSN) {
       Sentry.init({
-        dsn: process.env.SENTRY_DSN,
+        dsn: window.env.SENTRY_DSN,
       });
     }
   }

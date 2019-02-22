@@ -4,6 +4,7 @@ import { FormattedMessage, FormattedDate } from 'react-intl';
 import { Emoji } from 'emoji-mart';
 import { Case } from 'react-case-when';
 
+import { getEnv } from 'helpers/misc';
 import {
   EmojiCont,
   Divider,
@@ -13,7 +14,7 @@ import {
 } from './styled';
 import messages from './messages';
 
-const staticRoot = process.env.STATIC_ROOT || '';
+const staticRoot = getEnv('STATIC_ROOT') || '';
 
 type Props = {
   pubDate?: Date,

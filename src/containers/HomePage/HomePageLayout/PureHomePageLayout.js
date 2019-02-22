@@ -2,6 +2,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
+import { getEnv } from 'helpers/misc';
 import Subscription from '../Subscription';
 import { Container, Content, ImageHolo, InstaIcon } from './styled';
 import messages from './messages';
@@ -10,7 +11,7 @@ type Props = {
   unsubscribeToken?: string,
 };
 
-const staticRoot = process.env.STATIC_ROOT || '';
+const staticRoot = getEnv('STATIC_ROOT') || '';
 
 const PureHomePageLayout = ({ unsubscribeToken }: Props) => (
   <Container>
