@@ -26,7 +26,12 @@ const supportedLanguages = glob
 const localeDataCache = new Map();
 const getLocaleDataScript = lang => {
   if (!localeDataCache.has(lang)) {
-    const localeDataFile = require.resolve(`react-intl/locale-data/${lang}`);
+    let localeDataFile;
+    try {
+      localeDataFile = require.resolve(`react-intl/locale-data/${lang}`);
+    } catch (e) {
+      localeDataFile = require.resolve('react-intl/locale-data/en');
+    }
     const localeDataScript = readFileSync(localeDataFile, 'utf8');
     localeDataCache.set(lang, localeDataScript);
   }
