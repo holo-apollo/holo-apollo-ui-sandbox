@@ -40,7 +40,11 @@ const getLocaleDataScript = lang => {
 
 // We need to load and expose the translations on the request for the user's locale.
 const getMessages = lang => {
-  return require(`../i18n/locale/${lang}.json`);
+  try {
+    return require(`../i18n/locale/${lang}.json`);
+  } catch (e) {
+    return require('../i18n/locale/en.json');
+  }
 };
 
 const prepareRequest = req => {
