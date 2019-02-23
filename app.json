@@ -15,9 +15,7 @@
     "NODE_ENV": {
       "required": true
     },
-    "STATIC_ROOT": {
-      "required": true
-    }
+    "SERVE_STATIC": "True"
   },
   "formation": {
     "web": {
