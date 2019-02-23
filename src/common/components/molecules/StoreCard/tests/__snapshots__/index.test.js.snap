@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreCard should match snapshot if big 1`] = `
+<div
+  className="styled__Cont-u4l7vz-0 crbnux"
+>
+  <div
+    className="styled__CoverCont-u4l7vz-1 ewSHZq"
+  />
+  <div
+    className="styled__BottomCont-u4l7vz-2 icAjlA"
+  >
+    <div
+      className="styled__ContentCont-u4l7vz-3 AHQbF"
+    >
+      <div
+        className="styled__AvatarCont-u4l7vz-5 bQxxaf"
+      />
+      <div
+        className="styled__ContentLeftCont-u4l7vz-6 dzlxSF"
+      >
+        <div
+          className="styled__MainInfoCont-u4l7vz-14 dOJmPc"
+        >
+          <div
+            className="styled__StoreNameCont-u4l7vz-15 ekQkWm"
+          >
+            Armonie
+          </div>
+          <div
+            className="styled__LocationCont-u4l7vz-16 dSwJMW"
+          >
+            Lviv
+          </div>
+        </div>
+        <div
+          className="styled__DescriptionCont-u4l7vz-17 hmBFUp"
+        >
+          Scented candles from natural soy wax. Perfumed with the best essential oils. Fill your home with a cozy aroma from Armonie.
+        </div>
+      </div>
+      <div
+        className="styled__ContentRightCont-u4l7vz-7 xNeLC"
+      >
+        <div
+          className="styled__GoodsCountCont-u4l7vz-8 cSrIku"
+        >
+          <span
+            className="styled__GoodsCountWrapper-u4l7vz-10 ffxBJU"
+          >
+            <span
+              className="styled__GoodsCount-u4l7vz-11 laLMj"
+            >
+              435
+            </span>
+            <span>
+              goods
+            </span>
+          </span>
+        </div>
+        <div
+          className="styled__RatingCont-u4l7vz-9 XiMlu"
+        >
+          <span
+            className="styled__RatingWrapper-u4l7vz-12 fshdtH"
+          >
+            <span
+              className="emoji-mart-emoji"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              title={null}
+            >
+              <span
+                style={
+                  Object {
+                    "backgroundImage": "url(https://unpkg.com/emoji-datasource-apple@4.0.4/img/apple/sheets-256/64.png)",
+                    "backgroundPosition": "47.05882352941176% 100%",
+                    "backgroundSize": "5200% 5200%",
+                    "display": "inline-block",
+                    "height": 24,
+                    "width": 24,
+                  }
+                }
+              />
+            </span>
+            <span
+              className="styled__Rating-u4l7vz-13 gCLjQd"
+            >
+              4.8
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="styled__BannerCont-u4l7vz-4 bDVjaq"
+    />
+  </div>
+</div>
+`;
+
+exports[`StoreCard should match snapshot if small 1`] = `
+<div
+  className="styled__Cont-u4l7vz-0 crbnux"
+>
+  <div
+    className="styled__CoverCont-u4l7vz-1 elzTxL"
+  />
+  <div
+    className="styled__BottomCont-u4l7vz-2 icAjlA"
+  >
+    <div
+      className="styled__ContentCont-u4l7vz-3 AHQbF"
+    >
+      <div
+        className="styled__AvatarCont-u4l7vz-5 dwYyBI"
+      />
+      <div
+        className="styled__ContentLeftCont-u4l7vz-6 bUlPXO"
+      >
+        <div
+          className="styled__MainInfoCont-u4l7vz-14 lhgUJl"
+        >
+          <div
+            className="styled__StoreNameCont-u4l7vz-15 ekQkWm"
+          >
+            Armonie
+          </div>
+          <div
+            className="styled__LocationCont-u4l7vz-16 dSwJMW"
+          >
+            Lviv
+          </div>
+        </div>
+        <div
+          className="styled__DescriptionCont-u4l7vz-17 hmBFUp"
+        >
+          Scented candles from natural soy wax. Perfumed with the best essential oils. Fill your home with a cozy aroma from Armonie.
+        </div>
+      </div>
+      <div
+        className="styled__ContentRightCont-u4l7vz-7 xNeLC"
+      >
+        <div
+          className="styled__GoodsCountCont-u4l7vz-8 cSrIku"
+        >
+          <span
+            className="styled__GoodsCountWrapper-u4l7vz-10 ffxBJU"
+          >
+            <span
+              className="styled__GoodsCount-u4l7vz-11 laLMj"
+            >
+              435
+            </span>
+            <span>
+              goods
+            </span>
+          </span>
+        </div>
+        <div
+          className="styled__RatingCont-u4l7vz-9 XiMlu"
+        >
+          <span
+            className="styled__RatingWrapper-u4l7vz-12 fshdtH"
+          >
+            <span
+              className="emoji-mart-emoji"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              title={null}
+            >
+              <span
+                style={
+                  Object {
+                    "backgroundImage": "url(https://unpkg.com/emoji-datasource-apple@4.0.4/img/apple/sheets-256/64.png)",
+                    "backgroundPosition": "47.05882352941176% 100%",
+                    "backgroundSize": "5200% 5200%",
+                    "display": "inline-block",
+                    "height": 24,
+                    "width": 24,
+                  }
+                }
+              />
+            </span>
+            <span
+              className="styled__Rating-u4l7vz-13 gCLjQd"
+            >
+              4.8
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
