@@ -7,4 +7,10 @@ export const isServer = !(
 );
 
 export const getEnv = (key: string) =>
-  isServer ? process.env[key] : window.env[key];
+  isServer
+    ? process && process.env
+      ? process.env[key]
+      : ''
+    : window && window.env
+    ? window.env[key]
+    : '';
