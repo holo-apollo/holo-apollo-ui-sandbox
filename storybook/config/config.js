@@ -25,7 +25,7 @@ const intlDecorator = story => (
 const themeDecorator = story => (
   <div style={{ padding: '20px', minHeight: '100vh' }}>
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700"
       rel="stylesheet"
     />
     <GlobalStyle />

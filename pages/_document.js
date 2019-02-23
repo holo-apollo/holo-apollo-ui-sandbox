@@ -119,7 +119,7 @@ export default class MyDocument extends Document {
             href={`${staticRoot}/img/favicon.png`}
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700"
+            href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700"
             rel="stylesheet"
           />
         </Head>

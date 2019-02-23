@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoodCard should match snapshot 1`] = `
+<div
+  className="styled__Cont-sc-1jbl3we-0 leFvXS"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  <div
+    className="styled__ImgCont-sc-1jbl3we-1 ePipdt"
+  />
+  <div
+    className="styled__ContentCont-sc-1jbl3we-2 epGdBB"
+  >
+    <div
+      className="styled__NameCont-sc-1jbl3we-3 fZYFOl"
+    >
+      Flower in a bowl
+    </div>
+    <div
+      className="styled__StoreNameCont-sc-1jbl3we-4 dTnatL"
+    >
+      <span>
+        by
+      </span>
+      : 
+      Gold stuff shopping
+    </div>
+    <div
+      className="styled__PriceCont-sc-1jbl3we-5 ehAaxP"
+    >
+      95
+       
+      UAH
+    </div>
+    <div
+      className="styled__ActionsCont-sc-1jbl3we-6 djBUfK"
+    >
+      <button
+        className="Button__StyledButton-kpekc2-0 fGZqID"
+        color="#424242"
+        fontSize={14}
+        fontWeight="normal"
+        height={35}
+        onClick={[MockFunction]}
+        width={110}
+      >
+        <span>
+          Purchase
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
