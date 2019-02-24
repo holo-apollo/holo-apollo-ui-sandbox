@@ -1,9 +1,3 @@
-// Polyfill Node with `Intl` that has data for all locales.
-// See: https://formatjs.io/guides/runtime-environments/#server
-const IntlPolyfill = require('intl');
-Intl.NumberFormat = IntlPolyfill.NumberFormat;
-Intl.DateTimeFormat = IntlPolyfill.DateTimeFormat;
-
 const express = require('express');
 const next = require('next');
 const glob = require('glob');
@@ -20,6 +14,22 @@ const handle = app.getRequestHandler();
 const supportedLanguages = glob
   .sync('../i18n/locale/*.json')
   .map(f => basename(f, '.json'));
+
+const areIntlLocalesSupported = require('intl-locales-supported');
+
+if (global.Intl) {
+  // Determine if the built-in `Intl` has the locale data we need.
+  if (!areIntlLocalesSupported(supportedLanguages)) {
+    // `Intl` exists, but it doesn't have the data we need, so load the
+    // polyfill and replace the constructors with need with the polyfill's.
+    const IntlPolyfill = require('intl');
+    Intl.NumberFormat = IntlPolyfill.NumberFormat;
+    Intl.DateTimeFormat = IntlPolyfill.DateTimeFormat;
+  }
+} else {
+  // No `Intl`, so use and load the polyfill.
+  global.Intl = require('intl');
+}
 
 // We need to expose React Intl's locale data on the request for the user's
 // locale. This function will also cache the scripts by lang in memory.
