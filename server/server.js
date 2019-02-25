@@ -61,7 +61,7 @@ const prepareRequest = req => {
   const locales = req.acceptsLanguages(supportedLanguages);
   const locale = locales ? locales[0] : 'en';
   const lang = locale.split('-')[0];
-  req.locale = locale;
+  req.locale = lang;
   req.localeDataScript = getLocaleDataScript(lang);
   req.messages = getMessages(lang);
 };

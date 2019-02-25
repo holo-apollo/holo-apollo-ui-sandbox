@@ -90,7 +90,7 @@ export default class MyDocument extends Document {
   render() {
     const { locale, localeDataScript } = this.props;
     // Polyfill Intl API for older browsers
-    const polyfill = `https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.${locale}`;
+    const polyfill = `https://cdn.polyfill.io/v3/polyfill.min.js?features=Intl.~locale.${locale}`;
 
     return (
       <html {...this.helmetHtmlAttrComponents} lang={locale}>
