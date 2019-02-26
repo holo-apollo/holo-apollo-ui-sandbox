@@ -10,16 +10,18 @@ export const Cont = styled.div`
 const getCoverContStyles = ({
   isSmall,
   imgUrl,
+  hovered,
 }: {
   isSmall: boolean,
   imgUrl: string,
+  hovered: boolean,
 }) => css`
   height: ${isSmall ? 100 : 400}px;
   background-image: url(${imgUrl});
+  border: solid 1px ${isSmall && hovered ? palette.darkGrey : palette.lightGrey};
 `;
 
 export const CoverCont = styled.div`
-  border: solid 1px ${palette.lightGrey};
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,13 +32,23 @@ export const BottomCont = styled.div`
   display: flex;
 `;
 
+const getContentContStyles = ({
+  isSmall,
+  hovered,
+}: {
+  isSmall: boolean,
+  hovered: boolean,
+}) => css`
+  border: solid 1px ${isSmall && hovered ? palette.darkGrey : palette.lightGrey};
+  border-top: none;
+`;
+
 export const ContentCont = styled.div`
   display: flex;
   position: relative;
-  border: solid 1px ${palette.lightGrey};
-  border-top: none;
   min-height: 200px;
   flex: 1;
+  ${getContentContStyles};
 `;
 
 export const BannerCont = styled.div`
@@ -71,15 +83,18 @@ export const AvatarCont = styled.div`
 
 export const getContentLeftContStyles = ({
   isSmall,
+  hovered,
 }: {
   isSmall: boolean,
+  hovered: boolean,
 }) => css`
   padding: ${isSmall ? 35 : 23}px;
+  border-right: solid 1px
+    ${isSmall && hovered ? palette.darkGrey : palette.lightGrey};
 `;
 
 export const ContentLeftCont = styled.div`
   flex-basis: 70%;
-  border-right: solid 1px ${palette.lightGrey};
   ${getContentLeftContStyles};
 `;
 
@@ -89,13 +104,24 @@ export const ContentRightCont = styled.div`
   flex-direction: column;
 `;
 
+const getGoodsCountContStyles = ({
+  isSmall,
+  hovered,
+}: {
+  isSmall: boolean,
+  hovered: boolean,
+}) => css`
+  border-bottom: 1px solid
+    ${isSmall && hovered ? palette.darkGrey : palette.lightGrey};
+`;
+
 export const GoodsCountCont = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: solid 1px ${palette.lightGrey};
   font-size: 12px;
+  ${getGoodsCountContStyles};
 `;
 
 export const RatingCont = styled.div`

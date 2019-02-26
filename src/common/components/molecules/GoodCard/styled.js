@@ -3,18 +3,27 @@ import styled, { css } from 'styled-components';
 
 import palette from 'common/palette';
 
-export const Cont = styled.div`
-  width: 310px;
-  border: solid 1px ${palette.lightGrey};
+const getContStyles = ({ hovered }: { hovered: boolean }) => css`
+  border: solid 1px ${hovered ? palette.darkGrey : palette.lightGrey};
 `;
 
-const getImgContStyles = ({ imgUrl }: { imgUrl: string }) => css`
+export const Cont = styled.div`
+  ${getContStyles};
+`;
+
+const getImgContStyles = ({
+  imgUrl,
+  hovered,
+}: {
+  imgUrl: string,
+  hovered: boolean,
+}) => css`
   background-image: url(${imgUrl});
+  border-bottom: solid 1px ${hovered ? palette.darkGrey : palette.lightGrey};
 `;
 
 export const ImgCont = styled.div`
   height: 261px;
-  border-bottom: solid 1px ${palette.lightGrey};
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
