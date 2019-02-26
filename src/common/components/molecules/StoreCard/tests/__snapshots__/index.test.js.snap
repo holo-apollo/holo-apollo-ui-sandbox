@@ -3,21 +3,23 @@
 exports[`StoreCard should match snapshot if big 1`] = `
 <div
   className="styled__Cont-u4l7vz-0 crbnux"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
 >
   <div
-    className="styled__CoverCont-u4l7vz-1 ewSHZq"
+    className="styled__CoverCont-u4l7vz-1 jHQJHF"
   />
   <div
     className="styled__BottomCont-u4l7vz-2 icAjlA"
   >
     <div
-      className="styled__ContentCont-u4l7vz-3 AHQbF"
+      className="styled__ContentCont-u4l7vz-3 bCpRNZ"
     >
       <div
         className="styled__AvatarCont-u4l7vz-5 bQxxaf"
       />
       <div
-        className="styled__ContentLeftCont-u4l7vz-6 dzlxSF"
+        className="styled__ContentLeftCont-u4l7vz-6 fHnWUO"
       >
         <div
           className="styled__MainInfoCont-u4l7vz-14 dOJmPc"
@@ -43,7 +45,7 @@ exports[`StoreCard should match snapshot if big 1`] = `
         className="styled__ContentRightCont-u4l7vz-7 xNeLC"
       >
         <div
-          className="styled__GoodsCountCont-u4l7vz-8 cSrIku"
+          className="styled__GoodsCountCont-u4l7vz-8 eDwOBd"
         >
           <span
             className="styled__GoodsCountWrapper-u4l7vz-10 ffxBJU"
@@ -103,21 +105,23 @@ exports[`StoreCard should match snapshot if big 1`] = `
 exports[`StoreCard should match snapshot if small 1`] = `
 <div
   className="styled__Cont-u4l7vz-0 crbnux"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
 >
   <div
-    className="styled__CoverCont-u4l7vz-1 elzTxL"
+    className="styled__CoverCont-u4l7vz-1 hkRcJs"
   />
   <div
     className="styled__BottomCont-u4l7vz-2 icAjlA"
   >
     <div
-      className="styled__ContentCont-u4l7vz-3 AHQbF"
+      className="styled__ContentCont-u4l7vz-3 bCpRNZ"
     >
       <div
         className="styled__AvatarCont-u4l7vz-5 dwYyBI"
       />
       <div
-        className="styled__ContentLeftCont-u4l7vz-6 bUlPXO"
+        className="styled__ContentLeftCont-u4l7vz-6 hJwGMz"
       >
         <div
           className="styled__MainInfoCont-u4l7vz-14 lhgUJl"
@@ -143,7 +147,7 @@ exports[`StoreCard should match snapshot if small 1`] = `
         className="styled__ContentRightCont-u4l7vz-7 xNeLC"
       >
         <div
-          className="styled__GoodsCountCont-u4l7vz-8 cSrIku"
+          className="styled__GoodsCountCont-u4l7vz-8 eDwOBd"
         >
           <span
             className="styled__GoodsCountWrapper-u4l7vz-10 ffxBJU"

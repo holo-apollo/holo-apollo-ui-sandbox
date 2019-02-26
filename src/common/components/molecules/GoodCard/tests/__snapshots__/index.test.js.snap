@@ -2,12 +2,12 @@
 
 exports[`GoodCard should match snapshot 1`] = `
 <div
-  className="styled__Cont-sc-1jbl3we-0 leFvXS"
+  className="styled__Cont-sc-1jbl3we-0 hmuyKn"
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
   <div
-    className="styled__ImgCont-sc-1jbl3we-1 ePipdt"
+    className="styled__ImgCont-sc-1jbl3we-1 KOUZO"
   />
   <div
     className="styled__ContentCont-sc-1jbl3we-2 epGdBB"

@@ -2,6 +2,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Emoji } from 'emoji-mart';
+import { withState } from 'recompose';
 
 import {
   Cont,
@@ -34,9 +35,11 @@ type Props = {
   coverImageUrl: string,
   avatarUrl: string,
   rating?: number,
+  hovered: boolean,
+  setHovered: boolean => void,
 };
 
-const StoreCard = ({
+const PureStoreCard = ({
   isSmall,
   coverImageUrl,
   avatarUrl,
@@ -45,13 +48,18 @@ const StoreCard = ({
   storeName,
   location,
   description,
+  hovered,
+  setHovered,
 }: Props) => (
-  <Cont>
-    <CoverCont isSmall={isSmall} imgUrl={coverImageUrl} />
+  <Cont
+    onMouseOver={() => setHovered(true)}
+    onMouseOut={() => setHovered(false)}
+  >
+    <CoverCont isSmall={isSmall} imgUrl={coverImageUrl} hovered={hovered} />
     <BottomCont>
-      <ContentCont>
+      <ContentCont isSmall={isSmall} hovered={hovered}>
         <AvatarCont isSmall={isSmall} imgUrl={avatarUrl} />
-        <ContentLeftCont isSmall={isSmall}>
+        <ContentLeftCont isSmall={isSmall} hovered={hovered}>
           <MainInfoCont isSmall={isSmall}>
             <StoreNameCont>{storeName}</StoreNameCont>
             <LocationCont>{location}</LocationCont>
@@ -59,7 +67,7 @@ const StoreCard = ({
           <DescriptionCont>{description}</DescriptionCont>
         </ContentLeftCont>
         <ContentRightCont>
-          <GoodsCountCont>
+          <GoodsCountCont isSmall={isSmall} hovered={hovered}>
             <GoodsCountWrapper>
               <GoodsCount>{goodsCount}</GoodsCount>
               <FormattedMessage {...messages.goods} values={{ goodsCount }} />
@@ -77,5 +85,8 @@ const StoreCard = ({
     </BottomCont>
   </Cont>
 );
+
+// $FlowFixMe
+const StoreCard = withState('hovered', 'setHovered', false)(PureStoreCard);
 
 export default StoreCard;

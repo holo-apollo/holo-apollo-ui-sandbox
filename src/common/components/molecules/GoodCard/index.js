@@ -41,8 +41,9 @@ const PureGoodCard = ({
   <Cont
     onMouseOver={() => setHovered(true)}
     onMouseOut={() => setHovered(false)}
+    hovered={hovered}
   >
-    <ImgCont imgUrl={mainImageUrl} />
+    <ImgCont imgUrl={mainImageUrl} hovered={hovered} />
     <ContentCont>
       <NameCont>{name}</NameCont>
       <StoreNameCont>
