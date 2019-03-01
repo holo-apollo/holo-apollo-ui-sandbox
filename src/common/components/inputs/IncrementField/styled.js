@@ -31,4 +31,8 @@ export const Modifier = styled.div`
   color: ${palette.darkGrey};
   cursor: pointer;
   user-select: none;
+
+  &:hover {
+    background: ${palette.lightestEvening};
+  }
 `;

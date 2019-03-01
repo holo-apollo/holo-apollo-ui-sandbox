@@ -38,7 +38,7 @@ class IncrementField extends React.PureComponent<Props, State> {
     const { minValue, step, onChange } = this.props;
     const { value } = this.state;
     const nextValue = value - step;
-    if (!minValue || nextValue >= minValue) {
+    if (minValue === undefined || nextValue >= minValue) {
       this.setState({ value: nextValue });
       onChange && onChange(nextValue);
     }
@@ -48,7 +48,7 @@ class IncrementField extends React.PureComponent<Props, State> {
     const { maxValue, step, onChange } = this.props;
     const { value } = this.state;
     const nextValue = value + step;
-    if (!maxValue || nextValue <= maxValue) {
+    if (maxValue === undefined || nextValue <= maxValue) {
       this.setState({ value: nextValue });
       onChange && onChange(nextValue);
     }
