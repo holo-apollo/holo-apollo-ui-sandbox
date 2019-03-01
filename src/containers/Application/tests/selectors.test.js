@@ -8,7 +8,7 @@ import {
 
 const applicationData = {
   id: 1,
-  pub_date: '2019-02-02',
+  pubDate: '2019-02-02',
 };
 
 const categoryOptions = [

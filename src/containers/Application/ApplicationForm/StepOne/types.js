@@ -3,10 +3,10 @@
 export type Values = {
   name: string,
   email: string,
-  instagram_name: string,
+  instagramName: string,
   category: string,
-  selling_goods: string,
-  goods_description: string,
+  sellingGoods: string,
+  goodsDescription: string,
   philosophy: string,
-  data_usage_agreement: boolean,
+  dataUsageAgreement: boolean,
 };

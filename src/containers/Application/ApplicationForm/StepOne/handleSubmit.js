@@ -1,6 +1,7 @@
 // @flow
 import type { FormikBag } from 'formik';
 import type { IntlShape } from 'react-intl';
+import { pick } from 'lodash';
 
 import { type ApplicationData } from 'containers/Application/types';
 import { api } from 'helpers/rest';
@@ -25,11 +26,24 @@ async function handleSubmit(
     setFieldError,
   }: FormikBag<Props, Values>
 ) {
+  const requestValues = pick(values, [
+    'category',
+    'dataUsageAgreement',
+    'email',
+    'goodsDescription',
+    'instagramName',
+    'name',
+    'philosophy',
+    'sellingGoods',
+  ]);
   let resp;
   if (applicationId) {
-    resp = await api.put(`stores/applications/${applicationId}/`, values);
+    resp = await api.put(
+      `stores/applications/${applicationId}/`,
+      requestValues
+    );
   } else {
-    resp = await api.post('stores/applications/', values);
+    resp = await api.post('stores/applications/', requestValues);
   }
   if (resp.ok && resp.data) {
     if (resp.data.id) {
@@ -47,6 +61,9 @@ async function handleSubmit(
       Object.keys(resp.data).forEach(field => {
         setFieldError(field, resp.data[field][0]);
       });
+      if (resp.data.detail) {
+        setFieldError('nonFieldErrors', resp.data.detail);
+      }
     } else {
       setFieldError(
         'nonFieldErrors',

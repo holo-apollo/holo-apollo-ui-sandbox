@@ -69,11 +69,11 @@ const PureStepOne = ({
       </FieldCont>
       <FieldCont>
         <TextField
-          name="instagram_name"
+          name="instagramName"
           label={formatMessage(messages.instagramNameLabel)}
           onChange={handleChange}
           maxLength={254}
-          errorText={submitCount > 0 ? errors.instagram_name : undefined}
+          errorText={submitCount > 0 ? errors.instagramName : undefined}
         />
       </FieldCont>
       <FieldCont>
@@ -87,23 +87,23 @@ const PureStepOne = ({
       </FieldCont>
       <FieldCont>
         <TextFieldWithCounter
-          name="selling_goods"
+          name="sellingGoods"
           label={formatMessage(messages.sellingGoodsLabel)}
           multiline={true}
           maxLength={500}
           onChange={handleChange}
-          errorText={submitCount > 0 ? errors.selling_goods : undefined}
+          errorText={submitCount > 0 ? errors.sellingGoods : undefined}
         />
       </FieldCont>
       <FieldCont>
         <TextFieldWithCounter
-          name="goods_description"
+          name="goodsDescription"
           label={formatMessage(messages.goodsDescriptionLabel)}
           helperText={formatMessage(messages.goodsDescriptionHelpText)}
           multiline={true}
           maxLength={TEXTAREAS_MAX_LENGTH}
           onChange={handleChange}
-          errorText={submitCount > 0 ? errors.goods_description : undefined}
+          errorText={submitCount > 0 ? errors.goodsDescription : undefined}
         />
       </FieldCont>
       <FieldCont>
@@ -118,12 +118,10 @@ const PureStepOne = ({
       </FieldCont>
       <FieldCont>
         <Checkbox
-          name="data_usage_agreement"
+          name="dataUsageAgreement"
           label={formatMessage(messages.dataUsageLabel)}
-          errorText={submitCount > 0 ? errors.data_usage_agreement : undefined}
-          onChange={e =>
-            setFieldValue('data_usage_agreement', e.target.checked)
-          }
+          errorText={submitCount > 0 ? errors.dataUsageAgreement : undefined}
+          onChange={e => setFieldValue('dataUsageAgreement', e.target.checked)}
         />
       </FieldCont>
       <Button type="submit" width={250} disabled={isSubmitting}>
