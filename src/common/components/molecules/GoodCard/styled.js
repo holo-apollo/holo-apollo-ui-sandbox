@@ -50,11 +50,6 @@ export const StoreNameCont = styled.div`
   margin-bottom: 10px;
 `;
 
-export const PriceCont = styled.div`
-  font-size: 18px;
-  color: ${palette.darkGrey};
-`;
-
 const getActionsContStyles = ({ visible }: { visible: boolean }) => css`
   display: ${visible ? 'initial' : 'none'};
 `;

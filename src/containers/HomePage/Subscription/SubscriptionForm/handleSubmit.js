@@ -24,7 +24,7 @@ async function handleSubmit(
 ) {
   const resp = await api.post('subscriptions/', values);
   if (resp.ok && resp.data) {
-    const alreadySubscribed = resp.data.already_subscribed;
+    const alreadySubscribed = resp.data.alreadySubscribed;
     if (alreadySubscribed) {
       setFieldError(
         'alreadySubscribed',

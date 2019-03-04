@@ -15,10 +15,10 @@ function validate(values: Values, { intl }: Props) {
   const requiredFields = [
     'name',
     'email',
-    'instagram_name',
+    'instagramName',
     'category',
-    'selling_goods',
-    'goods_description',
+    'sellingGoods',
+    'goodsDescription',
     'philosophy',
   ];
   requiredFields.forEach(field => {
@@ -29,12 +29,12 @@ function validate(values: Values, { intl }: Props) {
   if (!validateEmail(values.email)) {
     errors.email = intl.formatMessage(messages.invalidEmail);
   }
-  if (!values.data_usage_agreement) {
-    errors.data_usage_agreement = intl.formatMessage(
+  if (!values.dataUsageAgreement) {
+    errors.dataUsageAgreement = intl.formatMessage(
       messages.usageAgreementRequired
     );
   }
-  ['goods_description', 'philosophy'].forEach(field => {
+  ['goodsDescription', 'philosophy'].forEach(field => {
     if (
       !validateLength(values[field], TEXTAREAS_MAX_LENGTH, TEXTAREAS_MIN_LENGTH)
     ) {

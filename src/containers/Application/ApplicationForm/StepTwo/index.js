@@ -84,7 +84,7 @@ class StepTwo extends React.PureComponent<Props, State> {
       const holoApiResp = await api.post(
         `stores/applications/${applicationId}/images/`,
         {
-          image_url: signS3Resp.data.url,
+          imageUrl: signS3Resp.data.url,
         }
       );
 

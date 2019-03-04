@@ -22,7 +22,7 @@ export const getApplicationId = createSelector(
 
 export const getApplicationPubDate = createSelector(
   getApplicationData,
-  (data?: ApplicationData): string | void => data && data.pub_date
+  (data?: ApplicationData): string | void => data && data.pubDate
 );
 
 export const getCategoryOptions = createSelector(

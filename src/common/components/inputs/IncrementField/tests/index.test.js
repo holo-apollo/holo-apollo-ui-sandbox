@@ -11,9 +11,7 @@ describe('IncrementField', function() {
   });
 
   it('should match snapshot', function() {
-    const tree = renderer
-      .create(<IncrementField />)
-      .toJSON();
+    const tree = renderer.create(<IncrementField />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
