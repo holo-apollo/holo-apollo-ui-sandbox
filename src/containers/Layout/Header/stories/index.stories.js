@@ -5,37 +5,7 @@ import { number, boolean, select } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 
 import Header from '../index';
-
-const categories = [
-  {
-    slug: 'clothes',
-    name: 'Clothes',
-  },
-  {
-    slug: 'jewelry',
-    name: 'Jewelry',
-  },
-  {
-    slug: 'accessories',
-    name: 'Accessories',
-  },
-  {
-    slug: 'home_decor',
-    name: 'Home decor',
-  },
-  {
-    slug: 'shoes',
-    name: 'Shoes',
-  },
-  {
-    slug: 'art',
-    name: 'Art',
-  },
-  {
-    slug: 'other',
-    name: 'Other',
-  },
-];
+import { categories } from '../../mocks';
 
 storiesOf('Layout', module).add('Header', () => (
   <Header

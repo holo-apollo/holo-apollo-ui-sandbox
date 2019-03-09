@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FormattedMessage } from 'react-intl';
 import { Emoji } from 'emoji-mart';
 
+import AuthLink from 'common/components/buttons/AuthLink';
 import { getEnv } from 'helpers/misc';
 import type { Category } from 'containers/Entities/Categories/types';
 import {
@@ -89,11 +90,15 @@ const Header = ({
         <ProfileMenuCont>
           {!isAuthenticated && (
             <Fragment>
-              <AuthLinkCont onClick={onLoginClick}>
-                <FormattedMessage {...messages.login} />
+              <AuthLinkCont>
+                <AuthLink onClick={onLoginClick}>
+                  <FormattedMessage {...messages.login} />
+                </AuthLink>
               </AuthLinkCont>
-              <AuthLinkCont onClick={onSignUpClick}>
-                <FormattedMessage {...messages.signup} />
+              <AuthLinkCont>
+                <AuthLink onClick={onSignUpClick}>
+                  <FormattedMessage {...messages.signup} />
+                </AuthLink>
               </AuthLinkCont>
             </Fragment>
           )}

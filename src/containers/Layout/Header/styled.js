@@ -68,17 +68,10 @@ export const ProfileMenuCont = styled.div`
 
 export const AuthLinkCont = styled.span`
   display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-size: 12px;
-  color: ${palette.blue};
+  align-items: stretch;
 
   &:not(:first-child) {
     margin-left: 16px;
-  }
-
-  &:hover {
-    color: ${palette.deepBlue};
   }
 `;
 
@@ -90,6 +83,10 @@ export const ShoppingCont = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  &:hover {
+    background-color: ${palette.lightestEvening};
+  }
 `;
 
 export const GoodOrdersCountCont = styled.span`
