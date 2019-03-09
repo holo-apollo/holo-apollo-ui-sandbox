@@ -10,10 +10,6 @@ const AuthLink = styled.span`
   font-size: 12px;
   color: ${palette.blue};
 
-  &:not(:first-child) {
-    margin-left: 16px;
-  }
-
   &:hover {
     color: ${palette.deepBlue};
   }
