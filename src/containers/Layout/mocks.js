@@ -28,3 +28,18 @@ export const categories = [
     name: 'Other',
   },
 ];
+
+export const crumbs = [
+  {
+    link: '/category/home_decor',
+    message: 'Home decor',
+  },
+  {
+    link: 'category/lighting',
+    message: 'Lighting',
+  },
+  {
+    link: 'goods/1',
+    message: 'Decorative Edison lamp',
+  },
+];
