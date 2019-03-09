@@ -56,7 +56,7 @@ export const MenuItem = styled.span`
   ${getMenuItemStyles};
 
   &:hover {
-    color: ${palette.darkGrey};
+    color: ${palette.darkestGrey};
     border-top: solid 5px ${palette.blue};
   }
 `;
