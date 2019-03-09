@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { Case } from 'react-case-when';
 import { isEmpty } from 'ramda';
 
-import { Cont, CrumbLink, LastCrumb, Triangle } from './styled';
+import Triangle from 'common/components/icons/Triangle';
+import { Cont, CrumbLink, LastCrumb } from './styled';
 
 type Crumb = {
   message: React.Node,
@@ -23,7 +24,7 @@ const BreadCrumbs = ({ crumbs }: Props) => (
       </a>
     </Link>
     <Case when={!isEmpty(crumbs)}>
-      <Triangle />
+      <Triangle direction="right" height={8} />
       {crumbs.slice(0, -1).map(crumb => (
         <React.Fragment key={crumb.link}>
           <Link href={crumb.link}>
@@ -31,7 +32,7 @@ const BreadCrumbs = ({ crumbs }: Props) => (
               <CrumbLink>{crumb.message}</CrumbLink>
             </a>
           </Link>
-          <Triangle />
+          <Triangle direction="right" height={8} />
         </React.Fragment>
       ))}
       <LastCrumb>{crumbs[crumbs.length - 1].message}</LastCrumb>

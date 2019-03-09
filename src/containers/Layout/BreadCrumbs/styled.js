@@ -24,11 +24,3 @@ export const CrumbLink = styled.span`
 export const LastCrumb = styled.span`
   color: ${palette.lightEvening};
 `;
-
-export const Triangle = styled.span`
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 4px 0 4px 6.88px;
-  border-color: transparent transparent transparent ${palette.grey};
-`;
