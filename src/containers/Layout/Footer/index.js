@@ -10,6 +10,17 @@ import AuthLink from 'common/components/buttons/AuthLink';
 import Button from 'common/components/buttons/Button';
 import { getEnv } from 'helpers/misc';
 import {
+  getCategoryPageLink,
+  getGoodsLink,
+  getStoresLink,
+  getSaleLink,
+  getContactsLink,
+  getPrivacyLink,
+  getTermsLink,
+  getAboutLink,
+  getPaymentLink,
+} from 'helpers/urls';
+import {
   Cont,
   ContentCont,
   LeftCont,
@@ -54,11 +65,14 @@ const Footer = ({
             </LinksColumnHeader>
             <LinksColumnBody>
               {categories.map(category => (
-                <Link href="#" key={category.slug}>
+                <Link
+                  href={getCategoryPageLink(category.slug)}
+                  key={category.slug}
+                >
                   <a>{category.name}</a>
                 </Link>
               ))}
-              <Link href="#">
+              <Link href={getGoodsLink()}>
                 <a>
                   <FormattedMessage {...messages.allGoods} />
                 </a>
@@ -70,12 +84,12 @@ const Footer = ({
               <FormattedMessage {...messages.adventures} />
             </LinksColumnHeader>
             <LinksColumnBody>
-              <Link href="#">
+              <Link href={getStoresLink()}>
                 <a>
                   <FormattedMessage {...messages.stores} />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href={getSaleLink()}>
                 <a>
                   <FormattedMessage {...messages.sale} />
                 </a>
@@ -87,27 +101,27 @@ const Footer = ({
               <FormattedMessage {...messages.information} />
             </LinksColumnHeader>
             <LinksColumnBody>
-              <Link href="#">
+              <Link href={getContactsLink()}>
                 <a>
                   <FormattedMessage {...messages.contacts} />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href={getPaymentLink()}>
                 <a>
                   <FormattedMessage {...messages.paymentAndDelivery} />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href={getPrivacyLink()}>
                 <a>
                   <FormattedMessage {...messages.privacy} />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href={getTermsLink()}>
                 <a>
                   <FormattedMessage {...messages.terms} />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href={getAboutLink()}>
                 <a>
                   <FormattedMessage {...messages.about} />
                 </a>

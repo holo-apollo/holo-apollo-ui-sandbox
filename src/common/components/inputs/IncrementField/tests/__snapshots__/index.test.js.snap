@@ -5,7 +5,7 @@ exports[`IncrementField should match snapshot 1`] = `
   className="styled__Cont-sc-1uczn2-0 kpQOVo"
 >
   <div
-    className="styled__Modifier-sc-1uczn2-2 cZesPT"
+    className="styled__Modifier-sc-1uczn2-2 hMxYVN"
     onClick={[Function]}
   >
     -
@@ -18,7 +18,7 @@ exports[`IncrementField should match snapshot 1`] = `
     value="0"
   />
   <div
-    className="styled__Modifier-sc-1uczn2-2 cZesPT"
+    className="styled__Modifier-sc-1uczn2-2 hMxYVN"
     onClick={[Function]}
   >
     +

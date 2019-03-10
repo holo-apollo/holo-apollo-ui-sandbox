@@ -6,6 +6,13 @@ import { Emoji } from 'emoji-mart';
 
 import AuthLink from 'common/components/buttons/AuthLink';
 import { getEnv } from 'helpers/misc';
+import {
+  getHomePageLink,
+  getCategoryPageLink,
+  getGoodsLink,
+  getSaleLink,
+  getCartLink,
+} from 'helpers/urls';
 import type { Category } from 'containers/Entities/Categories/types';
 import {
   Cont,
@@ -49,7 +56,7 @@ const Header = ({
   <Cont>
     <ContentCont>
       <LeftCont>
-        <Link href="/">
+        <Link href={getHomePageLink()}>
           <a>
             <Logo
               src={`${staticRoot}/img/holo-apollo-logo-transpl@3x.png`}
@@ -61,7 +68,7 @@ const Header = ({
       </LeftCont>
       <MiddleCont>
         <MenuCont>
-          <Link href="#">
+          <Link href={getGoodsLink()}>
             <a>
               <MenuItem isActive={activeCategory === 'all'}>
                 <FormattedMessage {...messages.all} />
@@ -69,7 +76,7 @@ const Header = ({
             </a>
           </Link>
           {categories.map(category => (
-            <Link href="#" key={category.slug}>
+            <Link href={getCategoryPageLink(category.slug)} key={category.slug}>
               <a>
                 <MenuItem isActive={activeCategory === category.slug}>
                   {category.name}
@@ -77,7 +84,7 @@ const Header = ({
               </a>
             </Link>
           ))}
-          <Link href="#">
+          <Link href={getSaleLink()}>
             <a>
               <MenuItem isActive={activeCategory === 'sale'}>
                 <FormattedMessage {...messages.sale} />
@@ -103,7 +110,7 @@ const Header = ({
             </Fragment>
           )}
         </ProfileMenuCont>
-        <Link href="#">
+        <Link href={getCartLink()}>
           <a>
             <ShoppingCont>
               <Emoji emoji="shopping_bags" size={26} />

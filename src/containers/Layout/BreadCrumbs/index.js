@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Case } from 'react-case-when';
 import { isEmpty } from 'ramda';
 
+import { getHomePageLink } from 'helpers/urls';
 import Triangle from 'common/components/icons/Triangle';
 import { Cont, CrumbLink, LastCrumb } from './styled';
 
@@ -18,7 +19,7 @@ type Props = {
 
 const BreadCrumbs = ({ crumbs }: Props) => (
   <Cont>
-    <Link href="/">
+    <Link href={getHomePageLink()}>
       <a>
         <CrumbLink>Holo-Apollo</CrumbLink>
       </a>

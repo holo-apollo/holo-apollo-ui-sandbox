@@ -31,11 +31,11 @@ export const categories = [
 
 export const crumbs = [
   {
-    link: '/category/home_decor',
+    link: '/goods?category=home_decor',
     message: 'Home decor',
   },
   {
-    link: 'category/lighting',
+    link: '/goods?category=lighting',
     message: 'Lighting',
   },
   {
