@@ -13,7 +13,7 @@ storiesOf('Layout', module).add('Header', () => (
     isAuthenticated={boolean('isAuthenticated', false)}
     goodOrdersCount={number('goodOrdersCount', 29)}
     onLoginClick={action('onLogin')}
-    onSignUpClick={action('onSignUpClick')}
+    onSignupClick={action('onSignupClick')}
     activeCategory={select(
       'activeCategory',
       ['all'].concat(categories.map(c => c.slug)).concat('sale'),

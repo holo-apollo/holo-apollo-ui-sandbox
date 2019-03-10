@@ -35,7 +35,7 @@ type Props = {
   goodOrdersCount: number,
   activeCategory?: string,
   onLoginClick: () => void,
-  onSignUpClick: () => void,
+  onSignupClick: () => void,
 };
 
 const Header = ({
@@ -44,7 +44,7 @@ const Header = ({
   activeCategory,
   isAuthenticated,
   onLoginClick,
-  onSignUpClick,
+  onSignupClick,
 }: Props) => (
   <Cont>
     <ContentCont>
@@ -96,7 +96,7 @@ const Header = ({
                 </AuthLink>
               </AuthLinkCont>
               <AuthLinkCont>
-                <AuthLink onClick={onSignUpClick}>
+                <AuthLink onClick={onSignupClick}>
                   <FormattedMessage {...messages.signup} />
                 </AuthLink>
               </AuthLinkCont>

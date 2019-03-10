@@ -13,10 +13,11 @@ import withReduxStore from 'lib/withReduxStore';
 import GlobalStyle from 'common/GlobalStyle';
 import getPageContext from 'helpers/getPageContext';
 import { isServer } from 'helpers/misc';
-import { subscribeApiToStore } from 'helpers/rest';
+import { api, subscribeApiToStore } from 'helpers/rest';
 import HelmetComponent from 'common/components/HelmetComponent';
 import ErrorBoundary from 'common/components/ErrorBoundary';
 import { setLanguage } from 'containers/Language/actions';
+import { addCategories } from 'containers/Entities/Categories/actions';
 
 // Register React Intl's locale data for the user's locale in the browser. This
 // locale data was added to the page by `pages/_document.js`. This only happens
@@ -52,6 +53,12 @@ class App extends NextApp {
 
     // Set language on store
     reduxStore.dispatch(setLanguage(locale));
+
+    // Set good categories
+    const categoriesResp = await api.get('categories');
+    if (categoriesResp.ok && categoriesResp.data) {
+      reduxStore.dispatch(addCategories(categoriesResp.data));
+    }
 
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx);

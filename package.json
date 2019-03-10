@@ -14,6 +14,7 @@
     "test:coverage": "yarn test --coverage",
     "eslint": "eslint src -f tap",
     "flow": "flow",
+    "flow:stop": "flow stop",
     "storybook": "start-storybook -p 9001 -c storybook/config -s static",
     "storybook:build": "build-storybook -c storybook/config -o static/storybook",
     "default-lang": "node scripts/defaultLang.js",
