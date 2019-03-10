@@ -23,3 +23,5 @@ export const getAboutLink = () => '/about';
 export const getSaleLink = () => '/goods?sale=true';
 
 export const getCartLink = () => '/cart';
+
+export const getApplicationLink = () => '/application';

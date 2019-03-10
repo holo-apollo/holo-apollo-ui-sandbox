@@ -27,7 +27,7 @@ type Props = {
 
 class GoodWithoutRouter extends React.PureComponent<Props> {
   static async getInitialProps({ query, reduxStore }) {
-    const resp = await api.get(`goods/${query.id}`);
+    const resp = await api.get(`goods/${query.id}/`);
     if (resp.ok && resp.data) {
       const store = resp.data.sellerInfo;
       const good: Good = {

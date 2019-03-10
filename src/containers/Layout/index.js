@@ -16,7 +16,6 @@ type NotConnectedProps = $Exact<
     {
       onLoginClick: any,
       onSignupClick: any,
-      onRegisterStoreClick: any,
       onSearch: any,
     }
   >
@@ -32,8 +31,6 @@ class NotConnectedLayout extends React.PureComponent<NotConnectedProps> {
 
   onSignupClick = () => {};
 
-  onRegisterStoreClick = () => {};
-
   onSearch = () => {};
 
   render() {
@@ -42,7 +39,6 @@ class NotConnectedLayout extends React.PureComponent<NotConnectedProps> {
         {...this.props}
         onLoginClick={this.onLoginClick}
         onSignupClick={this.onSignupClick}
-        onRegisterStoreClick={this.onRegisterStoreClick}
         onSearch={this.onSearch}
       />
     );

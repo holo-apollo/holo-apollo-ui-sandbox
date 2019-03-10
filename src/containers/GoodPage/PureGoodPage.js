@@ -5,6 +5,8 @@ import type { GoodWithInfo } from 'containers/Entities/Goods/types';
 import Layout from 'containers/Layout';
 import { getCategoryPageLink, getGoodPageLink } from 'helpers/urls';
 
+// TODO: add Helmet
+
 type Props = {
   good: GoodWithInfo,
 };

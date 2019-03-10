@@ -13,6 +13,5 @@ storiesOf('Layout', module).add('Footer', () => (
     isAuthenticated={boolean('isAuthenticated', false)}
     onLoginClick={action('onLoginClick')}
     onSignupClick={action('onSignupClick')}
-    onRegisterStoreClick={action('onRegisterStoreClick')}
   />
 ));

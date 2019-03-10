@@ -41,7 +41,6 @@ const PureLayout = ({
   activeCategory,
   onLoginClick,
   onSignupClick,
-  onRegisterStoreClick,
   onSearch,
   crumbs,
   categories,
@@ -86,7 +85,6 @@ const PureLayout = ({
         isAuthenticated={isAuthenticated}
         onLoginClick={onLoginClick}
         onSignupClick={onSignupClick}
-        onRegisterStoreClick={onRegisterStoreClick}
       />
     </FooterCont>
   </React.Fragment>

@@ -19,6 +19,7 @@ import {
   getTermsLink,
   getAboutLink,
   getPaymentLink,
+  getApplicationLink,
 } from 'helpers/urls';
 import {
   Cont,
@@ -45,7 +46,6 @@ type Props = {
   isAuthenticated: boolean,
   onLoginClick: () => void,
   onSignupClick: () => void,
-  onRegisterStoreClick: () => void,
 };
 
 const Footer = ({
@@ -53,7 +53,6 @@ const Footer = ({
   isAuthenticated,
   onLoginClick,
   onSignupClick,
-  onRegisterStoreClick,
 }: Props) => (
   <Cont>
     <ContentCont>
@@ -153,9 +152,13 @@ const Footer = ({
               </AuthLink>
             </AuthLinksCont>
           )}
-          <Button onClick={onRegisterStoreClick}>
-            <FormattedMessage {...messages.registerStore} />
-          </Button>
+          <Link href={getApplicationLink()}>
+            <a>
+              <Button>
+                <FormattedMessage {...messages.registerStore} />
+              </Button>
+            </a>
+          </Link>
         </RightTopCont>
         <BrandingCont>
           <InfoCont>
