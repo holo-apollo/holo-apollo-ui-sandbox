@@ -1,10 +1,14 @@
 // @flow
 import styled from 'styled-components';
 
+import palette from 'common/palette';
+
 export const HeaderCont = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
+  background-color: ${palette.white};
 `;
 
 export const BelowHeaderContent = styled.div`
@@ -35,5 +39,5 @@ export const ContentCont = styled.div`
 `;
 
 export const ChildrenCont = styled.div`
-  margin-top: 25px;
+  margin-top: 75px;
 `;

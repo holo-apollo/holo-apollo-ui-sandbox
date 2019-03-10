@@ -10,7 +10,8 @@ export type Good = {
   price: number,
   priceCurrency: string,
   discount: number,
-  isInStock: boolean,
+  availabilityDisplay: string,
+  images: Array<{ imageUrl: string }>,
   sellerId: number,
 };
 
