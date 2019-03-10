@@ -1,4 +1,7 @@
 // @flow
+import type { Store } from 'containers/Entities/Stores/types';
+import type { Category } from 'containers/Entities/Categories/types';
+
 export type Good = {
   id: number,
   name: string,
@@ -8,6 +11,13 @@ export type Good = {
   priceCurrency: string,
   discount: number,
   isInStock: boolean,
+  sellerId: number,
+};
+
+export type GoodWithInfo = {
+  ...$Exact<$Diff<Good, { sellerId: any }>>,
+  sellerInfo: Store,
+  category: Category,
 };
 
 export type GoodsMap = { [number]: Good };

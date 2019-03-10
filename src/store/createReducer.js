@@ -13,6 +13,9 @@ import categoriesReducer, {
 import goodsReducer, {
   type State as GoodsState,
 } from 'containers/Entities/Goods/reducer';
+import storesReducer, {
+  type State as StoresState,
+} from 'containers/Entities/Stores/reducer';
 
 export type State = {
   application: ApplicationState,
@@ -20,6 +23,7 @@ export type State = {
   entities: {
     categories: CategoriesState,
     goods: GoodsState,
+    stores: StoresState,
   },
 };
 
@@ -30,5 +34,6 @@ export default () =>
     entities: combineReducers({
       categories: categoriesReducer,
       goods: goodsReducer,
+      stores: storesReducer,
     }),
   });
