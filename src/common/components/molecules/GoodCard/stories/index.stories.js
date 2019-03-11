@@ -16,7 +16,7 @@ storiesOf('molecules', module).add('GoodCard', () => (
       price={number('price', 95)}
       priceCurrency="UAH"
       discount={number('discount', 0)}
-      sellerInfo={{ storeName: text('storeName', 'Gold stuff shopping') }}
+      seller={{ storeName: text('storeName', 'Gold stuff shopping') }}
       onPurchase={action('onPurchase')}
     />
   </div>

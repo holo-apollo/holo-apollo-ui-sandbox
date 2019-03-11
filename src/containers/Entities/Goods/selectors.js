@@ -5,9 +5,15 @@ import type { State } from 'store/createReducer';
 import { getStoreById } from 'containers/Entities/Stores/selectors';
 import { getCategoryById } from 'containers/Entities/Categories/selectors';
 import type { State as GoodsState } from './reducer';
-import type { GoodWithInfo } from './types';
+import type { Good, GoodWithInfo } from './types';
 
 export const getGoodsMap = (state: State): GoodsState => state.entities.goods;
+
+export const addGoodInfo = (state: State, good: Good): GoodWithInfo => ({
+  ...omit(good, ['seller', 'categoryId']),
+  seller: getStoreById(state, good.seller),
+  category: getCategoryById(state, good.categoryId),
+});
 
 export const getGoodById = (
   state: State,
@@ -16,9 +22,16 @@ export const getGoodById = (
   const good = getGoodsMap(state)[goodId];
   if (!good) return undefined;
 
-  return {
-    ...omit(good, ['sellerId']),
-    sellerInfo: getStoreById(state, good.sellerId),
-    category: getCategoryById(state, good.category),
-  };
+  return addGoodInfo(state, good);
+};
+
+export const getGoodsByIds = (
+  state: State,
+  goodsIds: number[]
+): GoodWithInfo[] => {
+  const goodsMap = getGoodsMap(state);
+  return goodsIds
+    .map(id => goodsMap[id])
+    .filter(item => item !== undefined)
+    .map(good => addGoodInfo(state, good));
 };

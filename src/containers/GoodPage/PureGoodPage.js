@@ -18,6 +18,7 @@ import {
 
 type Props = {
   good: GoodWithInfo,
+  similarGoods: GoodWithInfo[],
 };
 
 const PureGoodPage = ({ good }: Props) => (

@@ -3,40 +3,57 @@ import * as React from 'react';
 import { withRouter } from 'next/router';
 import { compose } from 'recompose';
 import { connect } from 'react-redux';
-import { omit } from 'lodash';
+import { normalize } from 'normalizr';
 
 import type { State } from 'store/createReducer';
-import Layout from 'containers/Layout';
 import { api } from 'helpers/rest';
-import { addGood } from 'containers/Entities/Goods/actions';
-import { getGoodById } from 'containers/Entities/Goods/selectors';
-import type { Good } from 'containers/Entities/Goods/types';
-import { addStore } from 'containers/Entities/Stores/actions';
+import { updateGoodsMap } from 'containers/Entities/Goods/actions';
+import {
+  getGoodById,
+  getGoodsByIds,
+} from 'containers/Entities/Goods/selectors';
+import { updateStoresMap } from 'containers/Entities/Stores/actions';
+import { goodSchema } from 'helpers/normalize';
 import PureGoodPage from './PureGoodPage';
 
 type PureProps = React.ElementConfig<typeof PureGoodPage>;
 
-type Props = {
+type WithoutRouterProps = {
   router: {
     query: {
       id: number,
     },
   },
   good?: $PropertyType<PureProps, 'good'>,
+  similarGoods: $PropertyType<PureProps, 'similarGoods'>,
 };
 
-class GoodWithoutRouter extends React.PureComponent<Props> {
+type Props = {
+  router: $PropertyType<WithoutRouterProps, 'router'>,
+  similarGoodsIds: number[],
+};
+
+class GoodWithoutRouter extends React.PureComponent<WithoutRouterProps> {
   static async getInitialProps({ query, reduxStore }) {
-    const resp = await api.get(`goods/${query.id}/`);
-    if (resp.ok && resp.data) {
-      const store = resp.data.sellerInfo;
-      const good: Good = {
-        ...omit(resp.data, ['sellerInfo']),
-        sellerId: store.id,
-      };
-      reduxStore.dispatch(addStore(store));
-      reduxStore.dispatch(addGood(good));
+    const goodResp = await api.get(`goods/${query.id}/`);
+    const moreLikeThisResp = await api.get(
+      `search/goods/${query.id}/more_like_this/?limit=4`
+    );
+    let goodsList = [];
+    let similarGoodsIds = [];
+    if (goodResp.ok && goodResp.data) {
+      goodsList = goodsList.concat(goodResp.data);
     }
+    if (moreLikeThisResp && moreLikeThisResp.data) {
+      goodsList = [...goodsList, ...moreLikeThisResp.data];
+      similarGoodsIds = moreLikeThisResp.data.map(item => item.id);
+    }
+    const { goods, stores } = normalize(goodsList, [goodSchema]).entities;
+    reduxStore.dispatch(updateGoodsMap(goods));
+    reduxStore.dispatch(updateStoresMap(stores));
+    return {
+      similarGoodsIds,
+    };
   }
 
   render() {
@@ -44,12 +61,18 @@ class GoodWithoutRouter extends React.PureComponent<Props> {
       // TODO: show 404
       return null;
     }
-    return <PureGoodPage good={this.props.good} />;
+    return (
+      <PureGoodPage
+        good={this.props.good}
+        similarGoods={this.props.similarGoods}
+      />
+    );
   }
 }
 
-const mapStateToProps = (state: State, ownProps) => ({
+const mapStateToProps = (state: State, ownProps: Props) => ({
   good: getGoodById(state, ownProps.router.query.id),
+  similarGoods: getGoodsByIds(state, ownProps.similarGoodsIds),
 });
 
 const withConnect = connect(mapStateToProps);

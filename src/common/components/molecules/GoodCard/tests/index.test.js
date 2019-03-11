@@ -12,7 +12,7 @@ describe('GoodCard', function() {
         mainImageUrl="http://flowersandmorebyerin.com/wp-content/uploads/2015/02/pFlower3.png"
         price={95}
         priceCurrency="UAH"
-        sellerInfo={{ storeName: 'Gold stuff shopping' }}
+        seller={{ storeName: 'Gold stuff shopping' }}
         onPurchase={jest.fn()}
       />
     );
@@ -27,7 +27,7 @@ describe('GoodCard', function() {
           mainImageUrl="http://flowersandmorebyerin.com/wp-content/uploads/2015/02/pFlower3.png"
           price={95}
           priceCurrency="UAH"
-          sellerInfo={{ storeName: 'Gold stuff shopping' }}
+          seller={{ storeName: 'Gold stuff shopping' }}
           onPurchase={jest.fn()}
         />
       )

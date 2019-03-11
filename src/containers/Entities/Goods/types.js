@@ -6,18 +6,18 @@ export type Good = {
   id: number,
   name: string,
   description: string,
-  category: number,
+  categoryId: number,
+  seller: number,
   price: number,
   priceCurrency: string,
   discount: number,
-  availabilityDisplay: string,
+  availability: 'available' | 'not_available' | 'on_request',
   images: Array<{ imageUrl: string }>,
-  sellerId: number,
 };
 
 export type GoodWithInfo = {
-  ...$Exact<$Diff<Good, { sellerId: any }>>,
-  sellerInfo: Store,
+  ...$Exact<$Diff<Good, { seller: any, categoryId: any }>>,
+  seller: Store,
   category: Category,
 };
 

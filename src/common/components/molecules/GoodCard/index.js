@@ -21,7 +21,7 @@ type Props = {
   price: number,
   priceCurrency: string,
   discount: number,
-  sellerInfo: {
+  seller: {
     storeName: string,
   },
   onPurchase: () => void,
@@ -35,7 +35,7 @@ const PureGoodCard = ({
   price,
   priceCurrency,
   discount,
-  sellerInfo,
+  seller,
   onPurchase,
   hovered,
   setHovered,
@@ -49,7 +49,7 @@ const PureGoodCard = ({
     <ContentCont>
       <NameCont>{name}</NameCont>
       <StoreNameCont>
-        <FormattedMessage {...messages.by} />: {sellerInfo.storeName}
+        <FormattedMessage {...messages.by} />: {seller.storeName}
       </StoreNameCont>
       <PriceLabel
         price={price}
