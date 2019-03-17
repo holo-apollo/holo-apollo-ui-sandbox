@@ -15,20 +15,20 @@ exports[`GoodCard should match snapshot 1`] = `
     />
   </a>
   <div
-    className="styled__ContentCont-sc-1jbl3we-2 epGdBB"
+    className="styled__ContentCont-sc-1jbl3we-2 elmnCE"
   >
     <a
       href="/goods/1"
       onClick={[Function]}
     >
       <div
-        className="styled__NameCont-sc-1jbl3we-3 jVTbQs"
+        className="styled__NameCont-sc-1jbl3we-3 DRTrs"
       >
         Flower in a bowl
       </div>
     </a>
     <div
-      className="styled__StoreNameCont-sc-1jbl3we-4 dTnatL"
+      className="styled__StoreNameCont-sc-1jbl3we-4 gfbxXz"
     >
       <span>
         by
@@ -56,7 +56,7 @@ exports[`GoodCard should match snapshot 1`] = `
         fontSize={14}
         fontWeight="normal"
         height={35}
-        onClick={[MockFunction]}
+        onClick={[Function]}
         width={110}
       >
         <span>

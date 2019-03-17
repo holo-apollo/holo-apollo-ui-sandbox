@@ -1,7 +1,10 @@
 // @flow
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
+import { prop, isEmpty } from 'ramda';
 
-import type { GoodWithInfo } from 'containers/Entities/Goods/types';
+import GoodCard from 'common/components/molecules/GoodCard';
+import type { GoodWithInfo, GoodImage } from 'containers/Entities/Goods/types';
 import Layout from 'containers/Layout';
 import { getCategoryPageLink, getGoodPageLink } from 'helpers/urls';
 import {
@@ -12,16 +15,26 @@ import {
   Image,
   GoodName,
   WhatElseCont,
+  SimilarGoodsCont,
 } from './styled';
+import messages from './messages';
+
+const getMainImageUrl = (images: GoodImage[]): string => {
+  const mainImages = images.filter(prop('isMain'));
+  if (!isEmpty(mainImages)) return mainImages[0].imageUrl;
+  if (!isEmpty(images)) return images[0].imageUrl;
+  return '';
+};
 
 // TODO: add Helmet
 
 type Props = {
   good: GoodWithInfo,
   similarGoods: GoodWithInfo[],
+  onPurchase: number => void,
 };
 
-const PureGoodPage = ({ good }: Props) => (
+const PureGoodPage = ({ good, similarGoods, onPurchase }: Props) => (
   <Layout
     withSearch={true}
     crumbs={[
@@ -45,9 +58,18 @@ const PureGoodPage = ({ good }: Props) => (
     </MainCont>
     <BottomCont>
       <WhatElseCont>
-        What else?
-        <div style={{ height: '300px', background: 'yellow' }} />
+        <FormattedMessage {...messages.whatElse} />
       </WhatElseCont>
+      <SimilarGoodsCont>
+        {similarGoods.map(sGood => (
+          <GoodCard
+            key={sGood.id}
+            {...sGood}
+            mainImageUrl={getMainImageUrl(sGood.images)}
+            onPurchase={onPurchase}
+          />
+        ))}
+      </SimilarGoodsCont>
     </BottomCont>
   </Layout>
 );

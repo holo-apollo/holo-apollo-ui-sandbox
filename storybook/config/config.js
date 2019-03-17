@@ -2,6 +2,7 @@ import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import { IntlProvider } from 'react-intl';
 
 import GlobalStyle from 'common/GlobalStyle';
@@ -28,8 +29,11 @@ const themeDecorator = story => (
       href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700"
       rel="stylesheet"
     />
-    <GlobalStyle />
-    <MuiThemeProvider theme={theme}>{story()}</MuiThemeProvider>
+    <MuiThemeProvider theme={theme}>
+      <CssBaseline />
+      <GlobalStyle />
+      {story()}
+    </MuiThemeProvider>
   </div>
 );
 

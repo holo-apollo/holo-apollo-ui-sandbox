@@ -39,4 +39,17 @@ export const BottomCont = styled.div`
 export const WhatElseCont = styled.div`
   font-size: 64px;
   color: ${palette.darkGrey};
+  margin-bottom: 35px;
+`;
+
+export const SimilarGoodsCont = styled.div`
+  display: flex;
+
+  & > * {
+    width: 310px;
+
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
 `;

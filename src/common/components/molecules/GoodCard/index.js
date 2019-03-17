@@ -27,7 +27,7 @@ type Props = {
   seller: {
     storeName: string,
   },
-  onPurchase: () => void,
+  onPurchase: number => void,
   hovered: boolean,
   setHovered: boolean => void,
 };
@@ -69,7 +69,7 @@ const PureGoodCard = ({
         discount={discount}
       />
       <ActionsCont visible={hovered}>
-        <Button width={110} fontWeight="normal" onClick={onPurchase}>
+        <Button width={110} fontWeight="normal" onClick={() => onPurchase(id)}>
           <FormattedMessage {...messages.purchase} />
         </Button>
       </ActionsCont>

@@ -69,6 +69,7 @@ class GoodWithoutRouter extends React.PureComponent<WithoutRouterProps> {
       <PureGoodPage
         good={this.props.good}
         similarGoods={this.props.similarGoods}
+        onPurchase={() => {}}
       />
     );
   }

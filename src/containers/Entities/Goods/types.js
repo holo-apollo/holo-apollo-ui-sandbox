@@ -2,6 +2,11 @@
 import type { Store } from 'containers/Entities/Stores/types';
 import type { Category } from 'containers/Entities/Categories/types';
 
+export type GoodImage = {
+  imageUrl: string,
+  isMain: boolean,
+};
+
 export type Good = {
   id: number,
   name: string,
@@ -12,7 +17,7 @@ export type Good = {
   priceCurrency: string,
   discount: number,
   availability: 'available' | 'not_available' | 'on_request',
-  images: Array<{ imageUrl: string }>,
+  images: GoodImage[],
 };
 
 export type GoodWithInfo = {
