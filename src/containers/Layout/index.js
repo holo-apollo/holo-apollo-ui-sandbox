@@ -4,7 +4,7 @@ import { compose } from 'recompose';
 import { connect } from 'react-redux';
 
 import type { State } from 'store/createReducer';
-import { getCategories } from 'containers/Entities/Categories/selectors';
+import { getMainCategories } from 'containers/Entities/Categories/selectors';
 import withIntl from 'lib/withIntl';
 import PureLayout from './PureLayout';
 
@@ -46,7 +46,7 @@ class NotConnectedLayout extends React.PureComponent<NotConnectedProps> {
 }
 
 const mapStateToProps = (state: State) => ({
-  categories: getCategories(state),
+  categories: getMainCategories(state),
   isAuthenticated: false,
   goodOrdersCount: 0,
 });

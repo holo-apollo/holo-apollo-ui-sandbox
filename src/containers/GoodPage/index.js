@@ -13,6 +13,7 @@ import {
   getGoodsByIds,
 } from 'containers/Entities/Goods/selectors';
 import { updateStoresMap } from 'containers/Entities/Stores/actions';
+import { updateCategoriesMap } from 'containers/Entities/Categories/actions';
 import { goodSchema } from 'helpers/normalize';
 import PureGoodPage from './PureGoodPage';
 
@@ -35,7 +36,7 @@ type Props = {
 
 class GoodWithoutRouter extends React.PureComponent<WithoutRouterProps> {
   static async getInitialProps({ query, reduxStore }) {
-    const goodResp = await api.get(`goods/${query.id}/`);
+    const goodResp = await api.get(`search/goods/${query.id}/`);
     const moreLikeThisResp = await api.get(
       `search/goods/${query.id}/more_like_this/?limit=4`
     );
@@ -48,9 +49,12 @@ class GoodWithoutRouter extends React.PureComponent<WithoutRouterProps> {
       goodsList = [...goodsList, ...moreLikeThisResp.data];
       similarGoodsIds = moreLikeThisResp.data.map(item => item.id);
     }
-    const { goods, stores } = normalize(goodsList, [goodSchema]).entities;
+    const { goods, stores, categories } = normalize(goodsList, [
+      goodSchema,
+    ]).entities;
     reduxStore.dispatch(updateGoodsMap(goods));
     reduxStore.dispatch(updateStoresMap(stores));
+    reduxStore.dispatch(updateCategoriesMap(categories));
     return {
       similarGoodsIds,
     };

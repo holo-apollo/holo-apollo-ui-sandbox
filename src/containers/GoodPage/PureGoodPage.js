@@ -25,10 +25,10 @@ const PureGoodPage = ({ good }: Props) => (
   <Layout
     withSearch={true}
     crumbs={[
-      {
-        message: good.category.name,
-        link: getCategoryPageLink(good.category.slug),
-      },
+      ...good.categories.map(category => ({
+        message: category.name,
+        link: getCategoryPageLink(category.slug),
+      })),
       { message: good.name, link: getGoodPageLink(good.id) },
     ]}
   >

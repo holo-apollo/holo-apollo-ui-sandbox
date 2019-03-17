@@ -6,7 +6,7 @@ export type Good = {
   id: number,
   name: string,
   description: string,
-  categoryId: number,
+  categories: number[],
   seller: number,
   price: number,
   priceCurrency: string,
@@ -16,9 +16,9 @@ export type Good = {
 };
 
 export type GoodWithInfo = {
-  ...$Exact<$Diff<Good, { seller: any, categoryId: any }>>,
+  ...$Exact<$Diff<Good, { seller: any, categories: any }>>,
   seller: Store,
-  category: Category,
+  categories: Category[],
 };
 
 export type GoodsMap = { [number]: Good };

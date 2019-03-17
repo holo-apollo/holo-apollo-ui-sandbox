@@ -55,7 +55,7 @@ class App extends NextApp {
     reduxStore.dispatch(setLanguage(locale));
 
     // Set good categories
-    const categoriesResp = await api.get('categories/');
+    const categoriesResp = await api.get('categories/?is_main=true');
     if (categoriesResp.ok && categoriesResp.data) {
       reduxStore.dispatch(addCategories(categoriesResp.data));
     }

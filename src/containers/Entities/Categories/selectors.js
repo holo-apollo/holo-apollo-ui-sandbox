@@ -14,8 +14,17 @@ export const getCategoryById = (
   categoryId: number
 ): Category | void => getCategoriesMap(state)[categoryId];
 
-export const getCategories = createSelector(
+export const getMainCategories = createSelector(
   getCategoriesMap,
   categoriesMap =>
-    sortBy(Object.keys(categoriesMap)).map(id => categoriesMap[id])
+    sortBy(Object.keys(categoriesMap))
+      .map(id => categoriesMap[id])
+      .filter(category => category.isMain)
 );
+
+export const getCategoriesByIds = (state: State, ids: number[]): Category[] => {
+  const categoriesMap = getCategoriesMap(state);
+  return ids
+    .map(id => categoriesMap[id])
+    .filter(category => category !== undefined);
+};

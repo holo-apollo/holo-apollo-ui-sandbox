@@ -3,16 +3,16 @@ import { omit } from 'lodash';
 
 import type { State } from 'store/createReducer';
 import { getStoreById } from 'containers/Entities/Stores/selectors';
-import { getCategoryById } from 'containers/Entities/Categories/selectors';
+import { getCategoriesByIds } from 'containers/Entities/Categories/selectors';
 import type { State as GoodsState } from './reducer';
 import type { Good, GoodWithInfo } from './types';
 
 export const getGoodsMap = (state: State): GoodsState => state.entities.goods;
 
 export const addGoodInfo = (state: State, good: Good): GoodWithInfo => ({
-  ...omit(good, ['seller', 'categoryId']),
+  ...omit(good, ['seller', 'categories']),
   seller: getStoreById(state, good.seller),
-  category: getCategoryById(state, good.categoryId),
+  categories: getCategoriesByIds(state, good.categories),
 });
 
 export const getGoodById = (
