@@ -6,17 +6,27 @@ exports[`GoodCard should match snapshot 1`] = `
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
-  <div
-    className="styled__ImgCont-sc-1jbl3we-1 KOUZO"
-  />
+  <a
+    href="/goods/1"
+    onClick={[Function]}
+  >
+    <div
+      className="styled__ImgCont-sc-1jbl3we-1 KOUZO"
+    />
+  </a>
   <div
     className="styled__ContentCont-sc-1jbl3we-2 epGdBB"
   >
-    <div
-      className="styled__NameCont-sc-1jbl3we-3 fZYFOl"
+    <a
+      href="/goods/1"
+      onClick={[Function]}
     >
-      Flower in a bowl
-    </div>
+      <div
+        className="styled__NameCont-sc-1jbl3we-3 jVTbQs"
+      >
+        Flower in a bowl
+      </div>
+    </a>
     <div
       className="styled__StoreNameCont-sc-1jbl3we-4 dTnatL"
     >

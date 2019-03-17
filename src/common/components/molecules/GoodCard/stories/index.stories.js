@@ -8,6 +8,7 @@ import GoodCard from '../index';
 storiesOf('molecules', module).add('GoodCard', () => (
   <div style={{ width: '310px' }}>
     <GoodCard
+      id={1}
       name={text('name', 'Flower in a bowl')}
       mainImageUrl={text(
         'mainImageUrl',

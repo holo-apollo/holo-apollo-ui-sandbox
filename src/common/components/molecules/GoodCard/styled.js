@@ -41,6 +41,10 @@ export const NameCont = styled.div`
   font-weight: 500;
   color: ${palette.grey};
   margin-bottom: 10px;
+
+  &:hover {
+    color: ${palette.darkGrey};
+  }
 `;
 
 export const StoreNameCont = styled.div`

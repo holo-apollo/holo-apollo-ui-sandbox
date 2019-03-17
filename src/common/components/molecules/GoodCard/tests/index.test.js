@@ -8,6 +8,7 @@ describe('GoodCard', function() {
   it('should render normally', function() {
     const wrapper = mount(
       <GoodCard
+        id={1}
         name="Flower in a bowl"
         mainImageUrl="http://flowersandmorebyerin.com/wp-content/uploads/2015/02/pFlower3.png"
         price={95}
@@ -23,6 +24,7 @@ describe('GoodCard', function() {
     const tree = renderer
       .create(
         <GoodCard
+          id={1}
           name="Flower in a bowl"
           mainImageUrl="http://flowersandmorebyerin.com/wp-content/uploads/2015/02/pFlower3.png"
           price={95}
