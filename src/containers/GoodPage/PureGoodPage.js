@@ -1,10 +1,10 @@
 // @flow
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { prop, isEmpty } from 'ramda';
+import { isEmpty } from 'ramda';
 
 import GoodCard from 'common/components/molecules/GoodCard';
-import type { GoodWithInfo, GoodImage } from 'containers/Entities/Goods/types';
+import type { GoodWithInfo } from 'containers/Entities/Goods/types';
 import Layout from 'containers/Layout';
 import { getCategoryPageLink, getGoodPageLink } from 'helpers/urls';
 import {
@@ -18,13 +18,6 @@ import {
   SimilarGoodsCont,
 } from './styled';
 import messages from './messages';
-
-const getMainImageUrl = (images: GoodImage[]): string => {
-  const mainImages = images.filter(prop('isMain'));
-  if (!isEmpty(mainImages)) return mainImages[0].imageUrl;
-  if (!isEmpty(images)) return images[0].imageUrl;
-  return '';
-};
 
 // TODO: add Helmet
 
@@ -56,21 +49,18 @@ const PureGoodPage = ({ good, similarGoods, onPurchase }: Props) => (
         <div style={{ height: '1000px', background: 'yellow' }} />
       </RightCont>
     </MainCont>
-    <BottomCont>
-      <WhatElseCont>
-        <FormattedMessage {...messages.whatElse} />
-      </WhatElseCont>
-      <SimilarGoodsCont>
-        {similarGoods.map(sGood => (
-          <GoodCard
-            key={sGood.id}
-            {...sGood}
-            mainImageUrl={getMainImageUrl(sGood.images)}
-            onPurchase={onPurchase}
-          />
-        ))}
-      </SimilarGoodsCont>
-    </BottomCont>
+    {!isEmpty(similarGoods) && (
+      <BottomCont>
+        <WhatElseCont>
+          <FormattedMessage {...messages.whatElse} />
+        </WhatElseCont>
+        <SimilarGoodsCont>
+          {similarGoods.map(sGood => (
+            <GoodCard key={sGood.id} {...sGood} onPurchase={onPurchase} />
+          ))}
+        </SimilarGoodsCont>
+      </BottomCont>
+    )}
   </Layout>
 );
 

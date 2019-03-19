@@ -4,7 +4,6 @@ import type { Category } from 'containers/Entities/Categories/types';
 
 export type GoodImage = {
   imageUrl: string,
-  isMain: boolean,
 };
 
 export type Good = {
@@ -18,6 +17,7 @@ export type Good = {
   discount: number,
   availability: 'available' | 'not_available' | 'on_request',
   images: GoodImage[],
+  mainImageUrl: string,
 };
 
 export type GoodWithInfo = {
