@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import Helmet from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import { isEmpty } from 'ramda';
 
@@ -19,8 +20,6 @@ import {
 } from './styled';
 import messages from './messages';
 
-// TODO: add Helmet
-
 type Props = {
   good: GoodWithInfo,
   similarGoods: GoodWithInfo[],
@@ -38,6 +37,10 @@ const PureGoodPage = ({ good, similarGoods, onPurchase }: Props) => (
       { message: good.name, link: getGoodPageLink(good.id) },
     ]}
   >
+    <Helmet>
+      <title>Holo Apollo Art | {good.name}</title>
+      <meta name="description" content={good.description} />
+    </Helmet>
     <MainCont>
       <LeftCont>
         {good.images.map(image => (
