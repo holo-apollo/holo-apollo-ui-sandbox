@@ -26,12 +26,6 @@ export const RightCont = styled.div`
   top: 200px;
 `;
 
-export const GoodName = styled.h1`
-  font-size: 24px;
-  font-weight: 500;
-  color: ${palette.darkGrey};
-`;
-
 export const BottomCont = styled.div`
   margin-top: 100px;
 `;

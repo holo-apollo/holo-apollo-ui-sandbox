@@ -8,13 +8,13 @@ import GoodCard from 'common/components/molecules/GoodCard';
 import type { GoodWithInfo } from 'containers/Entities/Goods/types';
 import Layout from 'containers/Layout';
 import { getCategoryPageLink, getGoodPageLink } from 'helpers/urls';
+import GoodDetails from './GoodDetails';
 import {
   MainCont,
   LeftCont,
   RightCont,
   BottomCont,
   Image,
-  GoodName,
   WhatElseCont,
   SimilarGoodsCont,
 } from './styled';
@@ -48,8 +48,7 @@ const PureGoodPage = ({ good, similarGoods, onPurchase }: Props) => (
         ))}
       </LeftCont>
       <RightCont>
-        <GoodName>{good.name}</GoodName>
-        <div style={{ height: '1000px', background: 'yellow' }} />
+        <GoodDetails good={good} onPurchase={onPurchase} />
       </RightCont>
     </MainCont>
     {!isEmpty(similarGoods) && (

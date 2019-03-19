@@ -59,8 +59,8 @@ const Header = ({
         <Link href={getHomePageLink()}>
           <a>
             <Logo
-              src={`${staticRoot}/img/holo-apollo-logo-transpl@3x.png`}
-              srcSet={`${logo3x} 3x ${logo2x} 2x ${logo1x} 1x`}
+              src={logo3x}
+              srcSet={`${logo1x}, ${logo2x} 2x, ${logo3x} 3x`}
               alt="logo"
             />
           </a>

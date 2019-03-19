@@ -18,6 +18,10 @@ export type Good = {
   availability: 'available' | 'not_available' | 'on_request',
   images: GoodImage[],
   mainImageUrl: string,
+  specifications: {
+    color?: string,
+    size?: string,
+  },
 };
 
 export type GoodWithInfo = {
