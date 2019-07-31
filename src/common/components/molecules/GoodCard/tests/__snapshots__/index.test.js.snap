@@ -2,7 +2,7 @@
 
 exports[`GoodCard should match snapshot 1`] = `
 <div
-  className="styled__Cont-sc-1jbl3we-0 hmuyKn"
+  className="styled__Cont-sc-1jbl3we-0 hLtCzR"
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
@@ -11,24 +11,24 @@ exports[`GoodCard should match snapshot 1`] = `
     onClick={[Function]}
   >
     <div
-      className="styled__ImgCont-sc-1jbl3we-1 KOUZO"
+      className="styled__ImgCont-sc-1jbl3we-1 fPukLE"
     />
   </a>
   <div
-    className="styled__ContentCont-sc-1jbl3we-2 elmnCE"
+    className="styled__ContentCont-sc-1jbl3we-2 egjtzB"
   >
     <a
       href="/goods/1"
       onClick={[Function]}
     >
       <div
-        className="styled__NameCont-sc-1jbl3we-3 DRTrs"
+        className="styled__NameCont-sc-1jbl3we-3 iccvMk"
       >
         Flower in a bowl
       </div>
     </a>
     <div
-      className="styled__StoreNameCont-sc-1jbl3we-4 gfbxXz"
+      className="styled__StoreNameCont-sc-1jbl3we-4 jrIYBS"
     >
       <span>
         by
@@ -37,10 +37,11 @@ exports[`GoodCard should match snapshot 1`] = `
       Gold stuff shopping
     </div>
     <div
-      className="styled__Cont-sc-1rmxlbk-0 ivBMIg"
+      className="styled__Cont-sc-1rmxlbk-0 kopYzg"
     >
       <div
-        className="styled__PriceCont-sc-1rmxlbk-1 LuVgt"
+        className="styled__PriceCont-sc-1rmxlbk-1 jaXxZL"
+        size="s"
       >
         NaN
          
@@ -48,10 +49,10 @@ exports[`GoodCard should match snapshot 1`] = `
       </div>
     </div>
     <div
-      className="styled__ActionsCont-sc-1jbl3we-5 iaLAFJ"
+      className="styled__ActionsCont-sc-1jbl3we-5 crzbcu"
     >
       <button
-        className="Button__StyledButton-kpekc2-0 fGZqID"
+        className="Button__StyledButton-kpekc2-0 fnePeO"
         color="#424242"
         fontSize={14}
         fontWeight="normal"

@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import { compose } from 'recompose';
+import { compose } from 'ramda';
 import { connect } from 'react-redux';
 
 import type { State } from 'store/createReducer';
@@ -26,24 +26,22 @@ type Props = {
   crumbs: $PropertyType<NotConnectedProps, 'crumbs'>,
 };
 
-class NotConnectedLayout extends React.PureComponent<NotConnectedProps> {
-  onLoginClick = () => {};
+const NotConnectedLayout = (props: NotConnectedProps) => {
+  function onLoginClick() {}
 
-  onSignupClick = () => {};
+  function onSignupClick() {}
 
-  onSearch = () => {};
+  function onSearch() {}
 
-  render() {
-    return (
-      <PureLayout
-        {...this.props}
-        onLoginClick={this.onLoginClick}
-        onSignupClick={this.onSignupClick}
-        onSearch={this.onSearch}
-      />
-    );
-  }
-}
+  return (
+    <PureLayout
+      {...props}
+      onLoginClick={onLoginClick}
+      onSignupClick={onSignupClick}
+      onSearch={onSearch}
+    />
+  );
+};
 
 const mapStateToProps = (state: State) => ({
   categories: getMainCategories(state),

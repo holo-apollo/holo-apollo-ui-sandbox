@@ -1,5 +1,5 @@
 // @flow
-import * as React from 'react';
+import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Switch, Case } from 'react-case-when';
 
@@ -12,35 +12,36 @@ import messages from './messages';
 const staticRoot = getEnv('STATIC_ROOT') || '';
 
 type Props = {
-  isSuccess: boolean,
-  setSuccess: boolean => void,
   pubDate?: string,
 };
 
-const PureApplicationLayout = ({ isSuccess, setSuccess, pubDate }: Props) => (
-  <Container>
-    <BlockLeft>
-      <LogoCont>
-        <img src={`${staticRoot}/img/image_holo.png`} alt="Image Holo" />
-        <h2>Holo-Apollo.art</h2>
-        <h5>
-          <FormattedMessage {...messages.showroomDescription} />
-        </h5>
-      </LogoCont>
-    </BlockLeft>
-    <BlockMain>
-      <Switch>
-        <Case when={isSuccess}>
-          <ApplicationSuccess
-            pubDate={pubDate ? new Date(pubDate) : undefined}
-          />
-        </Case>
-        <Case when={!isSuccess}>
-          <ApplicationCreate setSuccess={setSuccess} />
-        </Case>
-      </Switch>
-    </BlockMain>
-  </Container>
-);
+const PureApplicationLayout = ({ pubDate }: Props) => {
+  const [isSuccess, setSuccess] = useState(false);
+  return (
+    <Container>
+      <BlockLeft>
+        <LogoCont>
+          <img src={`${staticRoot}/img/image_holo.png`} alt="Image Holo" />
+          <h2>Holo-Apollo.art</h2>
+          <h5>
+            <FormattedMessage {...messages.showroomDescription} />
+          </h5>
+        </LogoCont>
+      </BlockLeft>
+      <BlockMain>
+        <Switch>
+          <Case when={isSuccess}>
+            <ApplicationSuccess
+              pubDate={pubDate ? new Date(pubDate) : undefined}
+            />
+          </Case>
+          <Case when={!isSuccess}>
+            <ApplicationCreate setSuccess={setSuccess} />
+          </Case>
+        </Switch>
+      </BlockMain>
+    </Container>
+  );
+};
 
 export default PureApplicationLayout;

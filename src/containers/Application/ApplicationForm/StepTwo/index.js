@@ -1,6 +1,5 @@
 // @flow
-import React, { Fragment } from 'react';
-import autoBind from 'react-autobind';
+import React, { useState } from 'react';
 import { Formik, type FormikActions, type FormikProps } from 'formik';
 import type { IntlShape } from 'react-intl';
 
@@ -28,22 +27,12 @@ type Props = {
   intl: IntlShape,
 };
 
-type State = {
-  images: File[],
-};
-
 type Values = {};
 
-class StepTwo extends React.PureComponent<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    autoBind(this);
-    this.state = {
-      images: [],
-    };
-  }
+const StepTwo = (props: Props) => {
+  const [images, setImages] = useState([]);
 
-  async onSubmit(
+  async function onSubmit(
     values: Values,
     { setSubmitting, setFieldError }: FormikActions<Values>
   ) {
@@ -51,12 +40,12 @@ class StepTwo extends React.PureComponent<Props, State> {
       applicationId,
       onSuccess,
       intl: { formatMessage },
-    } = this.props;
+    } = props;
 
     const success = [];
     const errors = [];
 
-    this.state.images.forEach(async file => {
+    images.forEach(async file => {
       const signS3Resp = await api.get('sign-s3', {
         file_name: `application${applicationId}/${file.name}`,
         file_type: file.type,
@@ -99,9 +88,9 @@ class StepTwo extends React.PureComponent<Props, State> {
         );
       }
 
-      if (success.length === this.state.images.length) {
+      if (success.length === images.length) {
         onSuccess();
-      } else if (success.length + errors.length === this.state.images.length) {
+      } else if (success.length + errors.length === images.length) {
         errors.unshift(formatMessage(messages.errorsOccurred));
         errors.push(formatMessage(messages.contactUs));
         setFieldError('nonFieldErrors', errors.join(' '));
@@ -110,24 +99,19 @@ class StepTwo extends React.PureComponent<Props, State> {
     });
   }
 
-  validate() {
-    const formatMessage = this.props.intl.formatMessage;
+  function validate() {
+    const formatMessage = props.intl.formatMessage;
     let errors = {};
     const imagesErrors = [];
-    const nonImages = this.state.images.filter(
-      item => !item.type.startsWith('image/')
-    );
+    const nonImages = images.filter(item => !item.type.startsWith('image/'));
     if (nonImages.length) {
       const nonImagesNames = nonImages.map(item => item.name).join(', ');
       imagesErrors.push(
         formatMessage(messages.invalidImages, { nonImagesNames })
       );
     }
-    const imagesCount = this.state.images.length;
-    const imagesSize = this.state.images.reduce(
-      (acc, curr) => acc + curr.size,
-      0
-    );
+    const imagesCount = images.length;
+    const imagesSize = images.reduce((acc, curr) => acc + curr.size, 0);
     if (imagesCount < MIN_IMAGES) {
       imagesErrors.push(
         formatMessage(messages.tooFewImages, { minNumber: MIN_IMAGES })
@@ -151,7 +135,7 @@ class StepTwo extends React.PureComponent<Props, State> {
     return errors;
   }
 
-  handleImagesChange(event: FileChoiceEvent) {
+  function handleImagesChange(event: FileChoiceEvent) {
     const files = event.target.files;
     const newFiles = [];
     for (let i = 0; i < files.length; i++) {
@@ -160,20 +144,22 @@ class StepTwo extends React.PureComponent<Props, State> {
         newFiles.push(file);
       }
     }
-    this.setState({ images: [...this.state.images, ...newFiles] });
+    setImages([...images, ...newFiles]);
   }
 
-  handleImageRemove(file: File) {
-    this.setState({
-      images: this.state.images.filter(image => image !== file),
-    });
+  function handleImageRemove(file: File) {
+    setImages(images.filter(image => image !== file));
   }
 
-  formRenderer({ errors, handleSubmit, isSubmitting }: FormikProps<Values>) {
-    const formatMessage = this.props.intl.formatMessage;
+  function formRenderer({
+    errors,
+    handleSubmit,
+    isSubmitting,
+  }: FormikProps<Values>) {
+    const formatMessage = props.intl.formatMessage;
 
     const uploadHelpText = (
-      <Fragment>
+      <>
         <p>
           {formatMessage(messages.imagesHelpText1, {
             minNumber: MIN_IMAGES,
@@ -182,11 +168,11 @@ class StepTwo extends React.PureComponent<Props, State> {
           })}
         </p>
         <p>{formatMessage(messages.imagesHelpText2)}</p>
-      </Fragment>
+      </>
     );
 
     return (
-      <Fragment>
+      <>
         {isSubmitting && (
           <SpinnerCont>
             <DoubleBounceSpinner />
@@ -206,27 +192,25 @@ class StepTwo extends React.PureComponent<Props, State> {
               buttonText={formatMessage(messages.imagesButtonText)}
               helperText={uploadHelpText}
               errorText={errors.images}
-              onChange={this.handleImagesChange}
-              onRemove={this.handleImageRemove}
+              onChange={handleImagesChange}
+              onRemove={handleImageRemove}
             />
           </FieldCont>
           <Button type="submit" width={250} disabled={isSubmitting}>
             {formatMessage(messages.submitButtonText)}
           </Button>
         </StyledForm>
-      </Fragment>
+      </>
     );
   }
 
-  render() {
-    return (
-      <StepCont visible={this.props.visible}>
-        <Formik onSubmit={this.onSubmit} validate={this.validate}>
-          {this.formRenderer}
-        </Formik>
-      </StepCont>
-    );
-  }
-}
+  return (
+    <StepCont visible={props.visible}>
+      <Formik onSubmit={onSubmit} validate={validate}>
+        {formRenderer}
+      </Formik>
+    </StepCont>
+  );
+};
 
 export default StepTwo;

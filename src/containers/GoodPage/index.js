@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import { withRouter } from 'next/router';
-import { compose } from 'recompose';
+import { compose } from 'ramda';
 import { connect } from 'react-redux';
 import { normalize } from 'normalizr';
 
@@ -34,46 +34,44 @@ type Props = {
   similarGoodsIds: number[],
 };
 
-class GoodWithoutRouter extends React.PureComponent<WithoutRouterProps> {
-  static async getInitialProps({ query, reduxStore }) {
-    const goodResp = await api.get(`search/goods/${query.id}/`);
-    const moreLikeThisResp = await api.get(
-      `search/goods/${query.id}/more_like_this/?limit=4`
-    );
-    let goodsList = [];
-    let similarGoodsIds = [];
-    if (goodResp.ok && goodResp.data) {
-      goodsList = goodsList.concat(goodResp.data);
-    }
-    if (moreLikeThisResp && moreLikeThisResp.data) {
-      goodsList = [...goodsList, ...moreLikeThisResp.data];
-      similarGoodsIds = moreLikeThisResp.data.map(item => item.id);
-    }
-    const { goods, stores, categories } = normalize(goodsList, [
-      goodSchema,
-    ]).entities;
-    reduxStore.dispatch(updateGoodsMap(goods));
-    reduxStore.dispatch(updateStoresMap(stores));
-    reduxStore.dispatch(updateCategoriesMap(categories));
-    return {
-      similarGoodsIds,
-    };
+const GoodWithoutRouter = ({ good, similarGoods }: WithoutRouterProps) => {
+  if (!good) {
+    // TODO: show 404
+    return null;
   }
+  return (
+    <PureGoodPage
+      good={good}
+      similarGoods={similarGoods}
+      onPurchase={() => {}}
+    />
+  );
+};
 
-  render() {
-    if (!this.props.good) {
-      // TODO: show 404
-      return null;
-    }
-    return (
-      <PureGoodPage
-        good={this.props.good}
-        similarGoods={this.props.similarGoods}
-        onPurchase={() => {}}
-      />
-    );
+GoodWithoutRouter.getInitialProps = async ({ query, reduxStore }) => {
+  const goodResp = await api.get(`search/goods/${query.id}/`);
+  const moreLikeThisResp = await api.get(
+    `search/goods/${query.id}/more_like_this/?limit=4`
+  );
+  let goodsList = [];
+  let similarGoodsIds = [];
+  if (goodResp.ok && goodResp.data) {
+    goodsList = goodsList.concat(goodResp.data);
   }
-}
+  if (moreLikeThisResp && moreLikeThisResp.data) {
+    goodsList = [...goodsList, ...moreLikeThisResp.data];
+    similarGoodsIds = moreLikeThisResp.data.map(item => item.id);
+  }
+  const { goods, stores, categories } = normalize(goodsList, [
+    goodSchema,
+  ]).entities;
+  reduxStore.dispatch(updateGoodsMap(goods));
+  reduxStore.dispatch(updateStoresMap(stores));
+  reduxStore.dispatch(updateCategoriesMap(categories));
+  return {
+    similarGoodsIds,
+  };
+};
 
 const mapStateToProps = (state: State, ownProps: Props) => ({
   good: getGoodById(state, ownProps.router.query.id),

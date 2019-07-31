@@ -1,6 +1,5 @@
 // @flow
-import * as React from 'react';
-import autoBind from 'react-autobind';
+import React, { useState } from 'react';
 
 import { Cont, StyledInput, Modifier } from './styled';
 
@@ -13,64 +12,54 @@ type Props = {
   isPercent: boolean,
 };
 
-type State = {
-  value: number,
-};
-
 const defaultProps = {
   initialValue: 0,
   step: 1,
   isPercent: false,
 };
 
-class IncrementField extends React.PureComponent<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {
-      value: props.initialValue,
-    };
-    autoBind(this);
-  }
+const IncrementField = ({
+  initialValue,
+  minValue,
+  maxValue,
+  step,
+  onChange,
+  isPercent,
+}: Props) => {
+  const [value, setValue] = useState(initialValue);
 
-  static defaultProps = defaultProps;
-
-  decrement() {
-    const { minValue, step, onChange } = this.props;
-    const { value } = this.state;
+  function decrement() {
     const nextValue = value - step;
     if (minValue === undefined || nextValue >= minValue) {
-      this.setState({ value: nextValue });
+      setValue(nextValue);
       onChange && onChange(nextValue);
     }
   }
 
-  increment() {
-    const { maxValue, step, onChange } = this.props;
-    const { value } = this.state;
+  function increment() {
     const nextValue = value + step;
     if (maxValue === undefined || nextValue <= maxValue) {
-      this.setState({ value: nextValue });
+      setValue(nextValue);
       onChange && onChange(nextValue);
     }
   }
 
-  render() {
-    const value = this.props.isPercent
-      ? `${this.state.value}%`
-      : this.state.value.toString();
-    return (
-      <Cont>
-        <Modifier onClick={this.decrement}>-</Modifier>
-        <StyledInput
-          type="text"
-          value={value}
-          disabled={true}
-          size={value.length}
-        />
-        <Modifier onClick={this.increment}>+</Modifier>
-      </Cont>
-    );
-  }
-}
+  const strValue = isPercent ? `${value}%` : value.toString();
+
+  return (
+    <Cont>
+      <Modifier onClick={decrement}>-</Modifier>
+      <StyledInput
+        type="text"
+        value={strValue}
+        disabled={true}
+        size={strValue.length}
+      />
+      <Modifier onClick={increment}>+</Modifier>
+    </Cont>
+  );
+};
+
+IncrementField.defaultProps = defaultProps;
 
 export default IncrementField;

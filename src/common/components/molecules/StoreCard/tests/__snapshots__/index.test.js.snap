@@ -2,56 +2,56 @@
 
 exports[`StoreCard should match snapshot if big 1`] = `
 <div
-  className="styled__Cont-u4l7vz-0 crbnux"
+  className="styled__Cont-u4l7vz-0 bMPxxb"
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
   <div
-    className="styled__CoverCont-u4l7vz-1 jHQJHF"
+    className="styled__CoverCont-u4l7vz-1 fBvDPs"
   />
   <div
-    className="styled__BottomCont-u4l7vz-2 icAjlA"
+    className="styled__BottomCont-u4l7vz-2 hNOyHF"
   >
     <div
-      className="styled__ContentCont-u4l7vz-3 bCpRNZ"
+      className="styled__ContentCont-u4l7vz-3 bdQxDT"
     >
       <div
-        className="styled__AvatarCont-u4l7vz-5 bQxxaf"
+        className="styled__AvatarCont-u4l7vz-5 eYWUTz"
       />
       <div
-        className="styled__ContentLeftCont-u4l7vz-6 fHnWUO"
+        className="styled__ContentLeftCont-u4l7vz-6 jCtWhL"
       >
         <div
-          className="styled__MainInfoCont-u4l7vz-14 dOJmPc"
+          className="styled__MainInfoCont-u4l7vz-14 cZJaIi"
         >
           <div
-            className="styled__StoreNameCont-u4l7vz-15 ekQkWm"
+            className="styled__StoreNameCont-u4l7vz-15 fGcZKw"
           >
             Armonie
           </div>
           <div
-            className="styled__LocationCont-u4l7vz-16 dSwJMW"
+            className="styled__LocationCont-u4l7vz-16 csMjxv"
           >
             Lviv
           </div>
         </div>
         <div
-          className="styled__DescriptionCont-u4l7vz-17 hmBFUp"
+          className="styled__DescriptionCont-u4l7vz-17 enhRkL"
         >
           Scented candles from natural soy wax. Perfumed with the best essential oils. Fill your home with a cozy aroma from Armonie.
         </div>
       </div>
       <div
-        className="styled__ContentRightCont-u4l7vz-7 xNeLC"
+        className="styled__ContentRightCont-u4l7vz-7 dUTDbJ"
       >
         <div
-          className="styled__GoodsCountCont-u4l7vz-8 eDwOBd"
+          className="styled__GoodsCountCont-u4l7vz-8 kvBvtF"
         >
           <span
-            className="styled__GoodsCountWrapper-u4l7vz-10 ffxBJU"
+            className="styled__GoodsCountWrapper-u4l7vz-10 uyNoP"
           >
             <span
-              className="styled__GoodsCount-u4l7vz-11 laLMj"
+              className="styled__GoodsCount-u4l7vz-11 ZctaY"
             >
               435
             </span>
@@ -61,10 +61,10 @@ exports[`StoreCard should match snapshot if big 1`] = `
           </span>
         </div>
         <div
-          className="styled__RatingCont-u4l7vz-9 XiMlu"
+          className="styled__RatingCont-u4l7vz-9 hSOekt"
         >
           <span
-            className="styled__RatingWrapper-u4l7vz-12 fshdtH"
+            className="styled__RatingWrapper-u4l7vz-12 crubSX"
           >
             <span
               className="emoji-mart-emoji"
@@ -87,7 +87,7 @@ exports[`StoreCard should match snapshot if big 1`] = `
               />
             </span>
             <span
-              className="styled__Rating-u4l7vz-13 gCLjQd"
+              className="styled__Rating-u4l7vz-13 dVlFqb"
             >
               4.8
             </span>
@@ -96,7 +96,7 @@ exports[`StoreCard should match snapshot if big 1`] = `
       </div>
     </div>
     <div
-      className="styled__BannerCont-u4l7vz-4 bDVjaq"
+      className="styled__BannerCont-u4l7vz-4 kgRFyb"
     />
   </div>
 </div>
@@ -104,56 +104,56 @@ exports[`StoreCard should match snapshot if big 1`] = `
 
 exports[`StoreCard should match snapshot if small 1`] = `
 <div
-  className="styled__Cont-u4l7vz-0 crbnux"
+  className="styled__Cont-u4l7vz-0 bMPxxb"
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
   <div
-    className="styled__CoverCont-u4l7vz-1 hkRcJs"
+    className="styled__CoverCont-u4l7vz-1 cuuDJh"
   />
   <div
-    className="styled__BottomCont-u4l7vz-2 icAjlA"
+    className="styled__BottomCont-u4l7vz-2 hNOyHF"
   >
     <div
-      className="styled__ContentCont-u4l7vz-3 bCpRNZ"
+      className="styled__ContentCont-u4l7vz-3 bdQxDT"
     >
       <div
-        className="styled__AvatarCont-u4l7vz-5 dwYyBI"
+        className="styled__AvatarCont-u4l7vz-5 idLEVQ"
       />
       <div
-        className="styled__ContentLeftCont-u4l7vz-6 hJwGMz"
+        className="styled__ContentLeftCont-u4l7vz-6 jLEZTa"
       >
         <div
-          className="styled__MainInfoCont-u4l7vz-14 lhgUJl"
+          className="styled__MainInfoCont-u4l7vz-14 bdRQkT"
         >
           <div
-            className="styled__StoreNameCont-u4l7vz-15 ekQkWm"
+            className="styled__StoreNameCont-u4l7vz-15 fGcZKw"
           >
             Armonie
           </div>
           <div
-            className="styled__LocationCont-u4l7vz-16 dSwJMW"
+            className="styled__LocationCont-u4l7vz-16 csMjxv"
           >
             Lviv
           </div>
         </div>
         <div
-          className="styled__DescriptionCont-u4l7vz-17 hmBFUp"
+          className="styled__DescriptionCont-u4l7vz-17 enhRkL"
         >
           Scented candles from natural soy wax. Perfumed with the best essential oils. Fill your home with a cozy aroma from Armonie.
         </div>
       </div>
       <div
-        className="styled__ContentRightCont-u4l7vz-7 xNeLC"
+        className="styled__ContentRightCont-u4l7vz-7 dUTDbJ"
       >
         <div
-          className="styled__GoodsCountCont-u4l7vz-8 eDwOBd"
+          className="styled__GoodsCountCont-u4l7vz-8 kvBvtF"
         >
           <span
-            className="styled__GoodsCountWrapper-u4l7vz-10 ffxBJU"
+            className="styled__GoodsCountWrapper-u4l7vz-10 uyNoP"
           >
             <span
-              className="styled__GoodsCount-u4l7vz-11 laLMj"
+              className="styled__GoodsCount-u4l7vz-11 ZctaY"
             >
               435
             </span>
@@ -163,10 +163,10 @@ exports[`StoreCard should match snapshot if small 1`] = `
           </span>
         </div>
         <div
-          className="styled__RatingCont-u4l7vz-9 XiMlu"
+          className="styled__RatingCont-u4l7vz-9 hSOekt"
         >
           <span
-            className="styled__RatingWrapper-u4l7vz-12 fshdtH"
+            className="styled__RatingWrapper-u4l7vz-12 crubSX"
           >
             <span
               className="emoji-mart-emoji"
@@ -189,7 +189,7 @@ exports[`StoreCard should match snapshot if small 1`] = `
               />
             </span>
             <span
-              className="styled__Rating-u4l7vz-13 gCLjQd"
+              className="styled__Rating-u4l7vz-13 dVlFqb"
             >
               4.8
             </span>
