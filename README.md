@@ -31,3 +31,7 @@ For API project see https://github.com/holo-apollo/holo-apollo-api.
 - Copy new strings for translation from `i18n/locale/en.json` to each language file and translate them there
 
 - Commit the result
+
+#### TODO
+
+- Remove enzyme, use react-testing-library
