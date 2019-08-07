@@ -2,23 +2,33 @@
 
 exports[`GoodCard should match snapshot 1`] = `
 <div
-  className="styled__Cont-sc-1jbl3we-0 hmuyKn"
+  className="styled__Cont-sc-1jbl3we-0 hLtCzR"
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
-  <div
-    className="styled__ImgCont-sc-1jbl3we-1 KOUZO"
-  />
-  <div
-    className="styled__ContentCont-sc-1jbl3we-2 epGdBB"
+  <a
+    href="/goods/1"
+    onClick={[Function]}
   >
     <div
-      className="styled__NameCont-sc-1jbl3we-3 fZYFOl"
+      className="styled__ImgCont-sc-1jbl3we-1 fPukLE"
+    />
+  </a>
+  <div
+    className="styled__ContentCont-sc-1jbl3we-2 egjtzB"
+  >
+    <a
+      href="/goods/1"
+      onClick={[Function]}
     >
-      Flower in a bowl
-    </div>
+      <div
+        className="styled__NameCont-sc-1jbl3we-3 iccvMk"
+      >
+        Flower in a bowl
+      </div>
+    </a>
     <div
-      className="styled__StoreNameCont-sc-1jbl3we-4 dTnatL"
+      className="styled__StoreNameCont-sc-1jbl3we-4 jrIYBS"
     >
       <span>
         by
@@ -27,22 +37,27 @@ exports[`GoodCard should match snapshot 1`] = `
       Gold stuff shopping
     </div>
     <div
-      className="styled__PriceCont-sc-1jbl3we-5 ehAaxP"
+      className="styled__Cont-sc-1rmxlbk-0 kopYzg"
     >
-      95
-       
-      UAH
+      <div
+        className="styled__PriceCont-sc-1rmxlbk-1 jaXxZL"
+        size="s"
+      >
+        NaN
+         
+        UAH
+      </div>
     </div>
     <div
-      className="styled__ActionsCont-sc-1jbl3we-6 djBUfK"
+      className="styled__ActionsCont-sc-1jbl3we-5 crzbcu"
     >
       <button
-        className="Button__StyledButton-kpekc2-0 fGZqID"
+        className="Button__StyledButton-kpekc2-0 fnePeO"
         color="#424242"
         fontSize={14}
         fontWeight="normal"
         height={35}
-        onClick={[MockFunction]}
+        onClick={[Function]}
         width={110}
       >
         <span>

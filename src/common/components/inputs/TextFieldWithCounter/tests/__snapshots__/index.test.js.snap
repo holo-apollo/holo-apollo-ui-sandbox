@@ -31,6 +31,7 @@ exports[`TextFieldWithCounter should match snapshot 1`] = `
       onFocus={[Function]}
       required={false}
       type="text"
+      value=""
     />
   </div>
   <p
@@ -42,10 +43,10 @@ exports[`TextFieldWithCounter should match snapshot 1`] = `
     }
   >
     <span
-      className="styled__HelperCont-pe4d84-0 ewpuwM"
+      className="styled__HelperCont-pe4d84-0 bjpMQO"
     >
       <span
-        className="styled__CounterCont-pe4d84-1 iilNAF"
+        className="styled__CounterCont-pe4d84-1 cmBwEd"
       >
         0
         /

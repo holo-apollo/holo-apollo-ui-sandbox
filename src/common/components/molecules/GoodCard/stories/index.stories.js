@@ -8,6 +8,7 @@ import GoodCard from '../index';
 storiesOf('molecules', module).add('GoodCard', () => (
   <div style={{ width: '310px' }}>
     <GoodCard
+      id={1}
       name={text('name', 'Flower in a bowl')}
       mainImageUrl={text(
         'mainImageUrl',
@@ -16,7 +17,7 @@ storiesOf('molecules', module).add('GoodCard', () => (
       price={number('price', 95)}
       priceCurrency="UAH"
       discount={number('discount', 0)}
-      sellerInfo={{ storeName: text('storeName', 'Gold stuff shopping') }}
+      seller={{ storeName: text('storeName', 'Gold stuff shopping') }}
       onPurchase={action('onPurchase')}
     />
   </div>

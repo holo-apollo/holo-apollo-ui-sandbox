@@ -1,5 +1,5 @@
 // @flow
-import React, { Fragment } from 'react';
+import React from 'react';
 import type { IntlShape } from 'react-intl';
 import type { FormikProps } from 'formik';
 
@@ -31,7 +31,7 @@ const PureSubscriptionForm = ({
   isSuccess,
   intl: { formatMessage },
 }: Props) => (
-  <Fragment>
+  <>
     {isSuccess && !errors.alreadySubscribed && (
       <StyledH4>
         {formatMessage(messages.subscribeSuccess)}
@@ -73,7 +73,7 @@ const PureSubscriptionForm = ({
         )}
       </form>
     </FormCont>
-  </Fragment>
+  </>
 );
 
 export default PureSubscriptionForm;

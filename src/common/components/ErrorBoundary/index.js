@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react';
+import React, { PureComponent } from 'react';
 import * as Sentry from '@sentry/browser';
 
 import { getEnv } from 'helpers/misc';
@@ -30,12 +30,12 @@ class ErrorBoundary extends PureComponent {
     if (this.state.error) {
       // render fallback UI
       return (
-        <Fragment>
+        <>
           <h1>Something went wrong</h1>
           {sentryConfigured && (
             <a onClick={() => Sentry.showReportDialog()}>Report feedback</a>
           )}
-        </Fragment>
+        </>
       );
     } else {
       // when there's not an error, render children untouched

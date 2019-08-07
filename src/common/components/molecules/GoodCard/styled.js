@@ -32,7 +32,7 @@ export const ImgCont = styled.div`
 
 export const ContentCont = styled.div`
   height: 86px;
-  padding: 12px;
+  padding: 10px 10px 0 10px;
   position: relative;
 `;
 
@@ -40,14 +40,18 @@ export const NameCont = styled.div`
   font-size: 12px;
   font-weight: 500;
   color: ${palette.grey};
-  margin-bottom: 10px;
+  margin-bottom: 4px;
+
+  &:hover {
+    color: ${palette.darkGrey};
+  }
 `;
 
 export const StoreNameCont = styled.div`
   font-size: 8px;
   font-weight: 300;
   color: ${palette.grey};
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 const getActionsContStyles = ({ visible }: { visible: boolean }) => css`

@@ -1,9 +1,8 @@
 // @flow
-import * as React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import autoBind from 'react-autobind';
 import { injectIntl, type IntlShape } from 'react-intl';
-import { withState, compose, type HOC } from 'recompose';
+import { compose } from 'ramda';
 
 import type { SelectOption } from 'common/types';
 import { type ApplicationData } from '../types';
@@ -21,27 +20,24 @@ type Props = {
   onSuccess: () => void,
 };
 
-class NotEnchancedApplicationForm extends React.PureComponent<Props> {
-  constructor(props: Props) {
-    super(props);
-    autoBind(this);
+const NotEnchancedApplicationForm = (props: Props) => {
+  const [step, setStep] = useState(1);
+
+  function onStepOneSuccess(applicationData: ApplicationData) {
+    props.addApplicationData(applicationData);
+    setStep(2);
   }
 
-  onStepOneSuccess(applicationData: ApplicationData) {
-    this.props.addApplicationData(applicationData);
-    this.props.setStep(2);
-  }
-
-  render() {
-    return (
-      <PureApplicationForm
-        {...this.props}
-        onStepOneSuccess={this.onStepOneSuccess}
-        onStepTwoSuccess={this.props.onSuccess}
-      />
-    );
-  }
-}
+  return (
+    <PureApplicationForm
+      {...props}
+      step={step}
+      setStep={setStep}
+      onStepOneSuccess={onStepOneSuccess}
+      onStepTwoSuccess={props.onSuccess}
+    />
+  );
+};
 
 const mapStateToProps = state => ({
   applicationId: getApplicationId(state),
@@ -53,13 +49,8 @@ const withConnect = connect(
   { addApplicationData }
 );
 
-// eslint-disable-next-line prettier/prettier
-const withStep: HOC<*, React.ElementConfig<typeof NotEnchancedApplicationForm>> =
-  withState('step', 'setStep', 1);
-
 const ApplicationForm = compose(
   withConnect,
-  withStep,
   injectIntl
 )(NotEnchancedApplicationForm);
 

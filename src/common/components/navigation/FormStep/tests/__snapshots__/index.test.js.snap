@@ -2,19 +2,19 @@
 
 exports[`FormStep should match snapshot 1`] = `
 <div
-  className="styled__Cont-sc-150835y-0 btLMjA"
+  className="styled__Cont-sc-150835y-0 bokSpU"
   onClick={[MockFunction]}
 >
   <div
-    className="styled__ContentCont-sc-150835y-1 gxYQRH"
+    className="styled__ContentCont-sc-150835y-1 ivmLTZ"
   >
     <div
-      className="styled__HeaderCont-sc-150835y-2 iabCzy"
+      className="styled__HeaderCont-sc-150835y-2 kxvUCH"
     >
       Header
     </div>
     <div
-      className="styled__HelpTextCont-sc-150835y-3 jYzyzO"
+      className="styled__HelpTextCont-sc-150835y-3 kAAwxY"
     >
       Help text
     </div>

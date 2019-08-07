@@ -1,8 +1,8 @@
 // @flow
 import * as React from 'react';
-import autoBind from 'react-autobind';
 
 import TextField from 'common/components/inputs/TextField';
+import useInput from 'common/hooks/useInput';
 import { HelperCont, CounterCont } from './styled';
 
 type Props = {
@@ -11,42 +11,31 @@ type Props = {
   helperText?: React.Node,
 };
 
-type State = {
-  value: string,
+const TextFieldWithCounter = (props: Props) => {
+  const { value, onChange } = useInput('');
+
+  function handleInputChange(event: SyntheticInputEvent<HTMLInputElement>) {
+    onChange(event);
+    props.onChange && props.onChange(event);
+  }
+
+  const helperText = (
+    <HelperCont hasHelperText={Boolean(props.helperText)}>
+      {props.helperText}
+      <CounterCont>
+        {value.length}/{props.maxLength}
+      </CounterCont>
+    </HelperCont>
+  );
+
+  return (
+    <TextField
+      {...props}
+      value={value}
+      onChange={handleInputChange}
+      helperText={helperText}
+    />
+  );
 };
-
-class TextFieldWithCounter extends React.PureComponent<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    autoBind(this);
-    this.state = {
-      value: '',
-    };
-  }
-
-  onChange(event: SyntheticInputEvent<HTMLInputElement>) {
-    this.setState({ value: event.target.value });
-    this.props.onChange && this.props.onChange(event);
-  }
-
-  render() {
-    const helperText = (
-      <HelperCont hasHelperText={Boolean(this.props.helperText)}>
-        {this.props.helperText}
-        <CounterCont>
-          {this.state.value.length}/{this.props.maxLength}
-        </CounterCont>
-      </HelperCont>
-    );
-
-    return (
-      <TextField
-        {...this.props}
-        onChange={this.onChange}
-        helperText={helperText}
-      />
-    );
-  }
-}
 
 export default TextFieldWithCounter;

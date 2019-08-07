@@ -13,20 +13,25 @@ type Props = {
   price: number,
   discount: number,
   priceCurrency: string,
+  size: 'l' | 's',
 };
 
-const PriceLabel = ({ price, discount, priceCurrency }: Props) => (
+const PriceLabel = ({ price, discount, priceCurrency, size }: Props) => (
   <Cont>
-    <PriceCont>
+    <PriceCont size={size}>
       {Math.round(price * (1 - discount / 100))} {priceCurrency}
     </PriceCont>
     {discount > 0 && (
-      <DiscountCont>
+      <DiscountCont size={size}>
         <OldPriceCont>{price}</OldPriceCont>
         <DiscountPercent>-{discount}%</DiscountPercent>
       </DiscountCont>
     )}
   </Cont>
 );
+
+PriceLabel.defaultProps = {
+  size: 's',
+};
 
 export default PriceLabel;

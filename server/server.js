@@ -97,6 +97,13 @@ app
       res.send('var env = ' + JSON.stringify(env));
     });
 
+    server.get('/goods/:id', function(req, res) {
+      prepareRequest(req);
+      app.render(req, res, '/good', {
+        id: req.params.id,
+      });
+    });
+
     server.get('*', (req, res) => {
       prepareRequest(req);
       return handle(req, res);

@@ -1,16 +1,28 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import palette from 'common/palette';
 
 export const Cont = styled.div``;
 
+type StyledProps = {
+  size: 'l' | 's',
+};
+
+const getPriceContStyles = ({ size }: StyledProps) => css`
+  font-size: ${size === 'l' ? 24 : 18}px;
+`;
+
 export const PriceCont = styled.div`
-  font-size: 18px;
   color: ${palette.darkGrey};
+  ${getPriceContStyles};
+`;
+
+const getDiscountContStyles = ({ size }: StyledProps) => css`
+  font-size: ${size === 'l' ? 13 : 10}px;
 `;
 
 export const DiscountCont = styled.div`
-  font-size: 10px;
+  ${getDiscountContStyles};
 `;
 
 export const OldPriceCont = styled.span`

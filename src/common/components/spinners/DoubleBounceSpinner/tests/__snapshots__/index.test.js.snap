@@ -2,15 +2,15 @@
 
 exports[`DoubleBounceSpinner should match snapshot 1`] = `
 <div
-  className="DoubleBounceSpinner__Spinner-kwvmmk-0 kSrIIq"
+  className="DoubleBounceSpinner__Spinner-kwvmmk-0 gMRmkM"
   size={40}
 >
   <div
-    className="DoubleBounceSpinner__DoubleBounce-kwvmmk-1 gjvNJt"
+    className="DoubleBounceSpinner__DoubleBounce-kwvmmk-1 dIQfd"
     color="#4caad0"
   />
   <div
-    className="DoubleBounceSpinner__DoubleBounce-kwvmmk-1 hvhqxi"
+    className="DoubleBounceSpinner__DoubleBounce-kwvmmk-1 fxFNSh"
     color="#4caad0"
   />
 </div>

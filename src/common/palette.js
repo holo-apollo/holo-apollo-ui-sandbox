@@ -6,6 +6,7 @@ export default {
   lightestEvening: '#bbc4cf',
   blue: '#4caad0',
   deepBlue: '#346d84',
+  darkestGrey: '#212121',
   darkGrey: '#424242',
   grey: '#747474',
   lightGrey: '#a7a7a7',
